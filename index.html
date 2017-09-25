@@ -9,12 +9,8 @@
     <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
 
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" type="text/javascript"></script>
 
-
-
-
-
-    <script src="scripts.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -47,20 +43,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <p>Return the first character of a string:</p>
-                    <pre contenteditable="true" class="prettyprint linenums:1">class Voila {
-public:
-  // Voila
-  static const string VOILA = "Voila";
-  // will not interfere with embedded.
-}
-</pre>
-                    <button class="btn btn-lg">Check</button>
+
+                    <div class="wrapper">
+                        <pre id="editor" style="height: 300px;">function foo(items) {var i;for (i = 0; i&lt; items.length; i++) {alert("Ace Rocks " + items[i]);}}</pre>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <script src="src-min/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="src-min/ext-beautify.js" type="text/javascript" charset="utf-8"></script>
+    <script src="beautify.js" type="text/javascript" charset="utf-8"></script>
+    <script src="scripts.js"></script>
 
 </body>
 
