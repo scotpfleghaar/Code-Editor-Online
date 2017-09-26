@@ -44,7 +44,7 @@ var instructions = question[0].questionInstructions
 var questions = question[0].question
 var answers = question[0].answer
 
-var instructions = trimmer(instructions);
+var instructions = $.trim(instructions);
 var questions = trimmer(questions);
 var answers = trimmer(answers);
 
