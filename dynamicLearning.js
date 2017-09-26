@@ -5,27 +5,27 @@
 
     var question = [{
         questionNum: 1,
-        questionInstructions: `Select all elements inside the document: (Use Double Quotes)`,
+        questionInstructions: `Create a variable named "myName" but don't put anything in it yet.`,
         question: ``,
-        answer: `$("*");`,
+        answer: `var myName;`,
         timeCorrect: 0
         }, {
         questionNum: 2,
-        questionInstructions: `Select the element with the id "intro": (Use Double Quotes)`,
-        question: ``,
-        answer: `$("#intro");`,
+        questionInstructions: `Assign "name" (as a string) to the myName variable. (Use Double Quotes)`,
+        question: `var myName;`,
+        answer: `var myName = "name";`,
         timeCorrect: 0
         }, {
         questionNum: 3,
-        questionInstructions: `Select all elements with class "intro": (Use Double Quotes)`,
+        questionInstructions: `Create a player variable with the string 'Jasmine' in it. (Use Double Quotes)`,
         question: ``,
-        answer: `$(".intro");`,
+        answer: `var player = "Jasmine";`,
         timeCorrect: 0
         }, {
         questionNum: 4,
-        questionInstructions: `Select all elements with class "intro", "demo" or "end": (Use Double Quotes)`,
-        question: ``,
-        answer: `$(".intro, .demo, .end");`,
+        questionInstructions: `Use the "document.write()" function to print the contents of the player variable to the page.`,
+        question: `var player = "Jasmine";`,
+        answer: `var player = "Jasmine";document.write(player);`,
         timeCorrect: 0
         }, {
         questionNum: 5,
@@ -51,6 +51,18 @@
         question: ``,
         answer: `$("tr:even");`,
         timeCorrect: 0
+        }, {
+        questionNum: 9,
+        questionInstructions: `Select every other (odd) <tr> element: (Use Double Quotes)`,
+        question: ``,
+        answer: `$("tr:odd");`,
+        timeCorrect: 0
+        }, {
+        questionNum: 10,
+        questionInstructions: `Select every <p> element that is the first child of its parent: (Use Double Quotes)`,
+        question: ``,
+        answer: `$("p:first-child");`,
+        timeCorrect: 0
         }]
 
     var Current = 0
@@ -73,6 +85,7 @@
         console.log(Current);
         return question[Current];
     }
+
 
     ////////////////////////////ace.js dependencies
     var editor = ace.edit("editor");
@@ -97,7 +110,7 @@
     })
 
     var editor2 = ace.edit("editor2");
-    //editor2.setTheme("ace/theme/twilight");
+    //editor2.setTheme("ace/theme/ambiance");
     editor2.session.setMode("ace/mode/javascript");
 
     //This function beautifys the code in the editor2 
@@ -132,7 +145,7 @@
         var timeCorrect = question[index].timeCorrect
         //Ensures that the question is formated correct to compare against
         var currentInstruction = $.trim(currentInstruction);
-        var currentQuestion = trimmer(currentQuestion);
+        //var currentQuestion = trimmer(currentQuestion); //Don't uncomment this it messes up the format of the code;
         var currentAnswer = trimmer(currentAnswer);
 
         // Sort Elements by timeCorrect (puts incorrect answers to the top)
