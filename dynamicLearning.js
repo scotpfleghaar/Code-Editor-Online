@@ -52,6 +52,7 @@
         answer: `$("tr:even");`,
         timeCorrect: 0
         }]
+
     var Current = 0
     var index = 0
 
@@ -77,10 +78,7 @@
     var editor = ace.edit("editor");
     //editor.setTheme("ace/theme/twilight");
     editor.session.setMode("ace/mode/javascript");
-
-    // Appears to only work with php
-    // var beautify = ace.require("ace/ext/beautify"); // get reference to extension
-    // beautify.beautify(editor.session);
+    //This function beautifys the code in the editor 
     function beatify() {
         var val = editor.session.getValue();
         //Remove leading spaces
@@ -93,6 +91,7 @@
         editor.session.setValue(val);
     }
     beatify();
+    //When test is pressed it beautifys the code in the editor
     $('.test').on('click', function () {
         beatify();
     })
@@ -101,6 +100,7 @@
     //editor2.setTheme("ace/theme/twilight");
     editor2.session.setMode("ace/mode/javascript");
 
+    //This function beautifys the code in the editor2 
     function beatify2() {
         var val = editor2.session.getValue();
         //Remove leading spaces
@@ -113,27 +113,29 @@
         editor2.session.setValue(val);
     }
     beatify2();
+
+    //When test is pressed it beautifys the code in the editor2
     $('.test').on('click', function () {
         beatify2();
     })
 
+    //Keeps track of each question attempts
     var attemptNumber = 0;
-    console.log('attemptNumber: ' + attemptNumber);
 
     /////////////////////// Here is where the content becomes dynamic
     function loadQuestion(index) {
-        console.log("Inside loadQuestion attemptNumber:" + attemptNumber);
-        // Display the first question
+
+        // Display the question index
         var currentInstruction = question[index].questionInstructions
         var currentQuestion = question[index].question
         var currentAnswer = question[index].answer
         var timeCorrect = question[index].timeCorrect
-
+        //Ensures that the question is formated correct to compare against
         var currentInstruction = $.trim(currentInstruction);
         var currentQuestion = trimmer(currentQuestion);
         var currentAnswer = trimmer(currentAnswer);
 
-        // Sort Elements by timeCorrect
+        // Sort Elements by timeCorrect (puts incorrect answers to the top)
         if (index === 6) {
             console.log('Sorting Incorrect Answers')
             question.sort(function (a, b) {
@@ -143,23 +145,23 @@
             });
         }
 
-
-        console.log(currentInstruction);
-        console.log(currentQuestion);
-        console.log(currentAnswer);
-
-
         //Set the value of the html to the values of the object.
         $('.instructions').text(currentInstruction);
+
+        //Add the questions to the editor
         editor.insert(currentQuestion);
+
         $('.result').text('');
         $('.next').css('display', 'none');
         $('.submit').css('display', 'none');
+
+        //Tests the contents of the editor against the answer
         $('.test').unbind('click').on('click', function () { ////////NOTE: unbinding is a major issue I do not understand here.
             //Reset Border
             $('.result').text('');
             //Getting the content from ace box
             var attempt = $('#editor .ace_content').text();
+            //Ensuring the attempt will be removed of formating 
             var attempt = trimmer(attempt);
             console.log(attempt);
             editor2.setValue("");
@@ -175,6 +177,8 @@
                 $('#editor').css('border', 'solid 2px green');
                 $('.result').text('Correct!');
                 $('.next').css('display', 'inline');
+
+                //Adds the corrected amount to the question object
                 question[index].timeCorrect = question[index].timeCorrect + 1;
                 $('.test').hide();
                 $('.submit').css('display', 'none');
@@ -185,10 +189,15 @@
                 $('.result').css('background-color', '#ff8566');
                 $('.result').text('incorrect, give it one more attempt');
                 $('#editor').css('border', 'solid 2px #ff8566');
+
+                //Moves the timeCorrect down based on incorrect answer
                 question[index].timeCorrect = question[index].timeCorrect - 1;
                 console.log(question[index].timeCorrect)
                 attemptNumber += 1;
                 console.log("Inside attemptNumber:" + attemptNumber);
+
+                //When the code is incorrect to many times, this block gives the answers
+                // and allows user to enter correct answer
                 if (attemptNumber > 1) {
                     $('.result').css('background-color', '#80dfff');
                     $('#editor').css('border', 'solid 2px #80dfff');
@@ -197,12 +206,16 @@
                     beatify2();
                     $('.submit').css('display', 'inline');
                     $('.test').hide();
+
+                    // When the submit button is clicked, evauluate the answer without decrementing timeCorrect
                     $('.submit').on('click', function () {
                         $('.result').text('');
                         //Getting the content from ace box
                         var attempt = $('#editor .ace_content').text();
                         var attempt = trimmer(attempt);
                         console.log(attempt);
+
+                        //when answer is correct reset these elements
                         if (attempt === currentAnswer) {
                             console.log('Correct!');
                             //Change result color and text based on result
@@ -218,7 +231,10 @@
             }
         });
     }
+    //Initial loading of the first question
     loadQuestion(index)
+
+    //initiate next questions and reset some elements
     $('.next').on('click', function () {
         editor.setValue("")
         editor2.setValue("");
@@ -228,8 +244,8 @@
         $('.test').show();
         $('#editor').css('border', '');
 
-
-        if (index <= 6) {
+        //Every 7 questions move the index to zero (to review missed answers)
+        if (index <= 7) {
             loadQuestion(index)
         } else {
             console.log('Reseting Index')
