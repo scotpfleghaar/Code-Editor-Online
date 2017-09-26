@@ -45,7 +45,11 @@
                 <div class="col-md-10 col-md-offset-1">
 
                     <div class="wrapper">
-                        <pre id="editor" style="height: 300px;">function foo(items) {var i;for (i = 0; i&lt; items.length; i++) {alert("Ace Rocks " + items[i]);}}</pre>
+                        <p class="instructions">Make the following elements fade in when the button is clicked</p>
+                        <pre id="editor" style="height: 300px;">$("button").click(function(){ $("#div1").fadeIn();$("#div2").fadeIn("slow");$("#div3").fadeIn(3000);});
+                        </pre>
+                        <button class="btn btn-lg test">Test</button>
+                        <button class="btn btn-lg next">Next</button>
                     </div>
                 </div>
             </div>
@@ -56,6 +60,8 @@
     <script src="src-min/ext-beautify.js" type="text/javascript" charset="utf-8"></script>
     <script src="beautify.js" type="text/javascript" charset="utf-8"></script>
     <script src="scripts.js"></script>
+    <script src="dynamicLearning.js"></script>
+
 
 </body>
 
