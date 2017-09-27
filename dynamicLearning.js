@@ -5,15 +5,15 @@
 
     var question = [{
         questionNum: 1,
-        questionInstructions: `Create a variable named "myName" but don't put anything in it yet.`,
-        question: ``,
-        answer: `var myName;`,
+        questionInstructions: `Alert "alert("The text has been changed.");" when an <input> field is changed:`,
+        question: `$("input")`,
+        answer: `$("input").change(function(){alert("The text has been changed.");});`,
         timeCorrect: 0
         }, {
         questionNum: 2,
-        questionInstructions: `Assign "name" (as a string) to the myName variable. (Use Double Quotes)`,
-        question: `var myName;`,
-        answer: `var myName = "name";`,
+        questionInstructions: `Click on a <p> element to alert "alert("The paragraph was clicked.");":`,
+        question: `$("p")`,
+        answer: `$("p").click(function(){alert("The paragraph was clicked.");});`,
         timeCorrect: 0
         }, {
         questionNum: 3,
@@ -141,7 +141,12 @@
         // Display the question index
         var currentInstruction = question[index].questionInstructions
         var currentQuestion = question[index].question
+
+        console.log(currentQuestion.length);
+
+
         var currentAnswer = question[index].answer
+        console.log(currentAnswer.length);
         var timeCorrect = question[index].timeCorrect
         //Ensures that the question is formated correct to compare against
         var currentInstruction = $.trim(currentInstruction);
@@ -200,7 +205,7 @@
                 console.log('Not Correct');
                 //Change result color and text based on result
                 $('.result').css('background-color', '#ff8566');
-                $('.result').text('incorrect, give it one more attempt');
+                $('.result').text('incorrect, give it another try!');
                 $('#editor').css('border', 'solid 2px #ff8566');
 
                 //Moves the timeCorrect down based on incorrect answer
