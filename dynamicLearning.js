@@ -2,68 +2,86 @@
 //IIFE to protect code
 (function () {
 
-
     var question = [{
         questionNum: 1,
-        questionInstructions: `Alert "alert("The text has been changed.");" when an <input> field is changed:`,
-        question: `$("input")`,
-        answer: `$("input").change(function(){alert("The text has been changed.");});`,
+        questionInstructions: `Require Node.js' https module and assign it to the variable https. (Use Double Quotes)`,
+        question: ``,
+        answer: `var https = require("https");`,
         timeCorrect: 0
         }, {
         questionNum: 2,
-        questionInstructions: `Click on a <p> element to alert "alert("The paragraph was clicked.");":`,
-        question: `$("p")`,
-        answer: `$("p").click(function(){alert("The paragraph was clicked.");});`,
+        questionInstructions: `On a new line, call the get method on the https object you created. Pass in the string of https://teamtreehouse.com/person.json. (Use Double Quotes)`,
+        question: `https = require("https");`,
+        answer: `https = require("https");https.get("https://teamtreehouse.com/person.json");`,
         timeCorrect: 0
         }, {
         questionNum: 3,
-        questionInstructions: `Create a player variable with the string 'Jasmine' in it. (Use Double Quotes)`,
-        question: ``,
-        answer: `var player = "Jasmine";`,
+        questionInstructions: `in the https.get() call pass in an anonymous function as a callback with the parameter of response. This function is the second parameter in the get call. (Use Double Quotes)`,
+        question: `https = require("https");https.get("https://teamtreehouse.com/person.json");`,
+        answer: `https = require("https");https.get("https://teamtreehouse.com/person.json", function(response) {});`,
         timeCorrect: 0
         }, {
         questionNum: 4,
-        questionInstructions: `Use the "document.write()" function to print the contents of the player variable to the page.`,
-        question: `var player = "Jasmine";`,
-        answer: `var player = "Jasmine";document.write(player);`,
+        questionInstructions: `In the callback function, log out the response's statusCode. (Use Double Quotes)`,
+        question: `https = require("https");https.get("https://teamtreehouse.com/person.json", function(response) {});`,
+        answer: `https = require("https");https.get("https://teamtreehouse.com/person.json", function(response) {console.log(response.statusCode);});`,
         timeCorrect: 0
         }, {
         questionNum: 5,
-        questionInstructions: `Select all <p> elements: (Use Double Quotes)`,
-        question: ``,
-        answer: `$("p");`,
+        questionInstructions: `Without renaming any of the variables, modify the data callback to concatenate the stream of data to the responseBody. (Use Double Quotes)`,
+        question: `const https = require("https");const request = https.get("https://teamtreehouse.com/person.json", response => {let responseBody = "";response.on("data", dataChunk => {});response.on("", () => {console.log(responseBody);});});request.on("error", error => {console.error(error.message);});`,
+        answer: `const https = require("https");const request = https.get("https://teamtreehouse.com/person.json", function(response){ let responseBody = "";response.on("data", dataChunk => {responseBody = responseBody + dataChunk;});response.on("", () =>{console.log(responseBody);});});request.on("error", error =>{console.error(error.message);});`,
         timeCorrect: 0
         }, {
         questionNum: 6,
-        questionInstructions: `Select the first <p> element: (Use Double Quotes)`,
-        question: ``,
-        answer: `$("p:first");`,
+        questionInstructions: `See the console.log(responseBody); in that callback around line 10? Fix the listener so that the callback gets executed when the response has fully finished.`,
+        question: `const https = require("https");const request = https.get("https://teamtreehouse.com/chalkers.json", function(response){let responseBody = "";response.on("data", function(dataChunk) {responseBody = responseBody + dataChunk;});response.on("", function(){console.log(responseBody);});});request.on("error", function(error){console.error(error.message);});`,
+        answer: `const https = require("https");const request = https.get("https://teamtreehouse.com/chalkers.json", function(response){let responseBody = "";response.on("data", function(dataChunk) {responseBody = responseBody + dataChunk;});response.on("end", function(){
+        console.log(responseBody);});});request.on("error", function(error){console.error(error.message);});`,
         timeCorrect: 0
         }, {
         questionNum: 7,
-        questionInstructions: `Select the last <p> element: (Use Double Quotes)`,
-        question: ``,
-        answer: `$("p:last");`,
+        questionInstructions: `Create a new variable jsonObject and then use the native JSON object to parse the jsonString and assign it to jsonObject.`,
+        question: `const jsonString = '{"name": "Andrew", "languages": ["javascript", "swift", "java", "ruby", "html", "css", "qbasic"]}';`,
+        answer: `const jsonString = '{"name": "Andrew", "languages": ["javascript", "swift", "java", "ruby", "html", "css", "qbasic"]}';var jsonObject = JSON.parse(jsonString);`,
         timeCorrect: 0
         }, {
         questionNum: 8,
-        questionInstructions: `Select every other (even) <tr> element: (Use Double Quotes)`,
-        question: ``,
-        answer: `$("tr:even");`,
+        questionInstructions: `Create a variable request that stores the result of the get method.`,
+        question: `const https = require("https");https.get("https://teamtreehouse.com/person.json", response => {console.log(response.statusCode);});`,
+        answer: `const https = require("https");var request = https.get("https://teamtreehouse.com/person.json", function(response){console.log(response.statusCode);});`,
         timeCorrect: 0
         }, {
         questionNum: 9,
-        questionInstructions: `Select every other (odd) <tr> element: (Use Double Quotes)`,
-        question: ``,
-        answer: `$("tr:odd");`,
+        questionInstructions: `On a new line use the on method to listen for the error event. Pass in a callback function with one parameter of error.`,
+        question: `const https = require("https");var request = https.get("https://teamtreehouse.com/chalkers.json", function(response){console.log(response.statusCode);});`,
+        answer: `const https = require("https");var request = https.get("https://teamtreehouse.com/chalkers.json", function(response){console.log(response.statusCode);});request.on('error', function(error){});`,
         timeCorrect: 0
         }, {
         questionNum: 10,
-        questionInstructions: `Select every <p> element that is the first child of its parent: (Use Double Quotes)`,
-        question: ``,
-        answer: `$("p:first-child");`,
+        questionInstructions: `Finally, in the error callback, use the error method on the console to print out the error message.`,
+        question: `const https = require("https");var request = https.get("https://teamtreehouse.com/chalkers.json", function(response){console.log(response.statusCode);});request.on('error', function(error){});`,
+        answer: `const https = require("https");var request = https.get("https://teamtreehouse.com/chalkers.json", function(response){console.log(response.statusCode);});request.on('error', function(error){console.error(error.message)});`,
         timeCorrect: 0
-        }]
+        }, {
+        questionNum: 11,
+        questionInstructions: `Something bad is going to happen. Use a try block in the appropriate place to catch an error. Include a catch block with error as the parameter.`,
+        question: `const jsonString = 'This is not a JSON String';const jsonObject = JSON.parse(jsonString);`,
+        answer: `try {const jsonString = 'This is not a JSON String';const jsonObject = JSON.parse(jsonString);} catch (error){}`,
+        timeCorrect: 0
+        }, {
+        questionNum: 12,
+        questionInstructions: `In the catch block, call console.error to print out the error's message property.`,
+        question: `try {const jsonString = 'This is not a JSON String';const jsonObject = JSON.parse(jsonString);} catch (error){}`,
+        answer: `try {const jsonString = 'This is not a JSON String';const jsonObject = JSON.parse(jsonString);} catch (error){console.error(error.message);}`,
+        timeCorrect: 0
+        }, {
+        questionNum: 13,
+        questionInstructions: `Just like the other two functions create an about function for a /about route. Have it print out "About" to the response. Remember to make this accessible by other files.`,
+        question: `function root(request, response) {if(request.url == "/") {response.writeHead(200, {'Content-type': "text/plain"});response.end("Home");}}function contact(request, response) {if(request.url == "/contact") {response.writeHead(200, {'Content-type': "text/plain"});response.end("Contact");}}module.exports.root = root;module.exports.contact = contact;`,
+        answer: `function root(request, response){if(request.url == "/") {response.writeHead(200, {'Content-type': "text/plain"});response.end("Home");}}function contact(request, response) {if(request.url == "/contact") {response.writeHead(200, {'Content-type': "text/plain"});response.end("Contact");}}function about(request, response) {if(request.url == "/about") {response.writeHead(200, {'Content-type': "text/plain"});response.end("About");}}module.exports.root = root;module.exports.contact = contact;module.exports.about = about;`,
+        timeCorrect: 0
+}]
 
     var Current = 0
     var index = 0
@@ -88,6 +106,7 @@
 
 
     ////////////////////////////ace.js dependencies
+
     var editor = ace.edit("editor");
     //editor.setTheme("ace/theme/twilight");
     editor.session.setMode("ace/mode/javascript");
@@ -127,6 +146,8 @@
     }
     beatify2();
 
+
+
     //When test is pressed it beautifys the code in the editor2
     $('.test').on('click', function () {
         beatify2();
@@ -142,11 +163,11 @@
         var currentInstruction = question[index].questionInstructions
         var currentQuestion = question[index].question
 
-        console.log(currentQuestion.length);
+
 
 
         var currentAnswer = question[index].answer
-        console.log(currentAnswer.length);
+
         var timeCorrect = question[index].timeCorrect
         //Ensures that the question is formated correct to compare against
         var currentInstruction = $.trim(currentInstruction);
@@ -175,20 +196,20 @@
 
         //Tests the contents of the editor against the answer
         $('.test').unbind('click').on('click', function () { ////////NOTE: unbinding is a major issue I do not understand here.
+
             //Reset Border
             $('.result').text('');
             //Getting the content from ace box
-            var attempt = $('#editor .ace_content').text();
+            // var attempt = $('#editor .ace_content').text();
+            var attempt = editor.getValue();
+            console.log("Attempt:" + attempt);
             //Ensuring the attempt will be removed of formating 
             var attempt = trimmer(attempt);
             console.log(attempt);
             editor2.setValue("");
 
-
-
-
             //Doing check
-            if (attempt === currentAnswer) {
+            if (attempt == currentAnswer) { // === is unnecesary as both items should be a type
                 console.log('Correct!');
                 //Change result color and text based on result
                 $('.result').css('background-color', 'green');
@@ -205,7 +226,7 @@
                 console.log('Not Correct');
                 //Change result color and text based on result
                 $('.result').css('background-color', '#ff8566');
-                $('.result').text('incorrect, give it another try!');
+                $('.result').text('Incorrect! Give it another try.');
                 $('#editor').css('border', 'solid 2px #ff8566');
 
                 //Moves the timeCorrect down based on incorrect answer
@@ -219,7 +240,7 @@
                 if (attemptNumber > 1) {
                     $('.result').css('background-color', '#80dfff');
                     $('#editor').css('border', 'solid 2px #80dfff');
-                    $('.result').text('incorrect, below is the correct answer');
+                    $('.result').text('Incorrect! Below is the correct answer.');
                     editor2.insert(question[index].answer);
                     beatify2();
                     $('.submit').css('display', 'inline');
@@ -227,12 +248,11 @@
 
                     // When the submit button is clicked, evauluate the answer without decrementing timeCorrect
                     $('.submit').on('click', function () {
-                        $('.result').text('');
                         //Getting the content from ace box
-                        var attempt = $('#editor .ace_content').text();
+                        var attempt = editor.getValue();
                         var attempt = trimmer(attempt);
-                        console.log(attempt);
-
+                        $('.result').text('');
+                        $('.result').text('Incorrect! Below is the correct answer.');
                         //when answer is correct reset these elements
                         if (attempt === currentAnswer) {
                             console.log('Correct!');
@@ -271,6 +291,7 @@
             loadQuestion(index)
         }
         beatify();
+        console.log(question);
 
     });
 
