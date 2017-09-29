@@ -1,0 +1,22 @@
+{
+  "name": "codechallangeengine",
+  "version": "1.0.0",
+  "description": "A coding engine to practice coding and understanding through exposure",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scotpfleghaar/Code-Editor-Online.git"
+  },
+  "author": "Scot Pfleghaar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scotpfleghaar/Code-Editor-Online/issues"
+  },
+  "homepage": "https://github.com/scotpfleghaar/Code-Editor-Online#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
