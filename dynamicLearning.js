@@ -1,7 +1,7 @@
 // Copyright Scot Pfleghaar 2017
 //IIFE to protect code
 (function () {
-    //Randomize array for development
+    //Randomize (Fisher-Yates Shuffle) array for development
     function shuffle(array) {
         var currentIndex = array.length,
             temporaryValue, randomIndex;
@@ -18,7 +18,6 @@
             array[currentIndex] = array[randomIndex];
             array[randomIndex] = temporaryValue;
         }
-
         return array;
     }
     shuffle(question);
@@ -44,7 +43,6 @@
         console.log(Current);
         return question[Current];
     }
-
 
     ////////////////////////////ace.js dependencies
 
@@ -87,8 +85,6 @@
     }
     beatify2();
 
-
-
     //When test is pressed it beautifys the code in the editor2
     $('.test').on('click', function () {
         beatify2();
@@ -103,13 +99,9 @@
         // Display the question index
         var currentInstruction = question[index].questionInstructions
         var currentQuestion = question[index].question
-
-
-
-
         var currentAnswer = question[index].answer
-
         var timeCorrect = question[index].timeCorrect
+        var questionNumber = question[index].questionNum
         //Ensures that the question is formated correct to compare against
         var currentInstruction = $.trim(currentInstruction);
         //var currentQuestion = trimmer(currentQuestion); //Don't uncomment this it messes up the format of the code;
@@ -126,7 +118,7 @@
         }
 
         //Set the value of the html to the values of the object.
-        $('.instructions').text(currentInstruction);
+        $('.instructions').text("Number " + questionNumber + ': ' + currentInstruction);
 
         //Add the questions to the editor
         editor.insert(currentQuestion);
@@ -215,10 +207,10 @@
 
     //initiate next questions and reset some elements
     $('.next').on('click', function () {
+        //Resets the editor and values for next question
         editor.setValue("")
         editor2.setValue("");
         index += 1;
-        console.log(index);
         attemptNumber = 0;
         $('.test').show();
         $('#editor').css('border', '');
@@ -232,8 +224,12 @@
             loadQuestion(index)
         }
         beatify();
-        console.log(question);
 
+        //Allows the question array to be saved so that later we can 
+        // come back and load questions saved to continue where we left off.
+        question = questionSaved;
+        console.log(questionSaved);
     });
+
 
 })()
