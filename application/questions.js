@@ -1,4 +1,3 @@
-//Note: These questions are not mine, please visit Teamtreehouse.com for more information.
 var questionSet = [{
     questionNum: 1,
     questionInstructions: `In the app.js file, create a variable named request and assign it a new XMLHttpRequest object.`,
@@ -449,7 +448,7 @@ var questionSet = [{
 
 var questionSet2 = [{
     questionNum: 1,
-    questionInstructions: `We created a new component named ServerComponent, add it so angular know it exist. The file will be in: "./server/server.component"`,
+    questionInstructions: `We created a new component named ServerComponent, add it so angular knows it exist. The file will be in: "./server/server.component"`,
     question: `import {
     BrowserModule
 } from '@angular/platform-browser';
@@ -589,23 +588,41 @@ export class ServersComponent implements OnInit {
     questionLanguage: 'javascript'
 }, {
     questionNum: 9,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `In our html we want to select our app not by a custom html element by rather by giving our element the class app-root, how can we do this?`,
+    question: `import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  name = '';
+}`,
+    answer: `import { Component } from '@angular/core';
+
+@Component({
+  selector: '.app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  name = '';
+}`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'javascript'
 }, {
     questionNum: 10,
-    questionInstructions: ``,
+    questionInstructions: `Give an example of the way Angular does string interpolation by interpolating the variable 'data'`,
     question: ``,
-    answer: ``,
+    answer: `{{data}}`,
     timeCorrect: 0,
     questionLanguage: ''
 }, {
     questionNum: 11,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Give an example of the way Angular does property binding by binding the variable 'data'`,
+    question: `[property]`,
+    answer: `[property] = 'data'`,
     timeCorrect: 0,
     questionLanguage: ''
 }, {

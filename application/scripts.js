@@ -19,10 +19,8 @@ $(document).ready(function () {
         //Change current text to formatted text
         editor.session.setValue(val);
     }
-    beatify();
-    $('.show').on('click', function () {
-        beatify();
-    })
+    //beatify();
+
 
     var editor2 = ace.edit("editor2");
     //editor2.setTheme("ace/theme/twilight");
@@ -39,8 +37,6 @@ $(document).ready(function () {
         //Change current text to formatted text
         editor2.session.setValue(val);
     }
-    beatify2();
-    $('.test').on('click', function () {
-        beatify2();
-    })
+    //beatify2();
+
 });

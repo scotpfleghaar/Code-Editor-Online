@@ -11,11 +11,19 @@
     if (localStorage.questions) {
         var items = localStorage.questions
         var question = JSON.parse(items);
-        console.log(question)
+        console.log('Sorting Incorrect Answers');
+        question.sort(function (a, b) {
+            if (a.timeCorrect < b.timeCorrect) return -1;
+            if (a.timeCorrect > b.timeCorrect) return 1;
+            return 0;
+        });
+
     } else {
         var question = questionSet2;
-        console.log(question)
+
     }
+
+
     //    var question = questionSet2;
     //    console.log(question)
 
@@ -96,6 +104,8 @@
             return totalCorrect;
         }
         countCorrect();
+
+
         $('.correctNum').text('Total Correct: ' + totalCorrect);
 
         // Update Number of Correct
