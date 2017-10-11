@@ -1,6 +1,9 @@
 // Copyright Scot Pfleghaar 2017
 //IIFE to protect code
 (function () {
+    // The question bank:
+    var question = questionSet2;
+
     //Randomize (Fisher-Yates Shuffle) array for development
     function shuffle(array) {
         var currentIndex = array.length,
@@ -20,24 +23,24 @@
         }
         return array;
     }
-    shuffle(question);
+    //shuffle(question); // Uncomment this for random.
 
-    var Current = 0
-    var index = 0
+    var Current = 0;
+    var index = 0;
 
     /////////////////////Setting the stage
     //Custom Functions
     function trimmer(value) {
         value = value.replace(/\s/g, '');
-        value = value.replace(/[\t\n]+/g, '')
-        value = value.replace(/(\r\n|\n|\r)/gm, '')
+        value = value.replace(/[\t\n]+/g, '');
+        value = value.replace(/(\r\n|\n|\r)/gm, '');
         value = value.replace(/'/g, '"');
         return value;
     }
     // Next array item
     function nextItem() {
         if (Current == question.length - 1)
-            Current = 0
+            Current = 0;
         else
             Current++;
         console.log(Current);
@@ -46,49 +49,12 @@
 
     ////////////////////////////ace.js dependencies
 
+
     var editor = ace.edit("editor");
-    //editor.setTheme("ace/theme/twilight");
-    editor.session.setMode("ace/mode/javascript");
-    //This function beautifys the code in the editor 
-    function beatify() {
-        var val = editor.session.getValue();
-        //Remove leading spaces
-        var array = val.split(/\n/);
-        array[0] = array[0].trim();
-        val = array.join("\n");
-        //Actual beautify (prettify) 
-        val = js_beautify(val);
-        //Change current text to formatted text
-        editor.session.setValue(val);
-    }
-    beatify();
-    //When test is pressed it beautifys the code in the editor
-    $('.test').on('click', function () {
-        beatify();
-    })
 
-    var editor2 = ace.edit("editor2");
-    //editor2.setTheme("ace/theme/ambiance");
-    editor2.session.setMode("ace/mode/javascript");
 
-    //This function beautifys the code in the editor2 
-    function beatify2() {
-        var val = editor2.session.getValue();
-        //Remove leading spaces
-        var array = val.split(/\n/);
-        array[0] = array[0].trim();
-        val = array.join("\n");
-        //Actual beautify (prettify) 
-        val = js_beautify(val);
-        //Change current text to formatted text
-        editor2.session.setValue(val);
-    }
-    beatify2();
 
-    //When test is pressed it beautifys the code in the editor2
-    $('.test').on('click', function () {
-        beatify2();
-    })
+
 
     //Keeps track of each question attempts
     var attemptNumber = 0;
@@ -97,11 +63,53 @@
     function loadQuestion(index) {
 
         // Display the question index
-        var currentInstruction = question[index].questionInstructions
-        var currentQuestion = question[index].question
-        var currentAnswer = question[index].answer
-        var timeCorrect = question[index].timeCorrect
-        var questionNumber = question[index].questionNum
+        var currentInstruction = question[index].questionInstructions;
+        var currentQuestion = question[index].question;
+        var currentAnswer = question[index].answer;
+        var timeCorrect = question[index].timeCorrect;
+        var questionNumber = question[index].questionNum;
+        var questionCodeLanguage = question[index].questionLanguage; // Controls weather to beautfy file or not.
+
+        //////////////ACE
+        editor.session.setMode(`ace/mode/${questionCodeLanguage}`);
+        //This function beautifys the code in the editor 
+        function beatify() {
+
+            var val = editor.session.getValue();
+            //Remove leading spaces
+            var array = val.split(/\n/);
+            array[0] = array[0].trim();
+            val = array.join("\n");
+            //Actual beautify (prettify) 
+            val = js_beautify(val);
+            //Change current text to formatted text
+            editor.session.setValue(val);
+
+        }
+
+
+        var editor2 = ace.edit("editor2");
+
+        editor2.session.setMode(`ace/mode/${questionCodeLanguage}`);
+
+        //This function beautifys the code in the editor2 
+        function beatify2() {
+
+            var val = editor2.session.getValue();
+            //Remove leading spaces
+            var array = val.split(/\n/);
+            array[0] = array[0].trim();
+            val = array.join("\n");
+            //Actual beautify (prettify) 
+            val = js_beautify(val);
+            //Change current text to formatted text
+            editor2.session.setValue(val);
+
+        }
+        /////////END ACE
+
+
+
         //Ensures that the question is formated correct to compare against
         var currentInstruction = $.trim(currentInstruction);
         //var currentQuestion = trimmer(currentQuestion); //Don't uncomment this it messes up the format of the code;
@@ -109,7 +117,7 @@
 
         // Sort Elements by timeCorrect (puts incorrect answers to the top)
         if (index === 6) {
-            console.log('Sorting Incorrect Answers')
+            console.log('Sorting Incorrect Answers');
             question.sort(function (a, b) {
                 if (a.timeCorrect < b.timeCorrect) return -1;
                 if (a.timeCorrect > b.timeCorrect) return 1;
@@ -127,8 +135,13 @@
         $('.next').css('display', 'none');
         $('.submit').css('display', 'none');
 
+        if (questionCodeLanguage === 'javascript') {
+            beatify();
+            beatify2();
+        }
+
         //Tests the contents of the editor against the answer
-        $('.test').unbind('click').on('click', function () { ////////NOTE: unbinding is a major issue I do not understand here.
+        $('.test').off('click').on('click', function () { ////////NOTE: unbinding is a major issue I do not understand here.
 
             //Reset Border
             $('.result').text('');
@@ -175,7 +188,9 @@
                     $('#editor').css('border', 'solid 2px #80dfff');
                     $('.result').text('Incorrect! Below is the correct answer.');
                     editor2.insert(question[index].answer);
-                    beatify2();
+                    if (questionCodeLanguage === 'javascript') {
+                        beatify2();
+                    }
                     $('.submit').css('display', 'inline');
                     $('.test').hide();
 
@@ -201,35 +216,63 @@
                 }
             }
         });
+        $('.next').on('click', function () {
+            //Resets the editor and values for next question
+            editor.setValue("");
+            editor2.setValue("");
+            index += 1;
+            attemptNumber = 0;
+            $('.test').show();
+            $('#editor').css('border', '');
+
+            //Every 7 questions move the index to zero (to review missed answers)
+            if (index <= 7) {
+                loadQuestion(index);
+            } else {
+                console.log('Reseting Index');
+                index = 0;
+                loadQuestion(index);
+            }
+
+            // beatify();
+
+
+            //Allows the question array to be saved so that later we can 
+            // come back and load questions saved to continue where we left off.
+            // question = questionSaved;
+            // console.log(questionSaved);
+        });
     }
     //Initial loading of the first question
-    loadQuestion(index)
+    loadQuestion(index);
 
     //initiate next questions and reset some elements
-    $('.next').on('click', function () {
-        //Resets the editor and values for next question
-        editor.setValue("")
-        editor2.setValue("");
-        index += 1;
-        attemptNumber = 0;
-        $('.test').show();
-        $('#editor').css('border', '');
+    //    $('.next').on('click', function () {
+    //        //Resets the editor and values for next question
+    //        editor.setValue("");
+    //        editor2.setValue("");
+    //        index += 1;
+    //        attemptNumber = 0;
+    //        $('.test').show();
+    //        $('#editor').css('border', '');
+    //
+    //        //Every 7 questions move the index to zero (to review missed answers)
+    //        if (index <= 7) {
+    //            loadQuestion(index);
+    //        } else {
+    //            console.log('Reseting Index');
+    //            index = 0;
+    //            loadQuestion(index);
+    //        }
+    //
+    //        // beatify();
+    //
+    //
+    //        //Allows the question array to be saved so that later we can 
+    //        // come back and load questions saved to continue where we left off.
+    //        // question = questionSaved;
+    //        // console.log(questionSaved);
+    //    });
 
-        //Every 7 questions move the index to zero (to review missed answers)
-        if (index <= 7) {
-            loadQuestion(index)
-        } else {
-            console.log('Reseting Index')
-            index = 0;
-            loadQuestion(index)
-        }
-        beatify();
 
-        //Allows the question array to be saved so that later we can 
-        // come back and load questions saved to continue where we left off.
-        question = questionSaved;
-        console.log(questionSaved);
-    });
-
-
-})()
+})();
