@@ -523,7 +523,7 @@ export class AppModule {}
     question: ``,
     answer: `ng new my-app`,
     timeCorrect: 0,
-    questionLanguage: 'cli'
+    questionLanguage: 'text'
 }, {
     questionNum: 4,
     questionInstructions: `Now serve "my-app" to a local host server`,
@@ -545,6 +545,132 @@ export class AppModule {}
     answer: `<app-server></app-server>`,
     timeCorrect: 0,
     questionLanguage: 'html'
+}, {
+    questionNum: 7,
+    questionInstructions: `Using angular Cli create a new component called 'servers' using the cmd command`,
+    question: ``,
+    answer: `ng generate component servers`,
+    timeCorrect: 0,
+    questionLanguage: 'text'
+}, {
+    questionNum: 8,
+    questionInstructions: `In our servers.components.ts instead of calling a templateUrl, lets just add Html directly to the template, make the changes and add '<h1>Welcome!</h1>'`,
+    question: `import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-servers',
+  templateUrl: './servers.component.html',
+  styleUrls: ['./servers.component.css']
+})
+export class ServersComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}`,
+    answer: `import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-servers',
+  template: '<h1>Welcome!</h1>',
+  styleUrls: ['./servers.component.css']
+})
+export class ServersComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'javascript'
+}, {
+    questionNum: 9,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: ''
+}, {
+    questionNum: 10,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: ''
+}, {
+    questionNum: 11,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: ''
+}, {
+    questionNum: 12,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: ''
+}, {
+    questionNum: 13,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: ''
+}, {
+    questionNum: 14,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: ''
+}, {
+    questionNum: 15,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: ''
+}, {
+    questionNum: 16,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: ''
+}, {
+    questionNum: 17,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: ''
+}, {
+    questionNum: 18,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: ''
+}, {
+    questionNum: 19,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: ''
+}, {
+    questionNum: 20,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: ''
 }];
 
 
@@ -556,5 +682,6 @@ export class AppModule {}
 //    questionInstructions: ``,
 //    question: ``,
 //    answer: ``,
-//    timeCorrect: 0
+//    timeCorrect: 0,
+//   questionLanguage: ''
 //},

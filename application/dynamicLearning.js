@@ -2,7 +2,16 @@
 //IIFE to protect code
 (function () {
     // The question bank:
-    var question = questionSet2;
+    if (localStorage.questions) {
+        var items = localStorage.questions
+        var question = JSON.parse(items);
+        console.log(question)
+    } else {
+        var question = questionSet2;
+        console.log(question)
+    }
+    //    var question = questionSet2;
+    //    console.log(question)
 
     //Randomize (Fisher-Yates Shuffle) array for development
     function shuffle(array) {
@@ -48,11 +57,10 @@
     }
 
     ////////////////////////////ace.js dependencies
-
-
     var editor = ace.edit("editor");
 
-
+    // Keeps track of total questions
+    $('.totalQuestions').text('Total Number of Questions: ' + question.length);
 
 
 
@@ -69,6 +77,23 @@
         var timeCorrect = question[index].timeCorrect;
         var questionNumber = question[index].questionNum;
         var questionCodeLanguage = question[index].questionLanguage; // Controls weather to beautfy file or not.
+
+        var totalCorrect = 0;
+
+        function countCorrect() {
+            for (var i = 0; i < question.length; i++) {
+                if (question[i].timeCorrect > 0) {
+                    totalCorrect += 1;
+                    console.log('checking');
+                }
+            }
+            return totalCorrect;
+        }
+        countCorrect();
+        $('.correctNum').text('Total Correct: ' + totalCorrect);
+
+        // Update Number of Correct
+
 
         //////////////ACE
         editor.session.setMode(`ace/mode/${questionCodeLanguage}`);
@@ -234,13 +259,13 @@
                 loadQuestion(index);
             }
 
-            // beatify();
 
-
-            //Allows the question array to be saved so that later we can 
+            // Allows the question array to be saved so that later we can 
             // come back and load questions saved to continue where we left off.
-            // question = questionSaved;
-            // console.log(questionSaved);
+            var questionSaved = question;
+            localStorage.clear();
+            localStorage.questions = JSON.stringify(questionSaved);
+
         });
     }
     //Initial loading of the first question
