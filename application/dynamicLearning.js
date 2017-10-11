@@ -2,6 +2,12 @@
 //IIFE to protect code
 (function () {
     // The question bank:
+    var question = questionSet2
+    $('.resetBank').on('click', function () {
+        localStorage.clear();
+        var question = question;
+        window.location.reload();
+    })
     if (localStorage.questions) {
         var items = localStorage.questions
         var question = JSON.parse(items);
