@@ -257,7 +257,7 @@
                 }
             }
         });
-        $('.next').on('click', function () {
+        $('.next').off('click').on('click', function () {
             //Resets the editor and values for next question
             editor.setValue("");
             editor2.setValue("");

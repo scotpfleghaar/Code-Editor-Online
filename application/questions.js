@@ -617,56 +617,170 @@ export class AppComponent {
     question: ``,
     answer: `{{data}}`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'javascript'
 }, {
     questionNum: 11,
     questionInstructions: `Give an example of the way Angular does property binding by binding the variable 'data'`,
     question: `[property]`,
     answer: `[property] = 'data'`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'javascript'
 }, {
     questionNum: 12,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `We want to use a variable name "serverNum" in our html file, make this variable and set it to 20.`,
+    question: `import { Component } from '@angular/core';
+
+@Component({
+    selector: 'app-server',
+    templateUrl: './server.component.html'
+})
+export class ServerComponent {
+    serverId = 10;
+    serverStatus = "Offline"
+}`,
+    answer: `import { Component } from '@angular/core';
+
+@Component({
+    selector: 'app-server',
+    templateUrl: './server.component.html'
+})
+export class ServerComponent {
+    serverId = 10;
+    serverStatus = "Offline";
+    serverNum = 10;
+}`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'javascript'
 }, {
     questionNum: 13,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Lets call a method named 'getServerStatus' that returns its serverStatus`,
+    question: `import { Component } from '@angular/core';
+
+@Component({
+    selector: 'app-server',
+    templateUrl: './server.component.html'
+})
+export class ServerComponent {
+    serverId = 10;
+    serverStatus = "Offline"
+}`,
+    answer: `import { Component } from '@angular/core';
+
+@Component({
+    selector: 'app-server',
+    templateUrl: './server.component.html'
+})
+export class ServerComponent {
+    serverId = 10;
+    serverStatus = "Offline"
+    getServerStatus(){
+        return this.serverStatus;
+    }
+}`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'javascript'
 }, {
     questionNum: 14,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Rather than delcaring the serverStatus variable, lets use a function named getServerStatus`,
+    question: `<p>Server {{ serverId }} is {{ serverStatus }}</p>`,
+    answer: `<p>Server {{ serverId }} is {{ getServerStatus() }}</p>`,
     timeCorrect: 0,
     questionLanguage: ''
 }, {
     questionNum: 15,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `We are trying to use two way binding with ngModel, but it's not working, import FormsModule from @angular/forms`,
+    question: `import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { AppComponent } from './app.component';
+import { ServerComponent } from "./server/server.component";
+import { ServersComponent } from './servers/servers.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    ServerComponent,
+    ServersComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }`,
+    answer: `import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
+import { AppComponent } from './app.component';
+import { ServerComponent } from "./server/server.component";
+import { ServersComponent } from './servers/servers.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    ServerComponent,
+    ServersComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'javascript'
 }, {
     questionNum: 16,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Using a directive, add a directive on the p element that will check if "serverCreated" boolean is true.`,
+    question: `<label>Server Name</label>
+<input type='text' class='form-control' [(ngModel)]='serverName'>
+<button [disabled]="!allowNewServer" class="btn btn-primary" (click)="onCreateServer()">Add Server</button>
+
+<p>Server was created, server name is {{serverName}}</p>
+<br>
+<app-server></app-server>
+<app-server></app-server>`,
+    answer: `<label>Server Name</label>
+<input type='text' class='form-control' [(ngModel)]='serverName'>
+<button [disabled]="!allowNewServer" class="btn btn-primary" (click)="onCreateServer()">Add Server</button>
+
+<p *ngIf='serverCreated'>Server was created, server name is {{serverName}}</p>
+<br>
+<app-server></app-server>
+<app-server></app-server>`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'html'
 }, {
     questionNum: 17,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Lets add an else statement to our code using angular syntax, use a paragraph wraped by ng-template and the appropiate else statment using the variable noServer`,
+    question: `<label>Server Name</label>
+<input type='text' class='form-control' [(ngModel)]='serverName'>
+<button [disabled]="!allowNewServer" class="btn btn-primary" (click)="onCreateServer()">Add Server</button>
+// Your Code Goes Below
+<p *ngIf='serverCreated'>Server was created, server name is {{serverName}}</p>
+
+  <p>Server was created, server name is {{serverName}}</p>
+<br>
+<app-server></app-server>
+<app-server></app-server>`,
+    answer: `<label>Server Name</label>
+<input type='text' class='form-control' [(ngModel)]='serverName'>
+<button [disabled]="!allowNewServer" class="btn btn-primary" (click)="onCreateServer()">Add Server</button>
+
+<p *ngIf='serverCreated; else noServer'>Server was created, server name is {{serverName}}</p>
+<ng-template #noServer>
+  <p>Server was created, server name is {{serverName}}</p>
+</ng-template>
+
+<br>
+<app-server></app-server>
+<app-server></app-server>`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'javascript'
 }, {
     questionNum: 18,
     questionInstructions: ``,
