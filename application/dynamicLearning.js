@@ -2,7 +2,8 @@
 //IIFE to protect code
 (function () {
     // The question bank:
-    var question = questionSet2
+    const qBank = questionSet4; // Pulls in question bank
+    var question = qBank;
     $('.resetBank').on('click', function () {
         localStorage.clear();
         var question = question;
@@ -19,7 +20,7 @@
         });
 
     } else {
-        var question = questionSet2;
+        var question = qBank;
 
     }
 
