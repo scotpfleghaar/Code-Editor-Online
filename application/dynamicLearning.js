@@ -8,19 +8,30 @@
         localStorage.clear();
         var question = question;
         window.location.reload();
-    })
+    });
     if (localStorage.questions) {
         var items = localStorage.questions
-        var question = JSON.parse(items);
-        console.log('Sorting Incorrect Answers');
+        question = JSON.parse(items);
+        console.log('Sorting Answers from Json');
         question.sort(function (a, b) {
-            if (a.timeCorrect < b.timeCorrect) return -1;
-            if (a.timeCorrect > b.timeCorrect) return 1;
-            return 0;
+            if (a.timeCorrect > b.timeCorrect) {
+                return 1;
+            } else if (a.timeCorrect < b.timeCorrect) {
+                return -1;
+            }
+
+            // Else go to the 2nd item
+            if (a.questionNum < b.questionNum) {
+                return -1;
+            } else if (a.questionNum > b.questionNum) {
+                return 1;
+            } else {
+                return 0;
+            }
         });
 
     } else {
-        var question = qBank;
+        question = qBank;
 
     }
 
@@ -48,7 +59,7 @@
         return array;
     }
     //shuffle(question); // Uncomment this for random.
-
+    console.log(question);
     var Current = 0;
     var index = 0;
 
@@ -85,15 +96,18 @@
     /////////////////////// Here is where the content becomes dynamic
     function loadQuestion(index) {
 
-        // Display the question index
+        // Grab all data from the question bank
         var currentInstruction = question[index].questionInstructions;
         var currentQuestion = question[index].question;
         var currentAnswer = question[index].answer;
         var timeCorrect = question[index].timeCorrect;
         var questionNumber = question[index].questionNum;
         var questionCodeLanguage = question[index].questionLanguage; // Controls weather to beautfy file or not.
-
         var totalCorrect = 0;
+
+        //Updating html to reflect the language working in the ace.js editor
+        $('.programmingLanguage').text('Current Programming Language/Framework: ' + questionCodeLanguage);
+
 
         function countCorrect() {
             for (var i = 0; i < question.length; i++) {
@@ -105,11 +119,12 @@
             return totalCorrect;
         }
         countCorrect();
-
-
         $('.correctNum').text('Total Correct: ' + totalCorrect);
 
-        // Update Number of Correct
+
+
+        $('.percentCompleted').text(Math.round((totalCorrect / question.length) * 100) + '% Completed');
+
 
 
         //////////////ACE
@@ -161,9 +176,20 @@
         if (index === 6) {
             console.log('Sorting Incorrect Answers');
             question.sort(function (a, b) {
-                if (a.timeCorrect < b.timeCorrect) return -1;
-                if (a.timeCorrect > b.timeCorrect) return 1;
-                return 0;
+                if (a.timeCorrect > b.timeCorrect) {
+                    return 1;
+                } else if (a.timeCorrect < b.timeCorrect) {
+                    return -1;
+                }
+
+                // Else go to the 2nd item
+                if (a.questionNum < b.questionNum) {
+                    return -1;
+                } else if (a.questionNum > b.questionNum) {
+                    return 1;
+                } else {
+                    return 0;
+                }
             });
         }
 

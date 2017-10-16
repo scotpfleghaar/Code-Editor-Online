@@ -873,7 +873,7 @@ questionSet4 = [{
 
 <script>
 // Write your code here.
-document.write('Welcome to my site ')
+document.write('Welcome to my site');
 </script>
 
 </html>`,
@@ -4526,140 +4526,207 @@ gulp.task('goodbye', function(){
   console.log('goodbye!');
 });`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'javascript'
 }, {
     questionNum: 175,
-    questionInstructions: ``,
+    questionInstructions: `Install express, version 4.15.2, and save it to the package.json file.`,
     question: ``,
-    answer: ``,
+    answer: `npm install --save express@4.15.2`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'text'
 }, {
     questionNum: 176,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Change the parameter names for the request and response objects to req and res.`,
+    question: `const express = require('express');
+
+const app = express();
+
+app.get('/', (request, response) => {
+  response.send("I Love Treehouse!");
+});
+
+app.listen(3000);`,
+    answer: `const express = require('express');
+
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send("I Love Treehouse!");
+});
+
+app.listen(3000);
+`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'javascript'
 }, {
     questionNum: 177,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Respond with "I Love Treehouse!" as an <h2> tag.`,
+    question: `const express = require('express');
+
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send("I Love Treehouse!");
+});
+
+app.listen(3000);`,
+    answer: `const express = require('express');
+
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send("<h2>I Love Treehouse!</h2>");
+});
+
+app.listen(3000);`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'javascript'
 }, {
     questionNum: 178,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `In the root route, render the "main.pug" template.`,
+    question: `const express = require('express');
+const posts = require('./mock/posts.json');
+
+const app = express();
+
+app.set('view engine', 'pug');
+app.set('views', __dirname + '/templates')
+
+app.get('/', (req, res) => {
+  res.render('index');
+});
+
+app.listen(3000, () => {
+  console.log("The frontend server is running on port 3000!");
+});
+`,
+    answer: `const express = require('express');
+const posts = require('./mock/posts.json');
+
+const app = express();
+
+app.set('view engine', 'pug');
+app.set('views', __dirname + '/templates')
+
+app.get('/', (req, res) => {
+  res.render('main');
+});
+
+app.listen(3000, () => {
+  console.log("The frontend server is running on port 3000!");
+});`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'javascript'
 }, {
     questionNum: 179,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Pass the posts object to your template, naming it "posts".`,
+    question: `const express = require('express');
+const posts = require('./mock/posts.json');
+
+const app = express();
+
+app.set('view engine', 'pug');
+app.set('views', __dirname + '/templates')
+
+app.get('/', (req, res) => {
+  res.render('main');
+});
+
+app.listen(3000, () => {
+  console.log("The frontend server is running on port 3000!");
+});`,
+    answer: `const express = require('express');
+const posts = require('./mock/posts.json');
+
+const app = express();
+
+app.set('view engine', 'pug');
+app.set('views', __dirname + '/templates')
+
+app.get('/', (req, res) => {
+  res.render('main',{posts: posts});
+  
+});
+
+app.listen(3000, () => {
+  console.log("The frontend server is running on port 3000!");
+});
+`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'javascript'
 }, {
-    questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionNum: 180,
+    questionInstructions: `Add a new route at the "/blog" url. The callback function should take req and res as parameters. Leave the callback's body blank for now.`,
+    question: `const express = require('express');
+const posts = require("./mock/posts.json");
+
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send("<h1>I Love Treehouse!</h1>");
+});
+//Add your code directly below this comment
+
+
+app.listen(3000, () => {
+  console.log("The frontend server is running on port 3000!")
+});
+`,
+    answer: `const express = require('express');
+const posts = require("./mock/posts.json");
+
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send("<h1>I Love Treehouse!</h1>");
+});
+//Add your code directly below this comment
+app.get('/blog', (req, res) => {
+  
+});
+
+app.listen(3000, () => {
+  console.log("The frontend server is running on port 3000!")
+});`,
     timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'javascript'
 }, {
-    questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionNum: 181,
+    questionInstructions: `Use the send method on the response object to return the posts object when the /blog route is requested.`,
+    question: `const express = require('express');
+const posts = require("./mock/posts.json");
+
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send("<h1>I Love Treehouse!</h1>");
+});
+//Add your code directly below this comment
+app.get('/blog', (req, res) => {
+  
+});
+
+app.listen(3000, () => {
+  console.log("The frontend server is running on port 3000!")
+});`,
+    answer: `const express = require('express');
+const posts = require("./mock/posts.json");
+
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send("<h1>I Love Treehouse!</h1>");
+});
+//Add your code directly below this comment
+app.get('/blog', (req, res) => {
+  res.send(posts);
+});
+
+app.listen(3000, () => {
+  console.log("The frontend server is running on port 3000!")
+});`,
     timeCorrect: 0,
-    questionLanguage: ''
-}, {
-    questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
-    timeCorrect: 0,
-    questionLanguage: ''
-}, {
-    questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
-    timeCorrect: 0,
-    questionLanguage: ''
-}, {
-    questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
-    timeCorrect: 0,
-    questionLanguage: ''
-}, {
-    questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
-    timeCorrect: 0,
-    questionLanguage: ''
-}, {
-    questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
-    timeCorrect: 0,
-    questionLanguage: ''
-}, {
-    questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
-    timeCorrect: 0,
-    questionLanguage: ''
-}, {
-    questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
-    timeCorrect: 0,
-    questionLanguage: ''
-}, {
-    questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
-    timeCorrect: 0,
-    questionLanguage: ''
-}, {
-    questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
-    timeCorrect: 0,
-    questionLanguage: ''
-}, {
-    questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
-    timeCorrect: 0,
-    questionLanguage: ''
-}, {
-    questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
-    timeCorrect: 0,
-    questionLanguage: ''
-}, {
-    questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
-    timeCorrect: 0,
-    questionLanguage: ''
+    questionLanguage: 'javascript'
 }];
 
 
