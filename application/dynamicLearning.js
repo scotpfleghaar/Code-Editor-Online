@@ -100,6 +100,7 @@
         var currentInstruction = question[index].questionInstructions;
         var currentQuestion = question[index].question;
         var currentAnswer = question[index].answer;
+        var currentAnswer2 = question[index].answer;
         var timeCorrect = question[index].timeCorrect;
         var questionNumber = question[index].questionNum;
         var questionCodeLanguage = question[index].questionLanguage; // Controls weather to beautfy file or not.
@@ -245,7 +246,7 @@
 
                 //Moves the timeCorrect down based on incorrect answer
                 question[index].timeCorrect = question[index].timeCorrect - 1;
-                console.log(question[index].timeCorrect)
+                console.log(question[index].timeCorrect);
                 attemptNumber += 1;
                 console.log("Inside attemptNumber:" + attemptNumber);
 
@@ -255,7 +256,7 @@
                     $('.result').css('background-color', '#80dfff');
                     $('#editor').css('border', 'solid 2px #80dfff');
                     $('.result').text('Incorrect! Below is the correct answer.');
-                    editor2.insert(question[index].answer);
+                    editor2.insert(currentAnswer2);
                     if (questionCodeLanguage === 'javascript') {
                         beatify2();
                     }

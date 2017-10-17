@@ -1044,7 +1044,7 @@ document.write("Welcome to JavaScript Basics");
 <script>
 console.log('Begin program');
 document.write("Welcome to JavaScript Basics");
-console.log('End Program');
+console.log('End program');
 </script>
 </body>
 </html>`,
