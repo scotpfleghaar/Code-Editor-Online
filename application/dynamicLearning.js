@@ -36,6 +36,7 @@
     }
 
 
+
     //    var question = questionSet2;
     //    console.log(question)
 
@@ -59,7 +60,6 @@
         return array;
     }
     //shuffle(question); // Uncomment this for random.
-    console.log(question);
     var Current = 0;
     var index = 0;
 
@@ -95,7 +95,7 @@
 
     /////////////////////// Here is where the content becomes dynamic
     function loadQuestion(index) {
-
+        console.log(question);
         // Grab all data from the question bank
         var currentInstruction = question[index].questionInstructions;
         var currentQuestion = question[index].question;
@@ -174,7 +174,7 @@
         var currentAnswer = trimmer(currentAnswer);
 
         // Sort Elements by timeCorrect (puts incorrect answers to the top)
-        if (index === 6) {
+        if (index === 7) {
             console.log('Sorting Incorrect Answers');
             question.sort(function (a, b) {
                 if (a.timeCorrect > b.timeCorrect) {
