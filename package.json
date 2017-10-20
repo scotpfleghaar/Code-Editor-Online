@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/scotpfleghaar/Code-Editor-Online#readme",
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bower": "^1.8.2",
     "express": "^4.16.1"
   }
 }

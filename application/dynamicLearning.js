@@ -315,33 +315,4 @@
     //Initial loading of the first question
     loadQuestion(index);
 
-    //initiate next questions and reset some elements
-    //    $('.next').on('click', function () {
-    //        //Resets the editor and values for next question
-    //        editor.setValue("");
-    //        editor2.setValue("");
-    //        index += 1;
-    //        attemptNumber = 0;
-    //        $('.test').show();
-    //        $('#editor').css('border', '');
-    //
-    //        //Every 7 questions move the index to zero (to review missed answers)
-    //        if (index <= 7) {
-    //            loadQuestion(index);
-    //        } else {
-    //            console.log('Reseting Index');
-    //            index = 0;
-    //            loadQuestion(index);
-    //        }
-    //
-    //        // beatify();
-    //
-    //
-    //        //Allows the question array to be saved so that later we can 
-    //        // come back and load questions saved to continue where we left off.
-    //        // question = questionSaved;
-    //        // console.log(questionSaved);
-    //    });
-
-
 })();
