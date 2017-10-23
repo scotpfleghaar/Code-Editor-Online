@@ -5,107 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script src="/jquery/dist/jquery.min.js"></script>
-    <!--<script src="/bootstrap/dist/js/bootstrap.min.js"></script>-->
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css"></link>
-
-
-    <!--<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" type="text/javascript"></script>-->
-
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <script>
-        $('*')
-    </script>
-    <div class="cover">
-        <div class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand">
-                        <img height="50px" alt="Brand" src="Code-Internet-Page-Hexagon-Symbol-Internet-Gui-2307350.png">
-                    </a>
-                </div>
-                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active">
-                            <!-- <a href="#">Home</a> -->
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
+    <nav class="navbar navbar-default">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html">
+                <img class="navbar-brand" src="Code-Internet-Page-Hexagon-Symbol-Internet-Gui-2307350.png" alt="">
+            </a>
         </div>
-        <div class="cover-image"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 text-center">
-                    <h4 class="correctNum">Num Correct</h4>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h4 class="totalQuestions">Total Questions</h4>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h4 class="percentCompleted"></h4>
-                </div>
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <hr>
-                        <div class="wrapper">
-                            <p class="instructions">Make the following elements fade in when the button is clicked</p>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <pre id="editor" style="height: 300px;"></pre>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <p>
-                                        <small class="programmingLanguage"></small>
-                                    </p>
-                                </div>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="code-editor.html">Code Editor</a>
+                </li>
 
-                            </div>
-
-                            <button class="btn btn-lg test">Test</button>
-                            <button class="btn btn-lg next" style='background-color: green; color: white;'>Next</button>
-                            <button class="btn btn-lg submit" style='background-color: #80dfff'>submit</button>
-                            <p></p>
-                            <p class="result">Incorrect..</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-md-10 col-md-offset-1">
-                        <pre id="editor2" style="height: 150px;"></pre>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <button class="resetbank btn btn-lg">Reset Question Bank</button>
-                    </div>
-                </div>
-            </div>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#">Login</a>
+                </li>
+            </ul>
         </div>
-    </div>
-
-    <script src="src-min/ace.js" type="text/javascript" charset="utf-8"></script>
-    <script src="src-min/ext-beautify.js" type="text/javascript" charset="utf-8"></script>
-    <script src="beautify.js" type="text/javascript" charset="utf-8"></script>
-    <script src="scripts.js"></script>
-    <script src="questions.js"></script>
-    <script src="dynamicLearning.js"></script>
-
-
+    </nav>
 </body>
 
 </html>

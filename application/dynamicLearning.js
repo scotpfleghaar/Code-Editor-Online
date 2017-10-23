@@ -1,6 +1,11 @@
 // Copyright Scot Pfleghaar 2017
 //IIFE to protect code
 (function () {
+    // Global Variables:
+    var Current = 0,
+        index = 0,
+        attemptNumber = 0; //Keeps track of each question attempts
+
     // The question bank:
     const qBank = questionSet4; // Pulls in question bank
     var question = qBank;
@@ -10,7 +15,7 @@
         window.location.reload();
     });
     if (localStorage.questions) {
-        var items = localStorage.questions
+        var items = localStorage.questions;
         question = JSON.parse(items);
         console.log('Sorting Answers from Json');
         question.sort(function (a, b) {
@@ -35,11 +40,6 @@
 
     }
 
-
-
-    //    var question = questionSet2;
-    //    console.log(question)
-
     //Randomize (Fisher-Yates Shuffle) array for development
     function shuffle(array) {
         var currentIndex = array.length,
@@ -60,10 +60,7 @@
         return array;
     }
     //shuffle(question); // Uncomment this for random.
-    var Current = 0;
-    var index = 0;
 
-    /////////////////////Setting the stage
     //Custom Functions
     function trimmer(value) {
         value = value.replace(/\s/g, '');
@@ -84,39 +81,35 @@
     }
 
     ////////////////////////////ace.js dependencies
-    var editor = ace.edit("editor");
-    var editor2 = ace.edit("editor2");
+    var editor = ace.edit("editor"),
+        editor2 = ace.edit("editor2");
 
-    // Keeps track of total questions
+
+    // Keeps track of total questions in html
     $('.totalQuestions').text('Total Number of Questions: ' + question.length);
-
-
-
-    //Keeps track of each question attempts
-    var attemptNumber = 0;
 
     /////////////////////// Here is where the content becomes dynamic
     function loadQuestion(index) {
-        console.log(question);
-        // Grab all data from the question bank
-        var currentInstruction = question[index].questionInstructions;
-        var currentQuestion = question[index].question;
-        var currentAnswer = question[index].answer;
-        var currentAnswer2 = question[index].answer;
-        var timeCorrect = question[index].timeCorrect;
-        var questionNumber = question[index].questionNum;
-        var questionCodeLanguage = question[index].questionLanguage; // Controls weather to beautfy file or not.
-        var totalCorrect = 0;
+
+        // Load Question Variables
+        var currentInstruction = question[index].questionInstructions,
+            currentQuestion = question[index].question,
+            currentAnswer = question[index].answer,
+            currentAnswer2 = question[index].answer,
+            timeCorrect = question[index].timeCorrect,
+            questionNumber = question[index].questionNum,
+            questionCodeLanguage = question[index].questionLanguage, // Controls weather to beautfy file or not.
+            totalCorrect = 0;
 
         //Updating html to reflect the language working in the ace.js editor
         $('.programmingLanguage').text('Current Programming Language/Framework: ' + questionCodeLanguage);
 
-
+        // Tracks the total correct questions
         function countCorrect() {
             for (var i = 0; i < question.length; i++) {
                 if (question[i].timeCorrect > 0) {
                     totalCorrect += 1;
-                    console.log('checking');
+
                 }
             }
             return totalCorrect;
@@ -124,13 +117,9 @@
         countCorrect();
         $('.correctNum').text('Total Correct: ' + totalCorrect);
 
-
-
         $('.percentCompleted').text(Math.round((totalCorrect / question.length) * 100) + '% Completed');
 
-
-
-        //////////////ACE
+        // Setting up the Ace environment each time the question loads
         editor.session.setMode(`ace/mode/${questionCodeLanguage}`);
         //This function beautifys the code in the editor 
         function beatify() {
@@ -146,13 +135,8 @@
             editor.session.setValue(val);
 
         }
-
-
-
-
         editor2.session.setMode(`ace/mode/${questionCodeLanguage}`);
-
-        //This function beautifys the code in the editor2 
+        //This function beautifys the code in the editor 
         function beatify2() {
 
             var val = editor2.session.getValue();
@@ -166,9 +150,6 @@
             editor2.session.setValue(val);
 
         }
-        /////////END ACE
-
-
 
         //Ensures that the question is formated correct to compare against
         var currentInstruction = $.trim(currentInstruction);
@@ -177,7 +158,6 @@
 
         // Sort Elements by timeCorrect (puts incorrect answers to the top)
         if (index === 7) {
-            console.log('Sorting Incorrect Answers');
             question.sort(function (a, b) {
                 if (a.timeCorrect > b.timeCorrect) {
                     return 1;
