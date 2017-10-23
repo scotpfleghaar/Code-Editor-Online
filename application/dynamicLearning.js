@@ -70,6 +70,7 @@
         value = value.replace(/[\t\n]+/g, '');
         value = value.replace(/(\r\n|\n|\r)/gm, '');
         value = value.replace(/'/g, '"');
+        value = value.replace(/;/g, ''); // Giving Grace on Semi-colons
         return value;
     }
     // Next array item
@@ -84,6 +85,7 @@
 
     ////////////////////////////ace.js dependencies
     var editor = ace.edit("editor");
+    var editor2 = ace.edit("editor2");
 
     // Keeps track of total questions
     $('.totalQuestions').text('Total Number of Questions: ' + question.length);
@@ -146,7 +148,7 @@
         }
 
 
-        var editor2 = ace.edit("editor2");
+
 
         editor2.session.setMode(`ace/mode/${questionCodeLanguage}`);
 

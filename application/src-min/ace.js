@@ -7093,7 +7093,7 @@
             }, this.onScrollLeftChange = function () {
                 this.renderer.scrollToX(this.session.getScrollLeft())
             }, this.onCursorChange = function () {
-                // this.$cursorChange(), this.$blockScrolling || (g.warn("Automatically scrolling cursor into view after selection change", "this will be disabled in the next version", "set editor.$blockScrolling = Infinity to disable this message"), this.renderer.scrollCursorIntoView()), this.$highlightBrackets(), this.$highlightTags(), this.$updateHighlightActiveLine(), this._signal("changeSelection")
+                this.$cursorChange(), this.$blockScrolling || (g.warn("Automatically scrolling cursor into view after selection change", "this will be disabled in the next version", "set editor.$blockScrolling = Infinity to disable this message"), this.renderer.scrollCursorIntoView()), this.$highlightBrackets(), this.$highlightTags(), this.$updateHighlightActiveLine(), this._signal("changeSelection")
             }, this.$updateHighlightActiveLine = function () {
                 var e = this.getSession(),
                     t;

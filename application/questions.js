@@ -1216,7 +1216,7 @@ var profitPerUnit = profit / quantity;`,
 var numOfDivs = 10;`,
     answer: `var width = '190px';
 var numOfDivs = 10;
-var totalWidth = parseInt(width) * numOfDivs`,
+var totalWidth = parseInt(width) * numOfDivs;`,
     timeCorrect: 0,
     questionLanguage: 'javascript'
 }, {
