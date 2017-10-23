@@ -1,6 +1,6 @@
-#Code Challange Editor
+# Code Challange Editor
 ## Begin Here
-This app is using node.js, so begin with `npm install` in the file directory, asuming you have npm. Then to begin the programing start the server with `node app.js` default server is 3000.
+This app is using node.js, so begin with `npm install` in the file directory, assuming you have npm. Then to begin the programing start the server with `node app.js` default server is 3000.
 
 ## Current Progress.
 There is a list of todo's that will get implemented at some point. 
