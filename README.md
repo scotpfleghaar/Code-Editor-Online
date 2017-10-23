@@ -17,5 +17,5 @@ There is a list of todo's that will get implemented at some point.
 
 
 ## Why?
-One of the biggest challenges I ran into while learning code was not finding great online content to learn from, it was going through a code camp or an amazing course and not retaining as much information as I would have liked. Thus, I designed this browser app to help solve thise issues. The design is to take code challanges that you create and practive them. This creates mastery, or in the very least familiarity. 
+One of the biggest challenges I ran into while learning to code was not finding great online content to learn from, it was going through a code camp or an amazing course and not retaining as much information as I would have liked. Thus, I designed this browser app to help solve this issue. The design is to take code challanges that you create and practice them. Challanges that you struggle with will show up more often, and challanges that you excel at show up least often. This creates mastery, or in the very least familiarity. 
  
