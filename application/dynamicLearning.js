@@ -120,11 +120,8 @@
         $('.percentCompleted').text(Math.round((totalCorrect / question.length) * 100) + '% Completed');
 
         // Setting up the Ace environment each time the question loads
-        editor.session.setMode(`ace/mode/${questionCodeLanguage}`);
-        //This function beautifys the code in the editor 
-        function beatify() {
-
-            var val = editor.session.getValue();
+        function aceBeautify(editorNumber) {
+            var val = editorNumber.session.getValue();
             //Remove leading spaces
             var array = val.split(/\n/);
             array[0] = array[0].trim();
@@ -132,23 +129,18 @@
             //Actual beautify (prettify) 
             val = js_beautify(val);
             //Change current text to formatted text
-            editor.session.setValue(val);
+            editorNumber.session.setValue(val);
+        }
 
+        editor.session.setMode(`ace/mode/${questionCodeLanguage}`);
+        //This function beautifys the code in the editor 
+        function beatify() {
+            aceBeautify(editor);
         }
         editor2.session.setMode(`ace/mode/${questionCodeLanguage}`);
         //This function beautifys the code in the editor 
         function beatify2() {
-
-            var val = editor2.session.getValue();
-            //Remove leading spaces
-            var array = val.split(/\n/);
-            array[0] = array[0].trim();
-            val = array.join("\n");
-            //Actual beautify (prettify) 
-            val = js_beautify(val);
-            //Change current text to formatted text
-            editor2.session.setValue(val);
-
+            aceBeautify(editor2);
         }
 
         //Ensures that the question is formated correct to compare against
