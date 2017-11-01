@@ -4731,6 +4731,1023 @@ app.listen(3000, () => {
 
 
 
+var questionsJava = [{
+    questionNum: 1,
+    questionInstructions: `Define a string variable named firstName that stores the string "Mary".`,
+    question: `// I have setup a java.io.Console object for you named console`,
+    answer: `// I have setup a java.io.Console object for you named console
+String firstName = "Mary";`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 2,
+    questionInstructions: `Call the printf method on the console object and make it write out "Mary can code in Java!"`,
+    question: `// I have setup a java.io.Console object for you named console
+String firstName = "Mary";`,
+    answer: `// I have setup a java.io.Console object for you named console
+String firstName = "Mary";
+console.printf("Mary can code in Java!");`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 3,
+    questionInstructions: `Now replace "Mary" in the console.printf expression with the firstName variable using the string formatter.`,
+    question: `// I have setup a java.io.Console object for you named console
+String firstName = "Mary";
+console.printf("Mary can code in Java!");`,
+    answer: `// I have setup a java.io.Console object for you named console
+String firstName = "Mary";
+console.printf("%s can code in Java!",firstName);
+`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 4,
+    questionInstructions: `Declare a variable that is named the camel-cased version of "first name". Store the user's first name into this new variable using console.readLine.`,
+    question: `// I have imported java.io.Console for you.  It is a variable called console.`,
+    answer: `// I have imported java.io.Console for you.  It is a variable called console.
+String firstName = console.readLine();`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 5,
+    questionInstructions: `Declare another variable, naming this one the camel-cased version of "last name". Use console.readLine to store the user's last name into this new variable.`,
+    question: `// I have imported java.io.Console for you.  It is a variable called console.
+String firstName = console.readLine();`,
+    answer: `// I have imported java.io.Console for you.  It is a variable called console.
+String firstName = console.readLine();
+String lastName = console.readLine();`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 6,
+    questionInstructions: `Using the console's printf method, display a message that says, "First Name: ", followed by the first name that the user has entered.`,
+    question: `// I have imported java.io.Console for you.  It is a variable called console.
+String firstName = console.readLine();
+String lastName = console.readLine();`,
+    answer: `// I have imported java.io.Console for you.  It is a variable called console.
+String firstName = console.readLine();
+String lastName = console.readLine();
+console.printf("First Name: %s",firstName);`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 7,
+    questionInstructions: `Using the console's printf method, display a message that says, "Last Name: " followed by the last name that the user has entered.`,
+    question: `// I have imported java.io.Console for you.  It is a variable called console.
+String firstName = console.readLine();
+String lastName = console.readLine();
+console.printf("First Name: %s",firstName);`,
+    answer: `// I have imported java.io.Console for you.  It is a variable called console.
+String firstName = console.readLine();
+String lastName = console.readLine();
+console.printf("First Name: %s",firstName);
+console.printf("Last Name: %s", lastName);`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 8,
+    questionInstructions: `Create a new variable called name and accept input from the console using the readLine method.`,
+    question: `// I've imported java.io.Console for you.  It is stored in a variable called console for you.`,
+    answer: `// I've imported java.io.Console for you.  It is stored in a variable called console for you.
+String name = console.readLine();`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 9,
+    questionInstructions: `Create a new variable to store a past tense verb, so in camel case that is pastTenseVerb. Accept input from the console using the readLine method.`,
+    question: `// I've imported java.io.Console for you.  It is stored in a variable called console for you.
+String name = console.readLine();`,
+    answer: `// I've imported java.io.Console for you.  It is stored in a variable called console for you.
+String name = console.readLine();
+String pastTenseVerb = console.readLine();`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 10,
+    questionInstructions: `Output (using the console object) a sentence that takes both the name and past tense verb using a single statement. It should look like this: 
+"*name* really *past tense verb* this coding exercise."`,
+    question: `// I've imported java.io.Console for you.  It is stored in a variable called console for you.
+String name = console.readLine("");
+String pastTenseVerb = console.readLine("");`,
+    answer: `// I've imported java.io.Console for you.  It is stored in a variable called console for you.
+String name = console.readLine("");
+String pastTenseVerb = console.readLine("");
+console.printf("%s really %s this coding exercise.", name, pastTenseVerb);`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 11,
+    questionInstructions: `Fix the error(s).`,
+    question: `Sting firstName = "Gordon";`,
+    answer: `String firstName = "Gordon";`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 12,
+    questionInstructions: `Fix the error(s).`,
+    question: `string lastName = "Sumner";`,
+    answer: `String lastName = "Sumner";`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 14,
+    questionInstructions: `Fix the error(s).`,
+    question: `console.printf("Hello", firstName);`,
+    answer: `console.printf("Hello %s", firstName);`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 15,
+    questionInstructions: `Fix the error(s).`,
+    question: `band = console.readLine("Which band?  ");`,
+    answer: `String band = console.readLine("Which band?  ");`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 16,
+    questionInstructions: `Create an integer that stores "number of people" ( Use camel case). Set the value to 3.`,
+    question: ``,
+    answer: `int numberOfPeople = 3;`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 17,
+    questionInstructions: `Add an if statement to see if there are less than 4 people. Then write out to the console, “Your table is ready”`,
+    question: `int numberOfPeople = 3;`,
+    answer: `int numberOfPeople = 3;
+if(numberOfPeople < 4){
+  console.printf("Your table is ready");
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 18,
+    questionInstructions: `Inside your if block, after printing, exit the program.`,
+    question: `int numberOfPeople = 3;
+if(numberOfPeople < 4){
+  console.printf("Your table is ready");
+}`,
+    answer: `int numberOfPeople = 3;
+if(numberOfPeople < 4){
+  console.printf("Your table is ready");
+  System.exit(0);
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 19,
+    questionInstructions: `Create a new int variable that is named answer. Store the integer version of answerToLife in it.`,
+    question: `String answerToLife = "42";`,
+    answer: `String answerToLife = "42";
+int answer = Integer.parseInt(answerToLife);`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 20,
+    questionInstructions: `Add an if statement that checks to see if firstExample is equal to secondExample. If it is, print out (using the console object) "first is equal to second".`,
+    question: `// I have imported a java.io.Console for you, it is named console. 
+String firstExample = "hello";
+String secondExample = "hello";
+String thirdExample = "HELLO";`,
+    answer: `// I have imported a java.io.Console for you, it is named console. 
+String firstExample = "hello";
+String secondExample = "hello";
+String thirdExample = "HELLO";
+
+if(firstExample.equals(secondExample)){
+  console.printf("first is equal to second");
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 21,
+    questionInstructions: `Add another if statement that checks if the firstExample is equal ignoring case to thirdExample. If it, is print out (using the console object) "first and third are the same ignoring case".`,
+    question: `// I have imported a java.io.Console for you, it is named console. 
+String firstExample = "hello";
+String secondExample = "hello";
+String thirdExample = "HELLO";
+if(firstExample.equals(secondExample)){
+  console.printf("first is equal to second");
+}`,
+    answer: `// I have imported a java.io.Console for you, it is named console. 
+String firstExample = "hello";
+String secondExample = "hello";
+String thirdExample = "HELLO";
+if(firstExample.equals(secondExample)){
+  console.printf("first is equal to second");
+}
+if(firstExample.equalsIgnoreCase(thirdExample)){
+  console.printf("first and third are the same ignoring case");
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 22,
+    questionInstructions: `Prompt the user (using the console object) with the question "Do you understand do while loops?" Store the result in a new String variable named response.`,
+    question: `// I have initialized a java.io.Console for you. It is in a variable named console.`,
+    answer: `// I have initialized a java.io.Console for you. It is in a variable named console.
+String response = console.readLine("Do you understand do while loops?");`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 23,
+    questionInstructions: `Now continually prompt the user in a do while loop. The loop should continue running as long as the response is No. Don't forget to declare response outside of the do while loop.`,
+    question: `// I have initialized a java.io.Console for you. It is in a variable named console.
+String response = console.readLine("Do you understand do while loops?");`,
+    answer: `// I have initialized a java.io.Console for you. It is in a variable named console.
+String response;
+do {
+ response = console.readLine("Do you understand do while loops?");
+} while (response.equals("No"));`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 24,
+    questionInstructions: `Finally, using console.printf print out a formatted string that says "Because you said <response>, you passed the test!"`,
+    question: `// I have initialized a java.io.Console for you. It is in a variable named console.
+String response;
+do {
+ response = console.readLine("Do you understand do while loops?");
+} while (response.equals("No"));`,
+    answer: `// I have initialized a java.io.Console for you. It is in a variable named console.
+String response;
+do {
+ response = console.readLine("Do you understand do while loops?");
+} while (response.equals("No"));
+console.printf("Because you said %s, you passed the test!",response);`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 25,
+    questionInstructions: `Create a new blueprint for Go Karts. Start by declaring a class named GoKart.`,
+    question: ``,
+    answer: `class GoKart {
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 26,
+    questionInstructions: `Great! Now add a field named color of type String that will be used to store the color of the GoKart. Set the value to "red"`,
+    question: `class GoKart {
+}`,
+    answer: `class GoKart {
+  String color = "red";
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 27,
+    questionInstructions: `Let's make the color field on our GoKart inaccessible to other classes. Add the proper access level modifier to the color field to ensure it's privacy.`,
+    question: `class GoKart {
+  String color = "red";
+}`,
+    answer: `class GoKart {
+  private String color = "red";
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 28,
+    questionInstructions: `Add a getter method name "getColor" that exposes the color field.
+`,
+    question: `class GoKart {
+  private String color = "red";
+}`,
+    answer: `class GoKart {
+  private String color = "red";
+  public String getColor(){
+    return color;
+  }
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 29,
+    questionInstructions: `Let's ensure that all GoKarts created have a color. We'll solve this over a few steps. First, define a public constructor that expects a String argument named color. (Don't worry about adding any code inside the constructor just yet, we'll do that next.)`,
+    question: `class GoKart {
+  private String color = "red";
+    // Your code goes directly below this line
+  public String getColor() {
+    return color;
+  }
+  
+}
+`,
+    answer: `class GoKart {
+  private String color = "red";
+    // Your code goes directly below this line
+  public GoKart(String color){
+  }
+  public String getColor() {
+    return color;
+  }
+  
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 30,
+    questionInstructions: `Now in the body of your constructor, set the private field color to the value of the color argument passed into the constructor. (Make sure you are setting the right color*)`,
+    question: `class GoKart {
+  private String color = "red";
+  public GoKart(String color){
+    // Your code goes directly below this line
+  }
+  public String getColor() {
+    return color;
+  }
+}`,
+    answer: `class GoKart {
+  private String color = "red";
+  public GoKart(String color){
+    // Your code goes directly below this line
+    this.color = color;
+  }
+  public String getColor() {
+    return color;
+  }
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 31,
+    questionInstructions: `Finally, since the color is being set in the constructor now, remove the initialization from the field definition. Just leave it declared, but not initialized to "red".`,
+    question: `class GoKart {
+  private String color = "red";
+  public GoKart(String color){
+    this.color = color;
+  }
+  public String getColor() {
+    return color;
+  }
+}
+`,
+    answer: `class GoKart {
+  private String color;
+  public GoKart(String color){
+    this.color = color;
+  }
+  public String getColor() {
+    return color;
+  }
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 32,
+    questionInstructions: `Every one of these GoKarts run on rechargeable battery. The battery provides a display that shows how charged it can become. There are a total of 8 bars, and when all bars are lit on the display, the battery is fully charged. Create a constant that stores the maximum number of energy bars that can be filled. Use the proper naming structure for your new constant of "max bars". Ensure that the value cannot change, and is accessible from the class level.`,
+    question: `class GoKart {
+  private String color;
+  //Add your code directly below this comment
+  
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+
+}`,
+    answer: `class GoKart {
+  private String color;
+  //Add your code directly below this comment
+  public final static int MAX_BARS = 8;
+  
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 33,
+    questionInstructions: `Let's add some state to our GoKart. We'll store the current charge. We'll use the bars displayed on the battery as the way to know the current charge level. Create a new private field named barCount that will track how many bars of energy our GoKart battery currently has.`,
+    question: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  //Add your code directly below this comment.
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+}`,
+    answer: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  //Add your code directly below this comment.
+  private int barCount;
+  
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 34,
+    questionInstructions: `Now create a method named charge that sets the new barCount field to the maximum amount of bars available for each GoKart.`,
+    question: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+  
+  //Add your code directly below this comment.
+  
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+}`,
+    answer: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+  
+  //Add your code directly below this comment.
+  public void charge(){
+    barCount = MAX_BARS;
+  }
+  
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 35,
+    questionInstructions: `Let's expose some helpful properties that are computed using the current state. Create a new public method named isBatteryEmpty that returns true if the battery has 0 bars remaining, and false otherwise.`,
+    question: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+  // Write your Code directly below this comment
+  
+}
+`,
+    answer: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+  // Write your Code directly below this comment
+    public boolean isBatteryEmpty(){
+      return barCount == 0;
+    }
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 36,
+    questionInstructions: `Now let's create a similar method named isFullyCharged that checks to see if the current bar count is at the maximum charge.`,
+    question: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+  
+  public boolean isBatteryEmpty(){
+    return barCount == 0;
+  }
+  // Write your Code directly below this comment
+}`,
+    answer: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+  
+  public boolean isBatteryEmpty(){
+    return barCount == 0;
+  }
+  // Write your Code directly below this comment
+  public boolean isFullyCharged(){
+    return barCount == MAX_BARS;
+  }
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 37,
+    questionInstructions: `It's finally time to start allowing our GoKart to drive! Let's keep track of how many laps each kart drives. First, create a new private int field named lapsDriven.`,
+    question: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+
+  public boolean isBatteryEmpty() {
+    return barCount == 0;
+  }
+
+  public boolean isFullyCharged() {
+    return MAX_BARS == barCount;
+  }
+  //Add code directly below this comment
+}`,
+    answer: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+
+  public boolean isBatteryEmpty() {
+    return barCount == 0;
+  }
+
+  public boolean isFullyCharged() {
+    return MAX_BARS == barCount;
+  }
+  //Add code directly below this comment
+  private int lapsDriven;
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 38,
+    questionInstructions: `Now let's write a simple drive method. It should be public and not return anything. We'll start out basic, calling the drive method will make the GoKart drive a single lap. In your newly created drive method, increment the new lapsDriven variable by 1. Use the incrementing shorthand to increase lapsDriven.`,
+    question: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+
+  public boolean isBatteryEmpty() {
+    return barCount == 0;
+  }
+
+  public boolean isFullyCharged() {
+    return MAX_BARS == barCount;
+  }
+  private int lapsDriven;
+  //Add code directly below this comment
+  
+}
+`,
+    answer: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+
+  public boolean isBatteryEmpty() {
+    return barCount == 0;
+  }
+
+  public boolean isFullyCharged() {
+    return MAX_BARS == barCount;
+  }
+  private int lapsDriven;
+  
+  //Add code directly below this comment
+  public void drive(){
+    lapsDriven++;
+  }
+  
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 39,
+    questionInstructions: `Each lap around the track takes exactly 1 energy bar from the battery. For this final task, in your drive method, decrement the battery's status that we maintain in the private field barCount.`,
+    question: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+
+  public boolean isBatteryEmpty() {
+    return barCount == 0;
+  }
+
+  public boolean isFullyCharged() {
+    return MAX_BARS == barCount;
+  }
+  private int lapsDriven;
+  
+  
+  public void drive(){
+    lapsDriven++;
+    //Add code directly below this comment
+    
+  }
+  
+}`,
+    answer: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+
+  public boolean isBatteryEmpty() {
+    return barCount == 0;
+  }
+
+  public boolean isFullyCharged() {
+    return MAX_BARS == barCount;
+  }
+  private int lapsDriven;
+  
+  
+  public void drive(){
+    lapsDriven++;
+    //Add code directly below this comment
+    barCount--;
+  }
+  
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 40,
+    questionInstructions: `Some users of our GoKart class wrote and asked that our drive method accept a parameter to specify how many laps to go, instead of just one. It happens, well hey at least you can practice your addition and subtraction shortcuts. Modify the drive method to define a parameter of how many laps should be driven. Update the method body to handle the new parameter.`,
+    question: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+  private int lapsDriven;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+
+  public boolean isBatteryEmpty() {
+    return barCount == 0;
+  }
+
+  public boolean isFullyCharged() {
+    return MAX_BARS == barCount;
+  }
+
+  public void drive() {
+    lapsDriven++;
+    barCount--;
+  }
+}
+`,
+    answer: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+  private int lapsDriven;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+
+  public boolean isBatteryEmpty() {
+    return barCount == 0;
+  }
+
+  public boolean isFullyCharged() {
+    return MAX_BARS == barCount;
+  }
+
+  public void drive(int laps) {
+    lapsDriven += laps;
+    barCount -= laps;
+  }
+}
+`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 41,
+    questionInstructions: `Of course, another user of the code just wrote and asked "Where'd that drive method go! I loved that method, can you put it back please?" Sigh...Well thanks to method overloading we can pretty easily bring the method back. Create a new method named drive that accepts no arguments. It should call the newer drive method passing in a 1 for the default.`,
+    question: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+  private int lapsDriven;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+
+  public boolean isBatteryEmpty() {
+    return barCount == 0;
+  }
+
+  public boolean isFullyCharged() {
+    return MAX_BARS == barCount;
+  }
+
+  public void drive(int laps) {
+    lapsDriven += laps;
+    barCount -= laps;
+  }
+  //Add code directly below comment
+  
+}`,
+    answer: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+  private int lapsDriven;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+
+  public boolean isBatteryEmpty() {
+    return barCount == 0;
+  }
+
+  public boolean isFullyCharged() {
+    return MAX_BARS == barCount;
+  }
+
+  public void drive(int laps) {
+    lapsDriven += laps;
+    barCount -= laps;
+  }
+  //Add code directly below comment
+  public void drive(){
+    drive(1);
+  }
+  
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 42,
+    questionInstructions: `You probably already spotted the error in the drive method that accepts laps. You can drive way more laps than our battery can handle. Let's fix it. Add logic to the drive method so that it throws an IllegalArgumentException if there aren't enough bars to support the laps request. Remember it takes 1 bar of energy to go around a lap.`,
+    question: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+  private int lapsDriven;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+
+  public boolean isBatteryEmpty() {
+    return barCount == 0;
+  }
+
+  public boolean isFullyCharged() {
+    return MAX_BARS == barCount;
+  }
+
+  public void drive() {
+    drive(1);
+  }
+
+  public void drive(int laps) {
+    
+    lapsDriven += laps;
+    barCount -= laps;
+    
+  }
+}`,
+    answer: `class GoKart {
+  public static final int MAX_BARS = 8;
+  private String color;
+  private int barCount;
+  private int lapsDriven;
+
+  public GoKart(String color) {
+    this.color = color;
+  }
+
+  public String getColor() {
+    return color;
+  }
+  public void charge() {
+    barCount = MAX_BARS;
+  }
+
+  public boolean isBatteryEmpty() {
+    return barCount == 0;
+  }
+
+  public boolean isFullyCharged() {
+    return MAX_BARS == barCount;
+  }
+
+  public void drive() {
+    drive(1);
+  }
+
+  public void drive(int laps) {
+    if(laps > barCount){
+      throw new IllegalArgumentException("Too many laps requested.");
+    }
+    lapsDriven += laps;
+    barCount -= laps;
+  }
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 43,
+    questionInstructions: `Example.java contains a program using the GoKart class we have been building. Protect the call to kart.drive by handling the IllegalArgumentException (with the name driveError) that is thrown when not enough battery remains. Print out the message "The Error was <Error Message>" from the exception to the screen as you catch the exception.`,
+    question: `class Example {
+
+  public static void main(String[] args) {
+    GoKart kart = new GoKart("purple");
+    if (kart.isBatteryEmpty()) {
+      System.out.println("The battery is empty");
+    }
+    kart.drive(42);
+  }
+
+}
+`,
+    answer: `class Example {
+
+  public static void main(String[] args) {
+    GoKart kart = new GoKart("purple");
+    if (kart.isBatteryEmpty()) {
+      System.out.println("The battery is empty");
+    }
+    try {
+      kart.drive(42);
+    } catch(IllegalArgumentException driveError){
+      System.out.printf("The Error was %s", driveError.getMessage());
+    }
+  }
+
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 44,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, ]
 
 
 

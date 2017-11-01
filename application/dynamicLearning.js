@@ -7,7 +7,7 @@
         attemptNumber = 0; //Keeps track of each question attempts
 
     // The question bank:
-    const qBank = questionSet4; // Pulls in question bank
+    const qBank = questionsJava; // Pulls in question bank
     var question = qBank;
     $('.resetBank').on('click', function () {
         localStorage.clear();
@@ -116,8 +116,9 @@
         }
         countCorrect();
         $('.correctNum').text('Total Correct: ' + totalCorrect);
-
-        $('.percentCompleted').text(Math.round((totalCorrect / question.length) * 100) + '% Completed');
+        var percentCompletedNow = (Math.round((totalCorrect / question.length) * 100));
+        $('.progress-bar').width(percentCompletedNow + "%");
+        $('.percentCompleted').text(percentCompletedNow + '% Completed');
 
         // Setting up the Ace environment each time the question loads
         function aceBeautify(editorNumber) {
