@@ -5742,6 +5742,306 @@ console.printf("Because you said %s, you passed the test!",response);`,
     questionLanguage: 'java'
 }, {
     questionNum: 44,
+    questionInstructions: `Making this Hangman game inspired me to try to write one of my favorite board games, Scrabble. Can you help me using the skills you've learned from the course thus far? I've modeled a ScrabblePlayer and decided to store their tiles in a String
+For this first task, modify the addTile method so that it appends the tile that was passed in, to the player's tiles. Practice using the += shortcut method for string concatenation.`,
+    question: `public class ScrabblePlayer {
+  // A String representing all of the tiles that this player has
+  private String tiles;
+
+  public ScrabblePlayer() {
+    tiles = "";
+  }
+
+  public String getTiles() {
+    return tiles;
+  }
+
+  public void addTile(char tile) {
+    // TODO: Add the tile to tiles
+
+  }
+
+  public boolean hasTile(char tile) {
+    // TODO: Determine if user has the tile passed in
+    return false;
+  }
+
+}
+`,
+    answer: `public class ScrabblePlayer {
+  // A String representing all of the tiles that this player has
+  private String tiles;
+
+  public ScrabblePlayer() {
+    tiles = "";
+  }
+
+  public String getTiles() {
+    return tiles;
+  }
+
+  public void addTile(char tile) {
+    // TODO: Add the tile to tiles
+    tiles += tile;
+  }
+
+  public boolean hasTile(char tile) {
+    // TODO: Determine if user has the tile passed in
+    return false;
+  }
+
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 45,
+    questionInstructions: `Okay great, now can you fix the hasTile method for me, right now it always returns false.
+Correct the existing hasTile method to return true if the tile is in the tiles field, and false if it isn't. You can solve this a few ways, however, I'd like you to practice returning the result of the expression that uses the index of a char in a String.`,
+    question: `public class ScrabblePlayer {
+  // A String representing all of the tiles that this player has
+  private String tiles;
+
+  public ScrabblePlayer() {
+    tiles = "";
+  }
+
+  public String getTiles() {
+    return tiles;
+  }
+
+  public void addTile(char tile) {
+    // TODO: Add the tile to tiles
+    tiles += tile;
+  }
+
+  public boolean hasTile(char tile) {
+    // TODO: Determine if user has the tile passed in
+    return false;
+  }
+
+}
+`,
+    answer: `public class ScrabblePlayer {
+  // A String representing all of the tiles that this player has
+  private String tiles;
+
+  public ScrabblePlayer() {
+    tiles = "";
+  }
+
+  public String getTiles() {
+    return tiles;
+  }
+
+  public void addTile(char tile) {
+    // TODO: Add the tile to tiles
+    tiles += tile;
+  }
+
+  public boolean hasTile(char tile) {
+    // TODO: Determine if user has the tile passed in
+    return (tiles.indexOf(tile) != -1);
+  }
+
+}
+`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 46,
+    questionInstructions: `I've created a tool to help manage lines at tech conferences. The organizers would like to split the attendees into two lines during the registration process. I've added notes, examples and a new lesson in the Example.java tab.
+
+
+Fix the getLineNumberFor method to return a 1 if the first character of lastName is between A and M or else return 2 if it is between N and Z.`,
+    question: `public class ConferenceRegistrationAssistant {
+
+  /**
+   * Assists in guiding people to the proper line based on their last name.
+   *
+   * @param lastName The person's last name
+   * @return The line number based on the first letter of lastName
+   */
+  public int getLineNumberFor(String lastName) {
+    int lineNumber = 0;
+    /*
+      lineNumber should be set based on the first character of the person's last name
+      Line 1 - A thru M
+      Line 2 - N thru Z
+
+     */
+    return lineNumber;
+  }
+
+}
+`,
+    answer: `public class ConferenceRegistrationAssistant {
+
+  /**
+   * Assists in guiding people to the proper line based on their last name.
+   *
+   * @param lastName The person's last name
+   * @return The line number based on the first letter of lastName
+   */
+  public int getLineNumberFor(String lastName) {
+    int lineNumber = 0;
+    /*
+      lineNumber should be set based on the first character of the person's last name
+      Line 1 - A thru M
+      Line 2 - N thru Z
+
+     */
+    if (lastName.charAt(0) <= 'M'){
+      return lineNumber = 1;
+    } else {
+      return lineNumber = 2;
+    }
+  }
+
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 47,
+    questionInstructions: `Okay, so I need to count how many occurrences of a a specific letter is in the player's tiles. Let's build that over a couple of steps. I've added some example use cases in Example.java. Create a new method named getCountOfLetter that returns an int, and requires a parameter of type char named letter. For this task, just make it return 0.`,
+    question: `public class ScrabblePlayer {
+  // A String representing all of the tiles that this player has
+  private String tiles;
+
+  public ScrabblePlayer() {
+    tiles = "";
+  }
+
+  public String getTiles() {
+    return tiles;
+  }
+
+  public void addTile(char tile) {
+    tiles += tile;
+  }
+
+  public boolean hasTile(char tile) {
+    return tiles.indexOf(tile) != -1;
+  }
+  
+  
+}
+`,
+    answer: `public class ScrabblePlayer {
+  // A String representing all of the tiles that this player has
+  private String tiles;
+
+  public ScrabblePlayer() {
+    tiles = "";
+  }
+
+  public String getTiles() {
+    return tiles;
+  }
+
+  public void addTile(char tile) {
+    tiles += tile;
+  }
+
+  public boolean hasTile(char tile) {
+    return tiles.indexOf(tile) != -1;
+  }
+  
+  public int getCountOfLetter(char letter){
+    return 0;
+  }
+}
+`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 48,
+    questionInstructions: `Oooh with the new skills we can build a little Twitter like app. I've created a new tweet class, let's write the 140 characters story.
+
+
+Add a new constant that defines the max chars allowed and set it 140. Use proper case for constants. Ensure it is accessible off the class, static, and that it cannot be changed.`,
+    question: `public class Tweet {
+  //Add Code Directly Below this comment
+  
+  private String text;
+
+  public Tweet(String text) {
+    this.text = text;
+  }
+
+  public String getText() {
+    return text;
+  }
+
+  public void setText(String text) {
+    this.text = text;
+  }
+}`,
+    answer: `public class Tweet {
+  //Add Code Directly Below this comment
+  public static final int MAX_CHARS = 140;
+  private String text;
+
+  public Tweet(String text) {
+    this.text = text;
+  }
+
+  public String getText() {
+    return text;
+  }
+
+  public void setText(String text) {
+    this.text = text;
+  }
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 49,
+    questionInstructions: `Let's let them know how many characters they have left to use...so they can jam them full of hashtags #jklol
+
+
+Create a public method named getRemainingCharacterCount that returns an int representing how many characters they have left before they 140. Base your calculation on the field that stores the current text.`,
+    question: `public class Tweet {
+  //Add Code Directly Below this comment
+  public static final int MAX_CHARS = 140;
+  private String text;
+
+  public Tweet(String text) {
+    this.text = text;
+  }
+
+  public String getText() {
+    return text;
+  }
+
+  public void setText(String text) {
+    this.text = text;
+  }
+}`,
+    answer: `public class Tweet {
+  //Add Code Directly Below this comment
+  public static final int MAX_CHARS = 140;
+  private String text;
+
+  public Tweet(String text) {
+    this.text = text;
+  }
+
+  public String getText() {
+    return text;
+  }
+
+  public void setText(String text) {
+    this.text = text;
+  }
+  public int getRemainingCharacterCount(){
+    return MAX_CHARS - text.length();
+  }
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 50,
     questionInstructions: ``,
     question: ``,
     answer: ``,
@@ -5998,5 +6298,9 @@ Imagine we're implementing the autocomplete feature for a search facility on the
     question: ``,
     answer: ``,
     timeCorrect: 0,
-    questionLanguage: 'sql'
+    questionLanguage: 'sql',
+    address: {
+        city: "",
+        state: "",
+    }
 }, ]
