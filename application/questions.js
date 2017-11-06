@@ -6042,6 +6042,220 @@ Create a public method named getRemainingCharacterCount that returns an int repr
     questionLanguage: 'java'
 }, {
     questionNum: 50,
+    questionInstructions: `Let's use your normalization skills to normalize a discount code for a Shopping Cart application. All codes should be upper cased, no matter what the user enters
+
+
+For this first task, create a new private method named normalizeDiscountCode. It should take the discount code that is passed into the method and return the uppercase version. Call it from the current applyDiscountCode method and set this.discountCode to the result.`,
+    question: `public class Order {
+  private String itemName;
+  private int priceInCents;
+  private String discountCode;
+
+  public Order(String itemName, int priceInCents) {
+    this.itemName = itemName;
+    this.priceInCents = priceInCents;
+  }
+
+  public String getItemName() {
+    return itemName;
+  }
+
+  public int getPriceInCents() {
+    return priceInCents;
+  }
+
+  public String getDiscountCode() {
+    return discountCode;
+  }
+
+  public void applyDiscountCode(String discountCode) {
+    this.discountCode = discountCode;
+  }
+}
+`,
+    answer: `public class Order {
+  private String itemName;
+  private int priceInCents;
+  private String discountCode;
+
+  public Order(String itemName, int priceInCents) {
+    this.itemName = itemName;
+    this.priceInCents = priceInCents;
+  }
+
+  public String getItemName() {
+    return itemName;
+  }
+
+  public int getPriceInCents() {
+    return priceInCents;
+  }
+
+  public String getDiscountCode() {
+    return discountCode;
+  }
+
+  public void applyDiscountCode(String discountCode) {
+    this.discountCode = normalizeDiscountCode(discountCode);
+  }
+  private String normalizeDiscountCode(String discountCode ){
+    return discountCode = discountCode.toUpperCase();
+  }
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 51,
+    questionInstructions: `Add a constructor that accepts a String named topic to Forum.java. Initialize the private field topic in the constructor to the value passed in.`,
+    question: `public class Forum {
+  private String topic;
+
+  // TODO: add a constructor that accepts a topic and sets the private field topic
+
+
+  public String getTopic() {
+    return topic;
+  }
+
+
+  /* Uncomment this when you are prompted to do so
+  public void addPost(ForumPost post) {
+    System.out.printf("A new post in %s topic from %s %s about %s is available",
+            topic,
+            post.getAuthor().getFirstName(),
+            post.getAuthor().getLastName(),
+            post.getTitle()
+    );
+  }
+  */
+
+}
+`,
+    answer: `public class Forum {
+  private String topic;
+
+  // TODO: add a constructor that accepts a topic and sets the private field topic
+   public Forum (String topic){
+     this.topic = topic;
+  
+   }   
+
+  public String getTopic() {
+    return topic;
+  }
+
+
+  /* Uncomment this when you are prompted to do so
+  public void addPost(ForumPost post) {
+    System.out.printf("A new post in %s topic from %s %s about %s is available",
+            topic,
+            post.getAuthor().getFirstName(),
+            post.getAuthor().getLastName(),
+            post.getTitle()
+    );
+  }
+  */
+
+}
+`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 52,
+    questionInstructions: `In User.java, add private fields to store firstName and lastName, and initialize them in the provided constructor. Add public getters for firstName and lastName.`,
+    question: `public class User {
+  // TODO: add private fields for firstName and lastName
+
+  public User(String firstName, String lastName) {
+    // TODO: set and add the private fields
+
+  }
+
+  // TODO: add getters for firstName and lastName
+
+}`,
+    answer: `public class User {
+  // TODO: add private fields for firstName and lastName
+  private String firstName;
+  private String lastName;
+
+  public User(String firstName, String lastName) {
+    // TODO: set and add the private fields
+    this.firstName = firstName;
+    this.lastName = lastName;
+
+  }
+
+  // TODO: add getters for firstName and lastName
+  public String getFirstName(){
+    return firstName;
+  }
+  public String getLastName(){
+    return lastName;
+  }
+
+}
+`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 53,
+    questionInstructions: `Add a constructor to ForumPost which accepts a User named author, a String named title, and another String named description. Initialize the corresponding private fields.`,
+    question: `public class ForumPost {
+  private User author;
+  private String title;
+  private String description;
+
+  // TODO: add a constructor that accepts the author, title and description
+
+  public User getAuthor() {
+    return author;
+  }
+
+  public String getTitle() {
+    return title;
+  }
+
+  public String getDescription() {
+    return description;
+  }
+}`,
+    answer: `public class ForumPost {
+  private User author;
+  private String title;
+  private String description;
+
+  // TODO: add a constructor that accepts the author, title and description
+  public ForumPost(User author, String title, String description){
+    this.author = author;
+    this.title = title;
+    this.description = description;
+    
+  }
+  public User getAuthor() {
+    return author;
+  }
+
+  public String getTitle() {
+    return title;
+  }
+
+  public String getDescription() {
+    return description;
+  }
+}
+`,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 54,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 55,
     questionInstructions: ``,
     question: ``,
     answer: ``,
