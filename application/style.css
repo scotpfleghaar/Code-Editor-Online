@@ -5,3 +5,11 @@
 .btn {
     background-color: lightgray;
 }
+
+.choice:hover {
+    background-color: lightgray;
+}
+
+.selectedChoice {
+    background-color: lightblue;
+}

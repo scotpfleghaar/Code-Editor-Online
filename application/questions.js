@@ -6581,13 +6581,52 @@ Imagine we're implementing the autocomplete feature for a search facility on the
 
 var questionsMulitpleChoiceJava = [{
     questionNum: 1,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
-    timeCorrect: 0,
-    questionLanguage: 'sql',
-    address: {
-        city: "",
-        state: "",
+    questionInstructions: `What will be the output of following program code?`,
+    question: `import java.io.*;
+public class whizlabs {
+    public static void main(String args[]) {
+        try {
+            int whizData[] = new int[10];
+            System.out.println("Accessing Element Eleven :" + whizData[11]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Oops.. Identifed Exception :: " + e);
+        }
     }
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java',
+    choice1: `Compilation Fails.`,
+    choice2: ``,
+    choice3: `Accessing Element Eleven : 0`,
+    choice4: `Oops.. Identified Exception :: java.lang.NoDataFoundException.`,
+    choice5: ``,
+    answer1: `Oops.. Identifed Exception :: java.lang.ArrayIndexOutOfBoundsException: 11 `,
+    answer2: ``,
+    explination: `Array is declared with 10 elements. Then the code tries to access the 11th element of the array which throws an standard exception 'java.lang.ArrayIndexOutOfBoundsException'.
+    The correct answer is: Oops.. Identifed Exception :: java.lang.ArrayIndexOutOfBoundsException: 11xs`,
+}, {
+    questionNum: 2,
+    questionInstructions: `What will be the output of following program code?`,
+    question: `import java.io.*;
+public class whizlabs {
+    public static void main(String args[]) {
+        try {
+            int whizData[] = new int[10];
+            System.out.println("Accessing Element Eleven :" + whizData[11]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Oops.. Identifed Exception :: " + e);
+        }
+    }
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'java',
+    choice1: `Compilation Fails.`,
+    choice2: ``,
+    choice3: `Accessing Element Eleven : 0`,
+    choice4: `Oops.. Identified Exception :: java.lang.NoDataFoundException.`,
+    choice5: ``,
+    answer1: `Oops.. Identifed Exception :: java.lang.ArrayIndexOutOfBoundsException: 11 `,
+    answer2: ``,
+    explination: `Array is declared with 10 elements. Then the code tries to access the 11th element of the array which throws an standard exception 'java.lang.ArrayIndexOutOfBoundsException'.
+    The correct answer is: Oops.. Identifed Exception :: java.lang.ArrayIndexOutOfBoundsException: 11xs`,
 }, ]

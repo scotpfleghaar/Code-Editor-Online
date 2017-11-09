@@ -7,7 +7,7 @@
         attemptNumber = 0; //Keeps track of each question attempts
 
     // The question bank:
-    const qBank = questionsJava; // Pulls in question bank
+    const qBank = questionsMulitpleChoiceJava; // Pulls in question bank
     var question = qBank;
     $('.resetBank').on('click', function () {
         localStorage.clear();
@@ -63,12 +63,14 @@
 
     //Custom Functions
     function trimmer(value) {
-        value = value.replace(/\s/g, '');
-        value = value.replace(/[\t\n]+/g, '');
-        value = value.replace(/(\r\n|\n|\r)/gm, '');
-        value = value.replace(/'/g, '"');
-        value = value.replace(/;/g, ''); // Giving Grace on Semi-colons
-        return value;
+        if (value != undefined) {
+            value = value.replace(/\s/g, '');
+            value = value.replace(/[\t\n]+/g, '');
+            value = value.replace(/(\r\n|\n|\r)/gm, '');
+            value = value.replace(/'/g, '"');
+            value = value.replace(/;/g, ''); // Giving Grace on Semi-colons
+            return value;
+        }
     }
     // Next array item
     function nextItem() {
@@ -83,6 +85,10 @@
     ////////////////////////////ace.js dependencies
     var editor = ace.edit("editor"),
         editor2 = ace.edit("editor2");
+
+    //Turns of errors and helpers
+    editor.session.setOption("useWorker", false);
+    editor2.session.setOption("useWorker", false);
 
 
     // Keeps track of total questions in html
@@ -100,6 +106,73 @@
             questionNumber = question[index].questionNum,
             questionCodeLanguage = question[index].questionLanguage, // Controls weather to beautfy file or not.
             totalCorrect = 0;
+
+
+        //Multiple Choice set up
+        $('.choices').empty();
+
+        var currentMCexplination = question[index].explination;
+        var currentMCquestions = question[index].questions;
+
+
+        // bad coding, I know, simply testing and trying to make a minimum viable product
+        var currentMCquestion1 = question[index].choice1;
+        var currentMCquestion2 = question[index].choice2;
+        var currentMCquestion3 = question[index].choice3;
+        var currentMCquestion4 = question[index].choice4;
+        var currentMCquestion5 = question[index].choice5;
+        var currentMCanswer1 = question[index].answer1;
+        var currentMCanswer2 = question[index].answer2;
+
+        if (currentMCquestion1.length > 1) {
+            $('.choices').append('<li class="choice list-group-item">' + currentMCquestion1 + '</li>');
+        }
+        if (currentMCquestion2.length > 1) {
+            $('.choices').append('<li class="choice list-group-item">' + currentMCquestion2 + '</li>');
+        }
+        if (currentMCquestion3.length > 1) {
+            $('.choices').append('<li class="choice list-group-item">' + currentMCquestion3 + '</li>');
+        }
+        if (currentMCquestion4.length > 1) {
+            $('.choices').append('<li class="choice list-group-item">' + currentMCquestion4 + '</li>');
+        }
+        if (currentMCquestion5.length > 1) {
+            $('.choices').append('<li class="choice list-group-item">' + currentMCquestion5 + '</li>');
+        }
+        if (currentMCanswer1.length > 1) {
+            $('.choices').append('<li class="choice list-group-item">' + currentMCanswer1 + '</li>');
+        }
+        if (currentMCanswer2.length > 1) {
+            $('.choices').append('<li class="choice list-group-item">' + currentMCanswer2 + '</li>');
+        }
+
+        $(".choice").on("click", function () {
+            $(this).toggleClass("selectedChoice");
+        });
+
+        var isMCCorrect = false;
+
+
+        //Random rearrange:
+
+        /*
+         * Shuffle jQuery array of elements - see Fisher-Yates algorithm
+         */
+        jQuery.fn.shuffle = function () {
+            var j;
+            for (var i = 0; i < this.length; i++) {
+                j = Math.floor(Math.random() * this.length);
+                $(this[i]).before($(this[j]));
+            }
+            return this;
+        };
+        $('.choice').shuffle();
+
+
+        $('.explination').text("");
+
+
+
 
         //Updating html to reflect the language working in the ace.js editor
         $('.programmingLanguage').text('Current Programming Language/Framework: ' + questionCodeLanguage);
@@ -203,10 +276,18 @@
             console.log(attempt);
             editor2.setValue("");
 
+            //MC Evaluation
 
 
-            //Doing check
-            if (attempt == currentAnswer) { // === is unnecesary as both items should be a type
+            var mCattempt = $(".selectedChoice").text();
+            var mCanswer = (currentMCanswer1 + currentMCanswer2);
+
+            isMCCorrect = (mCattempt.length === mCanswer.length && mCattempt.split("").sort().join() == mCanswer.split("").sort().join());
+            console.log(isMCCorrect);
+
+
+            //Doing check on code challange
+            if ((attempt == currentAnswer) || isMCCorrect) { // "==="" is unnecesary as both items should be a type
                 console.log('Correct!');
                 //Change result color and text based on result
                 $('.result').css('background-color', 'green');
@@ -235,6 +316,7 @@
                 //When the code is incorrect to many times, this block gives the answers
                 // and allows user to enter correct answer
                 if (attemptNumber > 1) {
+                    $('.explination').text(currentMCexplination);
                     $('.result').css('background-color', '#80dfff');
                     $('#editor').css('border', 'solid 2px #80dfff');
                     $('.result').text('Incorrect! Below is the correct answer.');
