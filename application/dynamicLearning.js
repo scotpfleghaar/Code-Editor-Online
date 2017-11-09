@@ -127,6 +127,7 @@
         if (currentMCquestion1.length > 1) {
             $('.choices').append('<li class="choice list-group-item">' + currentMCquestion1 + '</li>');
         }
+
         if (currentMCquestion2.length > 1) {
             $('.choices').append('<li class="choice list-group-item">' + currentMCquestion2 + '</li>');
         }
@@ -170,6 +171,7 @@
 
 
         $('.explination').text("");
+        $('.explination').hide();
 
 
 
@@ -316,6 +318,7 @@
                 //When the code is incorrect to many times, this block gives the answers
                 // and allows user to enter correct answer
                 if (attemptNumber > 1) {
+                    $('.explination').show();
                     $('.explination').text(currentMCexplination);
                     $('.result').css('background-color', '#80dfff');
                     $('#editor').css('border', 'solid 2px #80dfff');
