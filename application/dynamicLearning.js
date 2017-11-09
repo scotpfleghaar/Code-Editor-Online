@@ -59,7 +59,7 @@
         }
         return array;
     }
-    //shuffle(question); // Uncomment this for random.
+    shuffle(question); // Uncomment this for random.
 
     //Custom Functions
     function trimmer(value) {
@@ -124,26 +124,26 @@
         var currentMCanswer1 = question[index].answer1;
         var currentMCanswer2 = question[index].answer2;
 
-        if (currentMCquestion1.length > 1) {
+        if (currentMCquestion1.length > 0) {
             $('.choices').append('<li class="choice list-group-item">' + currentMCquestion1 + '</li>');
         }
 
-        if (currentMCquestion2.length > 1) {
+        if (currentMCquestion2.length > 0) {
             $('.choices').append('<li class="choice list-group-item">' + currentMCquestion2 + '</li>');
         }
-        if (currentMCquestion3.length > 1) {
+        if (currentMCquestion3.length > 0) {
             $('.choices').append('<li class="choice list-group-item">' + currentMCquestion3 + '</li>');
         }
-        if (currentMCquestion4.length > 1) {
+        if (currentMCquestion4.length > 0) {
             $('.choices').append('<li class="choice list-group-item">' + currentMCquestion4 + '</li>');
         }
-        if (currentMCquestion5.length > 1) {
+        if (currentMCquestion5.length > 0) {
             $('.choices').append('<li class="choice list-group-item">' + currentMCquestion5 + '</li>');
         }
-        if (currentMCanswer1.length > 1) {
+        if (currentMCanswer1.length > 0) {
             $('.choices').append('<li class="choice list-group-item">' + currentMCanswer1 + '</li>');
         }
-        if (currentMCanswer2.length > 1) {
+        if (currentMCanswer2.length > 0) {
             $('.choices').append('<li class="choice list-group-item">' + currentMCanswer2 + '</li>');
         }
 
@@ -291,6 +291,8 @@
             //Doing check on code challange
             if ((attempt == currentAnswer) || isMCCorrect) { // "==="" is unnecesary as both items should be a type
                 console.log('Correct!');
+                $('.explination').show();
+                $('.explination').text(currentMCexplination);
                 //Change result color and text based on result
                 $('.result').css('background-color', 'green');
                 $('#editor').css('border', 'solid 2px green');
