@@ -6249,13 +6249,82 @@ For this first task, create a new private method named normalizeDiscountCode. It
     questionLanguage: 'java'
 }, {
     questionNum: 54,
+    questionInstructions: `In the class TeachersExamples there are two methods. One shows a longer version of how to create an array. Your task is to create the array in a shorter literal form in the method getTeachersAsArrayLiteral, replacing the null assignment.`,
+    question: `public class TeachersExample {
+        
+          public String[] getTeachersInArrayLongForm() {
+            String[] teachers = new String[3];
+            teachers[0] = "Jay";
+            teachers[1] = "Dave";
+            teachers[2] = "James";
+            return teachers;
+          }
+        
+          public String[] getTeachersAsArrayLiteral() {
+            // TODO: Replace null with an array literal that matches the long form above
+            String[] teachers = null;
+            return teachers;
+          }
+        
+        }
+        `,
+    answer: `public class TeachersExample {
+        
+          public String[] getTeachersInArrayLongForm() {
+            String[] teachers = new String[3];
+            teachers[0] = "Jay";
+            teachers[1] = "Dave";
+            teachers[2] = "James";
+            return teachers;
+          }
+        
+          public String[] getTeachersAsArrayLiteral() {
+            // TODO: Replace null with an array literal that matches the long form above
+            String[] teachers = {"Jay","Dave","James"};
+            return teachers;
+          }
+        
+        }
+        `,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 55,
     questionInstructions: ``,
     question: ``,
     answer: ``,
     timeCorrect: 0,
     questionLanguage: 'java'
 }, {
-    questionNum: 55,
+    questionNum: 56,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 57,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 58,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 59,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'java'
+}, {
+    questionNum: 60,
     questionInstructions: ``,
     question: ``,
     answer: ``,
@@ -6506,8 +6575,12 @@ Imagine we're implementing the autocomplete feature for a search facility on the
     answer: `SELECT last_name FROM phone_book WHERE last_name IS NOT NULL;`,
     timeCorrect: 0,
     questionLanguage: 'sql'
-}, {
-    questionNum: 32,
+}, ]
+
+
+
+var questionsMulitpleChoiceJava = [{
+    questionNum: 1,
     questionInstructions: ``,
     question: ``,
     answer: ``,

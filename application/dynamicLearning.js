@@ -144,6 +144,11 @@
             aceBeautify(editor2);
         }
 
+        //Hide editor2
+        $("#editor2").hide();
+
+
+
         //Ensures that the question is formated correct to compare against
         var currentInstruction = $.trim(currentInstruction);
         //var currentQuestion = trimmer(currentQuestion); //Don't uncomment this it messes up the format of the code;
@@ -198,6 +203,8 @@
             console.log(attempt);
             editor2.setValue("");
 
+
+
             //Doing check
             if (attempt == currentAnswer) { // === is unnecesary as both items should be a type
                 console.log('Correct!');
@@ -232,6 +239,15 @@
                     $('#editor').css('border', 'solid 2px #80dfff');
                     $('.result').text('Incorrect! Below is the correct answer.');
                     editor2.insert(currentAnswer2);
+
+                    //Only show editor when it's needed
+                    $("#editor2").show();
+                    var code = editor2.getValue();
+                    if (code.length < 1) {
+                        $("#editor2").hide();
+                    }
+
+
                     if (questionCodeLanguage === 'javascript') {
                         beatify2();
                     }
