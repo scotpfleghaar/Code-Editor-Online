@@ -59,7 +59,7 @@
         }
         return array;
     }
-    shuffle(question); // Uncomment this for random.
+    // shuffle(question); // Uncomment this for random.
 
     //Custom Functions
     function trimmer(value) {
@@ -97,6 +97,7 @@
     /////////////////////// Here is where the content becomes dynamic
     function loadQuestion(index) {
 
+
         // Load Question Variables
         var currentInstruction = question[index].questionInstructions,
             currentQuestion = question[index].question,
@@ -113,6 +114,18 @@
 
         var currentMCexplination = question[index].explination;
         var currentMCquestions = question[index].questions;
+
+
+
+        $('.speech').off('click').on('click', function () {
+            var msg = new SpeechSynthesisUtterance(currentMCexplination);
+            window.speechSynthesis.speak(msg);
+        });
+        $('.instructions').off('click').on('click', function () {
+            var msg = new SpeechSynthesisUtterance(currentInstruction);
+            window.speechSynthesis.speak(msg);
+        });
+
 
 
         // bad coding, I know, simply testing and trying to make a minimum viable product
@@ -219,8 +232,9 @@
             aceBeautify(editor2);
         }
 
-        //Hide editor2
+        //Hide editors
         $("#editor2").hide();
+
 
 
 
@@ -254,6 +268,11 @@
 
         //Add the questions to the editor
         editor.insert(currentQuestion);
+        $("#editor").show();
+        var code1 = editor.getValue();
+        if (code1.length < 1) {
+            $("#editor").hide();
+        }
 
         $('.result').text('');
         $('.next').css('display', 'none');

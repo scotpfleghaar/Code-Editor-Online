@@ -6343,3 +6343,241 @@ For this first task, create a new private method named normalizeDiscountCode. It
 //    timeCorrect: 0,
 //   questionLanguage: ''
 //},
+
+
+
+// {
+//     questionNum: 1,
+//     questionInstructions: `In this code challenge you have an eCommerce database full of tables that you might expect to see in a real database.
+// Write a SQL query to answer the following question. What are all the products in the "products" table?
+// `,
+//     question: ``,
+//     answer: `SELECT * FROM products;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 2,
+//     questionInstructions: `Write the SQL to retrieve all customer information from the 'users' table.
+// `,
+//     question: ``,
+//     answer: `SELECT * FROM users;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 3,
+//     questionInstructions: `Select all addresses from the 'customer_addresses' table.`,
+//     question: ``,
+//     answer: `SELECT * FROM customer_addresses;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 4,
+//     questionInstructions: `We're using a different database now. Did you know mobile phones have databases? Find all the contacts in this smartphone database. All the contacts are in a table called 'phone_book'.`,
+//     question: ``,
+//     answer: `SELECT * FROM phone_book;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 5,
+//     questionInstructions: `In the Yorkshire Division Four in Rugby, the team Hessle RUFC have a website that shows their latest matches. Their database holds a 'results' table that stores their latest wins and losses. Why not have a look at their latest results yourself!?`,
+//     question: ``,
+//     answer: `SELECT * FROM results;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 6,
+//     questionInstructions: `Here are the columns in a 'users' table in an e-commerce site: 'id', 'username', 'password', 'first_name', 'last_name'.
+// Run a SQL query to get the two columns you'd need to generate the full names of each customer.`,
+//     question: ``,
+//     answer: `SELECT first_name, last_name FROM users;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 7,
+//     questionInstructions: `We're still in the e-commerce database. This time, from the 'products' table, get the 'name' of every product.`,
+//     question: ``,
+//     answer: `SELECT name FROM products;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 8,
+//     questionInstructions: `In the e-commerce database there's a 'customer_addresses' table with the following columns: 'id', 'nickname', 'street', 'city', 'state', 'zip', 'user_id'. Select all the columns that are to do with the address (in an address format). For example, all columns except 'id', 'nickname' and 'user_id'.`,
+//     question: ``,
+//     answer: `SELECT street, city, state, zip FROM customer_addresses;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 9,
+//     questionInstructions: `We're using a database on a smartphone again. We have a 'phone_book' table. In here there's an 'id', 'first_name', 'last_name' and 'phone'. As the user types the phone number in we want to show possible autocomplete values. Bring back only the 'phone' numbers of each contact only. Our smartphone can work out which of the results to show.`,
+//     question: ``,
+//     answer: `SELECT phone FROM phone_book;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 10,
+//     questionInstructions: `We're still using the 'phone_book' table. Remember it has the columns of 'id', 'first_name', 'last_name' and 'phone'.
+// Imagine a user is typing someone's last name in a search facility on the phone. As the user types, suggestions will appear on the screen. Bring back both the first name and last name for every person in the phone book. The phone will filter the appropriate suggestions.`,
+//     question: ``,
+//     answer: `SELECT first_name, last_name FROM phone_book;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 11,
+//     questionInstructions: `We're back in our e-commerce database. There's a 'products' table with the columns 'id', 'name', 'description' and 'price'.
+// Can you retrieve both the 'name' and 'description' aliased as "Product Name" and "Product Description".`,
+//     question: ``,
+//     answer: `SELECT name AS "Product Name", description AS "Product Description" FROM products;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 12,
+//     questionInstructions: `In the 'users' table we have columns of 'id', 'username', 'password', 'first_name' and 'last_name'.
+// Select the username and the first and last names and alias them as "Username", "First Name" and "Last Name".`,
+//     question: ``,
+//     answer: `SELECT username AS Username, first_name AS "First Name", last_name AS "Last Name" FROM users;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 13,
+//     questionInstructions: `We're now back with the smartphone database. In the 'phone_book' we have the columns 'id', 'first_name', 'last_name' and 'phone'. Alias the first and last names and phone as "First Name", "Last Name" and "Phone Number".`,
+//     question: ``,
+//     answer: `SELECT first_name AS "First Name", last_name AS "Last Name", phone AS "Phone Number" FROM phone_book;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 14,
+//     questionInstructions: `In this sports team database there's a 'results' table with the columns of 'id', 'home_team', 'home_score', 'away_team', 'away_score' and 'played_on'.
+// Alias "Home Team", "Home Score", "Away Team", "Away Score" and "Date Played" to the appropriate columns.`,
+//     question: ``,
+//     answer: `SELECT home_team AS "Home Team", home_score AS "Home Score", away_team AS "Away Team", away_score AS "Away Score", played_on AS "Date Played" FROM results;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 15,
+//     questionInstructions: `In our e-commerce database we have a 'users' table with the columns 'id', 'username', 'password', 'first_name' and 'last_name'.
+// Write a SQL query that retrieves the first and last names only where the username is equal to "wig_lady".`,
+//     question: ``,
+//     answer: `SELECT first_name, last_name FROM users WHERE username = "wig_lady";`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 16,
+//     questionInstructions: `In the 'products' table we have the columns 'id', 'name', 'description' and 'price'.
+// Find all products that don't have the price of 9.99. Include all columns.`,
+//     question: ``,
+//     answer: `SELECT * FROM products WHERE price != 9.99;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 17,
+//     questionInstructions: `From the 'users' table, find all the 'username' fields with the 'last_name' of "Pflegbaar". Only return the usernames.`,
+//     question: ``,
+//     answer: `SELECT username FROM users WHERE last_name = "Pfleghaar";`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 18,
+//     questionInstructions: `We have a database that runs a sports team's website. In the 'results' table we have the columns 'id', 'home_team', 'home_score', 'away_team', 'away_score', 'played_on'. Find all results where the home team's score is above 12.`,
+//     question: ``,
+//     answer: `SELECT * FROM results WHERE home_score > 12;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 19,
+//     questionInstructions: `We're still using the sports team's database. In the 'results' table we have the columns 'id', 'home_team', 'home_score', 'away_team', 'away_score', 'played_on'. Find all results where the away team's score is lower than 10.`,
+//     question: ``,
+//     answer: `SELECT * FROM results WHERE away_score < 10;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 20,
+//     questionInstructions: `We're back using the e-commerce database. I only have 10.99 left in my bank account. Write a query that will return all products from the 'products' table that I can afford. The columns in the 'products' are 'id', 'name', 'description' and 'price'.
+// `,
+//     question: ``,
+//     answer: `SELECT * FROM products WHERE price <= 10.99;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 21,
+//     questionInstructions: `We're back in the sports team database. There's a 'results' table with the columns 'id', 'home_team', 'home_score', 'away_team', 'away_score' and 'played_on'. Find all the matches in the 'results' table where "Hessle" was playing away as the away team and their score was above 18 points.`,
+//     question: ``,
+//     answer: `SELECT * FROM results WHERE away_team = "Hessle" AND away_score > 18;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 22,
+//     questionInstructions: `Now we're in the e-commerce database. In the 'users' table we have the columns 'id', 'username', 'password', 'first_name' and 'last_name'. Find all users with either the last name "Hinkley" or "Pettit"`,
+//     question: ``,
+//     answer: `SELECT * FROM users WHERE last_name = "Hinkley" OR last_name = "Pettit";`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 23,
+//     questionInstructions: `We're back in the sports team database. There's a 'results' table with the columns 'id', 'home_team', 'home_score', 'away_team', 'away_score' and 'played_on'. Find all the matches in the 'results' table where "Hessle" was playing away as the away team and if they played on or after October 1st 2015. Date format is "YYYY-MM-DD".`,
+//     question: ``,
+//     answer: `SELECT * FROM results WHERE away_team = "Hessle" AND played_on >= "2015-10-01";`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 24,
+//     questionInstructions: `We have an e-commerce database. Inside the 'products' table we have the columns of 'id', 'name', 'description' and 'price'. Without using the OR keyword, find all products with the price of 7.99, 9.99 or 11.99.`,
+//     question: ``,
+//     answer: `SELECT * FROM products WHERE price IN (7.99, 9.99, 11.99);`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 25,
+//     questionInstructions: `We have an e-commerce database. Inside the 'users' table we have the columns of 'id', 'username', 'password', 'first_name' and 'last_name'. Without using the OR keyword, find all the users with the username of "2spooky4me" or "beard_man".`,
+//     question: ``,
+//     answer: `SELECT * FROM users WHERE username IN ("2spooky4me", "beard_man");`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 26,
+//     questionInstructions: `In the e-commerce database we have the 'products' table with the columns 'id', 'name', 'description' and 'price'. Find all the products in the database with the price including and between 10.99 and 12.99.`,
+//     question: ``,
+//     answer: `SELECT * FROM products WHERE price BETWEEN 10.99 AND 12.99;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 27,
+//     questionInstructions: `We're back in our sports team database with the 'results' table. The columns are 'id', 'home_team', 'home_score', 'away_team', 'away_score' and 'played_on'. There are 30 days in September. Find all the games played in the 'results' table in September 2015.(YYYY-MM-DD)`,
+//     question: ``,
+//     answer: `SELECT * FROM results WHERE played_on BETWEEN "2015-09-01" AND "2015-09-30";`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 28,
+//     questionInstructions: `In the e-commerce database we have a 'products' table. The columns are 'id', 'name', 'description' and 'price'. Find all the products where the pattern 't-shirt' can be found anywhere in the product name.`,
+//     question: ``,
+//     answer: `SELECT * FROM products WHERE name LIKE "%t-shirt%";`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 29,
+//     questionInstructions: `In the 'users' table we have the columns 'id', 'username', 'password', 'first_name' and 'last_name'. Find all users with the first name starting with the letter "L".`,
+//     question: ``,
+//     answer: `SELECT * FROM users WHERE first_name LIKE "L%";`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 30,
+//     questionInstructions: `We're back on the smartphone, but our 'phone_book' is a mess. There's a 'phone_book' table but there's missing information in a couple of the columns. The 'phone_book' has the following columns 'id', 'first_name', 'last_name' and 'phone'. Find all contacts in the 'phone_book' where the phone number is missing so we can go and ask them for their number.`,
+//     question: ``,
+//     answer: `SELECT * FROM phone_book WHERE phone IS NULL;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, {
+//     questionNum: 31,
+//     questionInstructions: `We're still using the 'phone_book', with the columns 'id', 'first_name', 'last_name' and 'phone'.
+// Imagine we're implementing the autocomplete feature for a search facility on the phone where a user can start typing a last name and suggestions will appear. Write a query to retrieve all values from the last name column where the last name value is present. Only retrieve the 'last_name' column.
+// `,
+//     question: ``,
+//     answer: `SELECT last_name FROM phone_book WHERE last_name IS NOT NULL;`,
+//     timeCorrect: 0,
+//     questionLanguage: 'sql'
+// }, ]
+
+
+
+// var questionsMulitpleChoiceJava = [
