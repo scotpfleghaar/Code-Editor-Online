@@ -59,7 +59,7 @@
         }
         return array;
     }
-    // shuffle(question); // Uncomment this for random.
+    shuffle(question); // Uncomment this for random.
 
     //Custom Functions
     function trimmer(value) {
@@ -108,6 +108,9 @@
             questionCodeLanguage = question[index].questionLanguage, // Controls weather to beautfy file or not.
             totalCorrect = 0;
 
+        if (currentAnswer == "") {
+            currentAnswer = undefined;
+        }
 
         //Multiple Choice set up
         $('.choices').empty();
@@ -299,9 +302,10 @@
 
             //MC Evaluation
 
-
-            var mCattempt = $(".selectedChoice").text();
-            var mCanswer = (currentMCanswer1 + currentMCanswer2);
+            var mCattempt = trimmer($(".selectedChoice").text());
+            console.log("mCattempt: " + mCattempt);
+            var mCanswer = trimmer(currentMCanswer1 + currentMCanswer2);
+            console.log("mCanswer: " + mCanswer);
 
             isMCCorrect = (mCattempt.length === mCanswer.length && mCattempt.split("").sort().join() == mCanswer.split("").sort().join());
             console.log(isMCCorrect);
@@ -362,13 +366,22 @@
 
                     // When the submit button is clicked, evauluate the answer without decrementing timeCorrect
                     $('.submit').on('click', function () {
+                        //MC Evaliation
+                        var mCattempt = trimmer($(".selectedChoice").text());
+                        console.log("mCattempt: " + mCattempt);
+                        var mCanswer = trimmer(currentMCanswer1 + currentMCanswer2);
+                        console.log("mCanswer: " + mCanswer);
+
+                        isMCCorrect = (mCattempt.length === mCanswer.length && mCattempt.split("").sort().join() == mCanswer.split("").sort().join());
+                        console.log(isMCCorrect);
+
                         //Getting the content from ace box
                         var attempt = editor.getValue();
                         var attempt = trimmer(attempt);
                         $('.result').text('');
                         $('.result').text('Incorrect! Below is the correct answer.');
                         //when answer is correct reset these elements
-                        if (attempt === currentAnswer) {
+                        if ((attempt == currentAnswer) || isMCCorrect) {
                             console.log('Correct!');
                             //Change result color and text based on result
                             $('.result').css('background-color', 'green');
