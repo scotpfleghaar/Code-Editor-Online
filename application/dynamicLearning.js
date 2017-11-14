@@ -7,7 +7,7 @@
         attemptNumber = 0; //Keeps track of each question attempts
 
     // The question bank:
-    const qBank = questionsMulitpleChoiceJava; // Pulls in question bank
+    const qBank = frontEndDevelopment; // Pulls in question bank
     var question = qBank;
     $('.resetBank').on('click', function () {
         localStorage.clear();
@@ -59,7 +59,7 @@
         }
         return array;
     }
-    shuffle(question); // Uncomment this for random.
+    // shuffle(question); // Uncomment this for random.
 
     //Custom Functions
     function trimmer(value) {
@@ -107,6 +107,7 @@
             questionNumber = question[index].questionNum,
             questionCodeLanguage = question[index].questionLanguage, // Controls weather to beautfy file or not.
             totalCorrect = 0;
+
 
         if (currentAnswer == "") {
             currentAnswer = undefined;
@@ -168,6 +169,9 @@
         });
 
         var isMCCorrect = false;
+        if (currentMCquestions == "") {
+            currentMCquestions = undefined;
+        }
 
 
         //Random rearrange:
@@ -308,7 +312,11 @@
             console.log("mCanswer: " + mCanswer);
 
             isMCCorrect = (mCattempt.length === mCanswer.length && mCattempt.split("").sort().join() == mCanswer.split("").sort().join());
+            if (mCanswer == "") {
+                isMCCorrect = false;
+            }
             console.log(isMCCorrect);
+
 
 
             //Doing check on code challange
@@ -373,6 +381,9 @@
                         console.log("mCanswer: " + mCanswer);
 
                         isMCCorrect = (mCattempt.length === mCanswer.length && mCattempt.split("").sort().join() == mCanswer.split("").sort().join());
+                        if (mCanswer == "") {
+                            isMCCorrect = false;
+                        }
                         console.log(isMCCorrect);
 
                         //Getting the content from ace box
