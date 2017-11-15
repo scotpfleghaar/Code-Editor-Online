@@ -10889,9 +10889,34 @@ div {
     explination: ``,
 }, {
     questionNum: 228,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Create a variable called carName, assign the value "Volvo" to it, and display it.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+// Create the variable here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var carName = "Volvo";
+document.getElementById("demo").innerHTML = carName;
+</script>
+
+</body>
+</html>
+`,
     timeCorrect: 0,
     questionLanguage: 'html',
     answer1: ``,
@@ -10904,9 +10929,34 @@ div {
     explination: ``,
 }, {
     questionNum: 229,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Create a variable called number, assign the value 50 to it, and display it.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+// Create the variable here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var number = 50;
+document.getElementById("demo").innerHTML = number;
+</script>
+
+</body>
+</html>
+`,
     timeCorrect: 0,
     questionLanguage: 'html',
     answer1: ``,
@@ -10919,9 +10969,34 @@ div {
     explination: ``,
 }, {
     questionNum: 230,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `The code below should display "Volvo" - Fix it.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var carName = "Volvo";
+document.getElementById("demo").innerHTML = carname;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var carName = "Volvo";
+document.getElementById("demo").innerHTML = carName;
+</script>
+
+</body>
+</html>
+`,
     timeCorrect: 0,
     questionLanguage: 'html',
     answer1: ``,
@@ -10934,9 +11009,34 @@ div {
     explination: ``,
 }, {
     questionNum: 231,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Display the sum of 5 + 10, using two variables x and y.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+// Create the variables here
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var x = 5;
+var y = 10;
+document.getElementById("demo").innerHTML = x + y;
+</script>
+
+</body>
+</html>
+`,
     timeCorrect: 0,
     questionLanguage: 'html',
     answer1: ``,
@@ -10949,9 +11049,36 @@ div {
     explination: ``,
 }, {
     questionNum: 232,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Create a third variable called z, assign x + y to it, and display it.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var x = 5;
+var y = 10;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var x = 5;
+var y = 10;
+var z = x + y;
+document.getElementById("demo").innerHTML = z;
+</script>
+
+</body>
+</html>
+`,
     timeCorrect: 0,
     questionLanguage: 'html',
     answer1: ``,
@@ -10964,9 +11091,41 @@ div {
     explination: ``,
 }, {
     questionNum: 233,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Use a single var keyword to create three variables with the following values: 
+firstName = "John" 
+lastName = "Doe" 
+age = 35`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+// Create the variables here
+
+document.getElementById("demo").innerHTML = 
+firstName + " " + lastName + " is " + age;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var firstName = "John", lastName = "Doe", age = 35;
+
+document.getElementById("demo").innerHTML = 
+firstName + " " + lastName + " is " + age;
+</script>
+
+</body>
+</html>
+`,
     timeCorrect: 0,
     questionLanguage: 'html',
     answer1: ``,
@@ -10979,9 +11138,36 @@ div {
     explination: ``,
 }, {
     questionNum: 234,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Display the sum of 10 + 5, using two variables x and y.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var x;
+var y;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var x = 10;
+var y = 5;
+document.getElementById("demo").innerHTML = x + y;
+</script>
+
+</body>
+</html>
+`,
     timeCorrect: 0,
     questionLanguage: 'html',
     answer1: ``,
@@ -10994,9 +11180,35 @@ div {
     explination: ``,
 }, {
     questionNum: 235,
-    questionInstructions: ``,
-    question: ``,
-    answer: ``,
+    questionInstructions: `Display the difference of 10 - 5, using two variables x and y.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var x;
+var y;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var x = 10;
+var y = 5;
+document.getElementById("demo").innerHTML = x - y;
+</script>
+
+</body>
+</html>
+`,
     timeCorrect: 0,
     questionLanguage: 'html',
     answer1: ``,
@@ -11009,6 +11221,8614 @@ div {
     explination: ``,
 }, {
     questionNum: 236,
+    questionInstructions: `Display the product of 10 * 5, using two variables x and y.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var x;
+var y;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var x = 10;
+var y = 5;
+document.getElementById("demo").innerHTML = x * y;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 237,
+    questionInstructions: `Display the result of 10 / 5, using two variables x and y.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var x;
+var y;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var x = 10;
+var y = 5;
+document.getElementById("demo").innerHTML = x / y;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 239,
+    questionInstructions: `Find the remainder when 15 is divided by 9, using two variables x and y.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var x;
+var y;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var x = 15;
+var y = 9;
+document.getElementById("demo").innerHTML = x % y;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 240,
+    questionInstructions: `Use the += operator to add a value of 5 to the variable x.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 10;
+// add code here
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 10;
+x += 5;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 241,
+    questionInstructions: `Use the -= operator to subtract a value of 5 from the variable x.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 10;
+// add code here
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 10;
+x -= 5;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 242,
+    questionInstructions: `Use the *= operator to multiply the variable x with 5.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 10;
+// add code here
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 10;
+x *= 5;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 243,
+    questionInstructions: `Use the /= operator to divide the variable x with 5.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 10;
+// add code here
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 10;
+x /= 5;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 244,
+    questionInstructions: `Use the %= operator to assign a remainder of 10 / 3 to the variable x.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 10;
+// add code here
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 10;
+x %= 3;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 245,
+    questionInstructions: `Call the function.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World!";
+}
+// Call the function here
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World!";
+}
+myFunction();
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 246,
+    questionInstructions: `Figure out what is wrong with the function - fix it and run it as it should!`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+func myFunc {
+    document.getElementById("demo").innerHTML = "Hello World!";
+}
+myFunction();
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World!";
+}
+myFunction();
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 247,
+    questionInstructions: `Use the function to display the product of 5 * 5.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    // Add code here
+}
+document.getElementById("demo").innerHTML = myFunction();
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    return 5 * 5;
+}
+document.getElementById("demo").innerHTML = myFunction();
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 248,
+    questionInstructions: `Use the function to display "Hello John".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+function myFunction(name) {
+    return "Hello " + name;
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+function myFunction(name) {
+    return "Hello " + name;
+}
+document.getElementById("demo").innerHTML = myFunction("John");
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 249,
+    questionInstructions: `Define a function named "myFunction", and make it display "Hello World!" in the <p> element.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+// Define and call the function here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World!";
+}
+myFunction();
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 250,
+    questionInstructions: `Display "John" by extracting information from the person object.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var person = {firstName:"John", lastName:"Doe"};
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var person = {firstName:"John", lastName:"Doe"};
+document.getElementById("demo").innerHTML = person.firstName;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 251,
+    questionInstructions: `Add the following property and value to the person object: country: USA`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var person = {firstName:"John", lastName:"Doe"};
+document.getElementById("demo").innerHTML = person.country;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var person = {firstName:"John", lastName:"Doe", country: "USA"};
+document.getElementById("demo").innerHTML = person.country;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 252,
+    questionInstructions: `Create an object called person with name = John, age = 50.
+Then, access the object to display "John is 50 years old".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+// Create the object here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var person = {name:"John", age:50};
+document.getElementById("demo").innerHTML = 
+person.name + " is " + person.age + " years old.";
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 253,
+    questionInstructions: `The <p> element should do something when someone clicks on it. Try to fix it!`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p someevent="this.innerHTML='GOOD JOB!'">Click me.</p>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p onclick="this.innerHTML='GOOD JOB!'">Click me.</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 254,
+    questionInstructions: `When the button is clicked, trigger myFunction() with an event.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<button>Click Me</button>
+
+<p id="demo"></p> 
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+
+</body>
+</html> `,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">Click Me</button>
+
+<p id="demo"></p> 
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+
+</body>
+</html> 
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 255,
+    questionInstructions: `The <span> element should do something when someone moves the mouse over it. Try to fix it!`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<span someevent="this.style.color='red'">Mouse over me!</span>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<span onmouseover="this.style.color='red'">Mouse over me!</span>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 256,
+    questionInstructions: `Assign the string "Hello World!" to the variable txt.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var txt;
+document.getElementById("demo").innerHTML = txt;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var txt = "Hello World!";
+document.getElementById("demo").innerHTML = txt;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 257,
+    questionInstructions: `Use the length property to display the length of the txt variable's value.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var txt = "Hello World!";
+document.getElementById("demo").innerHTML = txt;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var txt = "Hello World!";
+document.getElementById("demo").innerHTML = txt.length;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 258,
+    questionInstructions: `The string below is broken - use escape characters to display the text correctly.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+document.getElementById("demo").innerHTML = "We are "Vikings"."; 
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+document.getElementById("demo").innerHTML = "We are \"Vikings\"."; 
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 259,
+    questionInstructions: `Concatenate the two strings to display "Hello World!".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var str1 = "Hello ";
+var str2 = "World!";
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var str1 = "Hello ";
+var str2 = "World!";
+document.getElementById("demo").innerHTML = str1 + str2;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 260,
+    questionInstructions: `Display the position of the first occurrence of "World" in the variable txt.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var txt = "Hello World";
+document.getElementById("demo").innerHTML = txt;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var txt = "Hello World";
+document.getElementById("demo").innerHTML = txt.indexOf("World");
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 261,
+    questionInstructions: `Use the slice() method to display only "Banana,Kiwi".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var str = "Apple,Banana,Kiwi";
+document.getElementById("demo").innerHTML = str;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var str = "Apple,Banana,Kiwi";
+document.getElementById("demo").innerHTML = str.slice(6);
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 262,
+    questionInstructions: `Use the replace() method to replace "World" with "Universe".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var txt = "Hello World";
+document.getElementById("demo").innerHTML = txt;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var txt = "Hello World";
+document.getElementById("demo").innerHTML = txt.replace("World", "Universe");
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 263,
+    questionInstructions: `Convert the value of txt to upper case.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var txt = "Hello World";
+document.getElementById("demo").innerHTML = txt;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var txt = "Hello World";
+document.getElementById("demo").innerHTML = txt.toUpperCase();
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 264,
+    questionInstructions: `Convert the value of txt to lower case.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var txt = "Hello World";
+document.getElementById("demo").innerHTML = txt;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var txt = "Hello World";
+document.getElementById("demo").innerHTML = txt.toLowerCase();
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 265,
+    questionInstructions: `Use the concat() method to join the two strings: str1 and str2.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var str1 = "Hello ";
+var str2 = "World!";
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var str1 = "Hello ";
+var str2 = "World!";
+document.getElementById("demo").innerHTML = str1.concat(str2);
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 266,
+    questionInstructions: `Create a variable called myNumber, assign the value 50 to it, and display it.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+// Create the variable here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var myNumber = 50;
+document.getElementById("demo").innerHTML = myNumber;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 267,
+    questionInstructions: `The value of z should be 11. Find out what's wrong and fix it.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 5;
+var y = "6";
+var z = x + y;
+document.getElementById("demo").innerHTML = z;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("demo").innerHTML = z;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 268,
+    questionInstructions: `Divide x by 3.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 50;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var x = 50;
+document.getElementById("demo").innerHTML = x / 3;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 269,
+    questionInstructions: `Display the product of 8 * 5, using two variables x and y.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+// Create the variables here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var x = 8;
+var y = 5;
+document.getElementById("demo").innerHTML = x * y;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 270,
+    questionInstructions: `Use the random() method to display a random number.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+// Insert the Math method here 
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+document.getElementById("demo").innerHTML = Math.random();
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 271,
+    questionInstructions: `Fix the code to display the number with the highest value.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+document.getElementById("demo").innerHTML = Math(0, 150, 30, 20, -8);
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+document.getElementById("demo").innerHTML = Math.max(0, 150, 30, 20, -8);
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 272,
+    questionInstructions: `Round "5.3" to the nearest integer, and display it.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+// Insert the Math method here 
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+document.getElementById("demo").innerHTML = Math.round(5.3);
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 273,
+    questionInstructions: `Display the square root of "9".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+// Insert the Math method here 
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+document.getElementById("demo").innerHTML = Math.sqrt(9);
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 274,
+    questionInstructions: `Create a Date object to display the current date and time.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+// Add some code here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+document.getElementById("demo").innerHTML = new Date();
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 275,
+    questionInstructions: `Create a Date object with the following value: "January 10, 2015 10:00:00".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+// Add some code here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+document.getElementById("demo").innerHTML = new Date("January 10, 2015 10:00:00");
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 276,
+    questionInstructions: `Use the toDateString() method to convert the date to a more readable format.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = new Date();
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = new Date().toDateString();
+</script>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 277,
+    questionInstructions: `Create an array named cars, assign the values "Saab", "Volvo" and "BMW" to it, and display it.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+// Create the array here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 278,
+    questionInstructions: `Display the "Volvo" item of the cars array.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars[1];
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 279,
+    questionInstructions: `Change the first item of cars to "Opel" by referring to the index number, and display the whole array.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+cars[0] = "Opel";
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 280,
+    questionInstructions: `Use the length property to display the number of array items in cars.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars.length;
+</script>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 281,
+    questionInstructions: `Use the length property to add a new item to cars: Mercedes.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+cars[cars.length] = "Mercedes";
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 282,
+    questionInstructions: `Use the pop() method to remove the last item from the fruits array.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple"];
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple"];
+fruits.pop();
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 283,
+    questionInstructions: `Use the push() method to add a new item to fruits: Kiwi.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple"];
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple"];
+fruits.push("Kiwi");
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 284,
+    questionInstructions: `Use the splice() method to remove "Orange" and "Apple" from fruits.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.splice(1, 2);
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 285,
+    questionInstructions: `Use the concat() method to concatenate girls and boys.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var girls = ["Cecilie", "Lone"];
+var boys = ["Emil", "Tobias", "Linus"];
+var children = // add code here
+document.getElementById("demo").innerHTML = children;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var girls = ["Cecilie", "Lone"];
+var boys = ["Emil", "Tobias", "Linus"];
+var children = girls.concat(boys);
+document.getElementById("demo").innerHTML = children;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 286,
+    questionInstructions: `Use the sort() method to sort the array alphabetically.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.sort();
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 287,
+    questionInstructions: `Choose the correct comparison operator to display "true", when:
+5 is less than 7.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+document.getElementById("demo").innerHTML = 5 7;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+document.getElementById("demo").innerHTML = 5 < 7;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 288,
+    questionInstructions: `Choose the correct comparison operator to display "true", when:
+10 is greater than 7.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+document.getElementById("demo").innerHTML = 10 7;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+document.getElementById("demo").innerHTML = 10 > 7;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 289,
+    questionInstructions: `Choose the correct comparison operator to display "true", when:
+10 is equal to 10.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+document.getElementById("demo").innerHTML = 10 10;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+document.getElementById("demo").innerHTML = 10 == 10;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 290,
+    questionInstructions: `Choose the correct comparison operator to display "true", when:
+10 is NOT equal to 8.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+document.getElementById("demo").innerHTML = 10 8;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+document.getElementById("demo").innerHTML = 10 != 8;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 291,
+    questionInstructions: `Use a conditional (ternary) operator for this exercise:
+If the variable age is a value below 18, the value of the variable voteable should be "Too young", 
+otherwise the value of voteable should be "Old enough".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+Age: <input type="number" id="age" value="18">
+<button onclick="checkAge()">Check Age</button>
+<p id="demo"></p>
+
+<script>
+function checkAge() {
+  var age = document.getElementById("age").value;
+  var voteable = // add code here
+  document.getElementById("demo").innerHTML = voteable + " to vote.";
+}
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+Age: <input type="number" id="age" value="18">
+<button onclick="checkAge()">Check Age</button>
+<p id="demo"></p>
+
+<script>
+function checkAge() {
+  var age = document.getElementById("age").value;
+  var voteable = (age < 18) ? "Too young":"Old enough";
+  document.getElementById("demo").innerHTML = voteable + " to vote.";
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 292,
+    questionInstructions: `Use a conditional (ternary) operator for this exercise:
+If the variable firstName is equal to "John", the value of the variable result should be "Hello John!", 
+otherwise the value of result should be "You're not John!".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+First Name: <input type="text" id="fname" value="John">
+<button onclick="checkName()">Check Name</button>
+<p id="demo"></p>
+
+<script>
+function checkName() {
+  var firstName = document.getElementById("fname").value;
+  var result = // add code here
+  document.getElementById("demo").innerHTML = result;
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+First Name: <input type="text" id="fname" value="John">
+<button onclick="checkName()">Check Name</button>
+<p id="demo"></p>
+
+<script>
+function checkName() {
+  var firstName = document.getElementById("fname").value;
+  var result = (firstName === "John") ? "Hello John!":"You're not John!";
+  document.getElementById("demo").innerHTML = result;
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 293,
+    questionInstructions: `Use the if statement to output some text if 5 is greater than 2.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+if () {
+    document.getElementById("demo").innerHTML = "Well done!";
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+if (5 > 2) {
+    document.getElementById("demo").innerHTML = "Well done!";
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 294,
+    questionInstructions: `1. Write an if statement with the following condition: 10 is greater than 5. 
+2. If the condition is true, display "I did it!".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+// Add if statement here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+if (10 > 5) {
+    document.getElementById("demo").innerHTML = "I did it!";
+}
+</script>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 295,
+    questionInstructions: `Change the value of the variable firstName to make the if statement run.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var firstName = "Greg";
+
+if (firstName === "John") {
+    document.getElementById("demo").innerHTML = "Hello John!";
+}
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var firstName = "John";
+
+if (firstName === "John") {
+    document.getElementById("demo").innerHTML = "Hello John!";
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 296,
+    questionInstructions: `Add an else statement to display "You're not John!".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var firstName = "Greg";
+
+if (firstName === "John") {
+    document.getElementById("demo").innerHTML = "Hello John!";
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var firstName = "Greg";
+
+if (firstName === "John") {
+    document.getElementById("demo").innerHTML = "Hello John!";
+} else {
+    document.getElementById("demo").innerHTML = "You're not John!";
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 297,
+    questionInstructions: `Write an if/else statement with the following condition:
+
+If the variable age is greater than 18, output "Old enough", otherwise output "Too young".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var age = 25;
+
+// Add the if/else statement here
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var age = 25;
+
+if (age > 18) {
+    document.getElementById("demo").innerHTML = "Old enough";
+} else {
+    document.getElementById("demo").innerHTML = "Too young";
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 298,
+    questionInstructions: `The if/else statement does not work. Try to fix it.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var greeting;
+var hour = new Date().getHours();
+
+if (hour < 18) {
+    greeting = "Good day";
+else
+    greeting = "Good evening";
+}
+
+document.getElementById("demo").innerHTML = greeting;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var greeting;
+var hour = new Date().getHours();
+
+if (hour < 18) {
+    greeting = "Good day";
+} else {
+    greeting = "Good evening";
+}
+
+document.getElementById("demo").innerHTML = greeting;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 299,
+    questionInstructions: `The switch statement is missing a case for "Apple". Add it, and set text to "How you like them apples?"`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="Apple">
+<button onclick="checkFruit()">Check Fruit</button>
+<p id="demo"></p>
+
+<script>
+function checkFruit() {
+  var text;
+  var fruits = document.getElementById("myInput").value;
+
+  switch(fruits) {
+    case "Banana":
+      text = "Banana is good!";
+      break;
+    case "Orange":
+      text = "I am not a fan of orange.";
+      break;
+
+    // add case here
+
+    default:
+      text = "I have never heard of that fruit.";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="Apple">
+<button onclick="checkFruit()">Check Fruit</button>
+<p id="demo"></p>
+
+<script>
+function checkFruit() {
+  var text;
+  var fruits = document.getElementById("myInput").value;
+
+  switch(fruits) {
+    case "Banana":
+      text = "Banana is good!";
+      break;
+    case "Orange":
+      text = "I am not a fan of orange.";
+      break;
+    case "Apple":
+      text = "How you like them apples?";
+      break;
+    default:
+      text = "I have never heard of that fruit.";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 300,
+    questionInstructions: `The switch statement is missing a default case.
+
+Add it at the bottom of the switch statement, and set text to "I have never heard of that fruit."`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="Tutti Frutti">
+<button onclick="checkFruit()">Check Fruit</button>
+<p id="demo"></p>
+
+<script>
+function checkFruit() {
+  var text;
+  var fruits = document.getElementById("myInput").value;
+
+  switch(fruits) {
+    case "Banana":
+      text = "Banana is good!";
+      break;
+    case "Orange":
+      text = "I am not a fan of orange.";
+      break;
+    case "Apple":
+      text = "How you like them apples?";
+      break;
+    // add the default keyword here
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="Tutti Frutti">
+<button onclick="checkFruit()">Check Fruit</button>
+<p id="demo"></p>
+
+<script>
+function checkFruit() {
+  var text;
+  var fruits = document.getElementById("myInput").value;
+
+  switch(fruits) {
+    case "Banana":
+      text = "Banana is good!";
+      break;
+    case "Orange":
+      text = "I am not a fan of orange.";
+      break;
+    case "Apple":
+      text = "How you like them apples?";
+      break;
+    default:
+      text = "I have never heard of that fruit.";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 301,
+    questionInstructions: `The switch statement does not work. Try to fix it.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="Orange">
+<button onclick="checkFruit()">Check Fruit</button>
+<p id="demo"></p>
+
+<script>
+function checkFruit() {
+  var text;
+  var fruits = document.getElementById("myInput").value;
+
+  switch(fruits) {
+    case "Banana"
+      text = "Banana is good!";
+    case "Orange"
+      text = "I am not a fan of orange.";
+    case "Apple"
+      text = "How you like them apples?";
+    default
+      text = "I have never heard of that fruit.";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="Orange">
+<button onclick="checkFruit()">Check Fruit</button>
+<p id="demo"></p>
+
+<script>
+function checkFruit() {
+  var text;
+  var fruits = document.getElementById("myInput").value;
+
+  switch(fruits) {
+    case "Banana":
+      text = "Banana is good!";
+      break;
+    case "Orange":
+      text = "I am not a fan of orange.";
+      break;
+    case "Apple":
+      text = "How you like them apples?";
+      break;
+    default:
+      text = "I have never heard of that fruit.";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 302,
+    questionInstructions: `Finish the switch statement. Add the following cases: BMW, Ford and Peugeot. 
+Set the value of the variable text to: "German car" for BMW. "American car" for Ford. "French car" for Peugeot. 
+Also add a default case where the text value is "Unknown car name".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="BMW">
+<button onclick="checkCar()">Check Car</button>
+<p id="demo"></p>
+
+<script>
+function checkCar() {
+  var text;
+  var favCar = document.getElementById("myInput").value;
+
+  switch(favCar) {
+    // add code here
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="BMW">
+<button onclick="checkCar()">Check Car</button>
+<p id="demo"></p>
+
+<script>
+function checkCar() {
+  var text;
+  var favCar = document.getElementById("myInput").value;
+
+  switch(favCar) {
+    case "BMW":
+      text = "German car";
+      break;
+    case "Ford":
+      text = "American car";
+      break;
+    case "Peugeot":
+      text = "French car";
+      break;
+    default:
+      text = "Unknown car name";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 303,
+    questionInstructions: `In the for loop, change num1 to 0 and num2 to 10 and run the code.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i;
+for (i = num1; i < num2; i++) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i;
+for (i = 0; i < 10; i++) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 304,
+    questionInstructions: `Make the loop start counting from 5 instead of 0:`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i;
+for (i = 0; i < 10; i++) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i;
+for (i = 5; i < 10; i++) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 305,
+    questionInstructions: `Make the loop start counting from 5. Count up to (including) 50, and count only every fifth number.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i;
+for (i = 0; i < 10; i++) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i;
+for (i = 5; i <= 50; i = i + 5) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 306,
+    questionInstructions: `Make the loop start counting downwards from 10 and stop at 1.
+
+The output should be 10 9 8 7 6 5 4 3 2 1 with line breaks.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i;
+for (i = 0; i < 10; i++) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i;
+for (i = 10; i > 0; i--) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 307,
+    questionInstructions: `Inside the for loop: 
+Set the counter variable (i) to 0. 
+Run the loop as long as i is less than the length of the food array. 
+Increment i by 1.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text = "";
+var food = ["Pizza", "Beans", "Tacos", "Fish", "Chicken"];
+var i;
+
+for () {
+    text += "I love " + food[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text = "";
+var food = ["Pizza", "Beans", "Tacos", "Fish", "Chicken"];
+var i;
+
+for (i = 0; i < food.length; i++) {
+    text += "I love " + food[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 308,
+    questionInstructions: `In this exercise, you are going to create a for loop from scratch. 
+We have already created the counter variable i for you, and a text variable for output. 
+Your task is to create a FOR LOOP that output the numbers 1 3 5 7 9 with line breaks between each number. 
+WARNING: Remember to increase the variable used in the condition to avoid infinite loops (will crash your browser).`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text = "";
+var i;
+
+// add for loop here
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text = "";
+var i;
+
+for (i = 1; i < 10; i = i + 2) {
+    text += i + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 309,
+    questionInstructions: `Inside the <script> element; change num1 to 0 and num2 to 10 and run the code.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i = num1;
+while (i < num2) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i++;
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+while (i < 10) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i++;
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 310,
+    questionInstructions: `Make the loop start counting from 5 instead of 0:`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+while (i < 10) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i++;
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i = 5;
+while (i < 10) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i++;
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 311,
+    questionInstructions: `Make the loop start counting from 5. Count up to (including) 50 and count only every fifth number.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+while (i < 10) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i++;
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i = 5;
+while (i <= 50) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i = i + 5;
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 312,
+    questionInstructions: `Make the loop start counting downwards from 10 and stop at 1.
+
+The output should be 10 9 8 7 6 5 4 3 2 1 with line breaks.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+while (i < 10) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i++;
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i = 10;
+while (i > 0) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i--;
+}
+</script>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 313,
+    questionInstructions: `The do/while loop should output 0 1 2 3 4. Try to fix it!`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+do {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i++;
+}
+while ()  
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+do {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i++;
+}
+while (i < 5)  
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 314,
+    questionInstructions: `Use the break statement to stop the loop at 5.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text = "";
+var i;
+for (i = 1; i < 10; i++) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text = "";
+var i;
+for (i = 1; i < 10; i++) {
+    if (i === 5) break;
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 315,
+    questionInstructions: `Use the continue statement to skip the number 5 in the loop.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text = "";
+var i;
+for (i = 1; i < 10; i++) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text = "";
+var i;
+for (i = 1; i < 10; i++) {
+    if (i === 5) continue;
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 316,
+    questionInstructions: `Use the continue statement to skip the numbers 5 AND 7 in the loop.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text = "";
+var i;
+for (i = 1; i < 10; i++) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text = "";
+var i;
+for (i = 1; i < 10; i++) {
+    if (i === 5 || i === 7) continue;
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 317,
+    questionInstructions: `The switch statement does not work. Try to fix it.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="BMW">
+<button onclick="checkCar()">Check Car</button>
+<p id="demo"></p>
+
+<script>
+function checkCar() {
+  var text;
+  var favCar = document.getElementById("myInput").value;
+
+  switch(favCar) {
+    case "BMW":
+      text = "German car";
+    case "Ford":
+      text = "American car";
+    case "Peugeot":
+      text = "French car";
+    default:
+      text = "Unknown car name";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="BMW">
+<button onclick="checkCar()">Check Car</button>
+<p id="demo"></p>
+
+<script>
+function checkCar() {
+  var text;
+  var favCar = document.getElementById("myInput").value;
+
+  switch(favCar) {
+    case "BMW":
+      text = "German car";
+      break;      
+    case "Ford":
+      text = "American car";
+      break;      
+    case "Peugeot":
+      text = "French car";
+      break;
+    default:
+      text = "Unknown car name";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 318,
+    questionInstructions: `Use the continue statement to not output the array's element "Saab".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var cars = ["BMW", "Volvo", "Saab", "Ford"];
+var text = ""
+var i;
+for (i = 0; i < cars.length; i++) {
+    text += cars[i] + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var cars = ["BMW", "Volvo", "Saab", "Ford"];
+var text = ""
+var i;
+for (i = 0; i < cars.length; i++) {
+    if (cars[i] === "Saab") continue;
+    text += cars[i] + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 319,
+    questionInstructions: `Use the getElementById method to find the <p> element, and change its text to "Good Job!".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Use the DOM to change my text!</p> 
+
+<script>
+// Add code here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Use the DOM to change my text!</p> 
+
+<script>
+document.getElementById("demo").innerHTML = "Good Job!";
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 320,
+    questionInstructions: `Use the getElementsByTagName method to find the <p> element, and change its text to "Good Job!".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p>Use the DOM to change my text!</p> 
+
+<script>
+// Add code here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p>Use the DOM to change my text!</p> 
+
+<script>
+document.getElementsByTagName("p")[0].innerHTML = "Good Job!";
+</script>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 321,
+    questionInstructions: `Use the getElementsByClassName method to find the <p> element, and change its text to "Good Job!".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p class="test">Use the DOM to change my text!</p> 
+
+<script>
+// Add code here
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p class="test">Use the DOM to change my text!</p> 
+
+<script>
+document.getElementsByClassName("test")[0].innerHTML = "Good Job!";
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 322,
+    questionInstructions: `Use the querySelectorAll method to find the <p> element, and change its text to "Good Job!".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p>Use the DOM to change my text!</p> 
+
+<script>
+// Add code here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p>Use the DOM to change my text!</p> 
+
+<script>
+document.querySelectorAll("p")[0].innerHTML = "Good Job!";
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 323,
+    questionInstructions: `Use the DOM to find and display the document's title.`,
+    question: `<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3Schools Demo</title>
+  </head>
+<body>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML =
+"The title of this document is: ";
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+  <head>
+  <title>W3Schools Demo</title>
+  </head>
+<body>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML =
+"The title of this document is: " + document.title;
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 324,
+    questionInstructions: `Use the innerHTML property to change the content of the <p> element to "New text!".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+// Add code here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p> 
+
+<script>
+document.getElementById("demo").innerHTML = "New text!";
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 325,
+    questionInstructions: `Use the innerHTML property to change the content of the <h1> element to "New Header".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="myHeader">Give Me a New Header</h1> 
+
+<script>
+// Add code here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="myHeader">Give Me a New Header</h1> 
+
+<script>
+document.getElementById("myHeader").innerHTML = "New Header";
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 326,
+    questionInstructions: `Use HTML DOM to change the value of the image's src attribute to "pic_mountain.jpg".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<img id="image" src="smiley.gif" width="304" height="228">
+
+<script>
+// Add code here
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<img id="image" src="smiley.gif" width="304" height="228">
+
+<script>
+document.getElementById("image").src = "pic_mountain.jpg";
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 327,
+    questionInstructions: `Use HTML DOM to change the value of the input's value attribute to "Goodbye".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="myText" value="Hello">
+
+<script>
+// Add code here
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="myText" value="Hello">
+
+<script>
+document.getElementById("myText").value = "Goodbye";
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 328,
+    questionInstructions: `Use the document.write() method to output "Hello World!".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+// Add code here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+document.write("Hello World!");
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 329,
+    questionInstructions: `Use the HTML DOM to set the text color of <p> to "red".`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Hello World!</p> 
+
+<script>
+// Add code here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Hello World!</p> 
+
+<script>
+document.getElementById("demo").style.color = "red";
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 330,
+    questionInstructions: `Use the HTML DOM to add a yellow background color to <p>.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Hello World!</p> 
+
+<script>
+// Add code here
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Hello World!</p> 
+
+<script>
+document.getElementById("demo").style.backgroundColor = "yellow";
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 331,
+    questionInstructions: `Use the HTML DOM to center-align the text of <p>.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Hello World!</p> 
+
+<script>
+// Add code here
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Hello World!</p> 
+
+<script>
+document.getElementById("demo").style.textAlign = "center";
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 332,
+    questionInstructions: `Use the HTML DOM to change the text size of <p> to 40 pixels.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Hello World!</p> 
+
+<script>
+// Add code here
+</script>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Hello World!</p> 
+
+<script>
+document.getElementById("demo").style.fontSize = "40px";
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 333,
+    questionInstructions: `Use the HTML DOM to hide the <p> element.`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Hello World!</p> 
+
+<script>
+// Add code here
+</script>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Hello World!</p> 
+
+<script>
+document.getElementById("demo").style.visibility = "hidden";
+</script>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 334,
+    questionInstructions: `Add an onclick event attribute to <button>. Clicking the button should trigger myFunction().`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<button>Click Me</button>
+
+<p id="demo"></p> 
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+
+</body>
+</html> 
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">Click Me</button>
+
+<p id="demo"></p> 
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+
+</body>
+</html> 
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 335,
+    questionInstructions: `Use the DOM to assign an onclick event to the <button> element. Clicking the button should trigger displayDate().`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<button id="myBtn">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+// Add code here
+
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+</body>
+</html> 
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<button id="myBtn">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("myBtn").onclick = function(){displayDate()};
+
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+</body>
+</html> `,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 336,
+    questionInstructions: `The <span> element should do something when someone moves the mouse over it. Try to fix it!`,
+    question: `<!DOCTYPE html>
+<html>
+<body>
+
+<span someevent="this.style.color='red'">Mouse over me!</span>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<body>
+
+<span onmouseover="this.style.color='red'">Mouse over me!</span>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 337,
+    questionInstructions: `Use the correct selector to hide all <p> elements.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").hide();
+});
+</script>
+</head>
+<body>
+
+<h2>This is a heading</h2>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").hide();
+});
+</script>
+</head>
+<body>
+
+<h2>This is a heading</h2>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 338,
+    questionInstructions: `Use the correct selector to hide the element with id="test".`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").hide();
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p id="test">This is a paragraph with id="test".</p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#test").hide();
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p id="test">This is a paragraph with id="test".</p>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 339,
+    questionInstructions: `Use the correct selector to hide all elements with class="test".`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").hide();
+});
+</script>
+</head>
+<body>
+
+<h2 class="test">This is a heading</h2>
+
+<p class="test">This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".test").hide();
+});
+</script>
+</head>
+<body>
+
+<h2 class="test">This is a heading</h2>
+
+<p class="test">This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 340,
+    questionInstructions: `Use the correct selector to hide all elements in the document.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").hide();
+});
+</script>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<h2>This is another heading</h2>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<div>This is a div element.</div>
+<button>This is a button</button>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("*").hide();
+});
+</script>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<h2>This is another heading</h2>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<div>This is a div element.</div>
+<button>This is a button</button>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 341,
+    questionInstructions: `Use the correct selector to hide all elements with an href attribute.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").hide();
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<a href="https://www.w3schools.com/html/">HTML Tutorial</a>
+<a href="https://www.w3schools.com/css/">CSS Tutorial</a>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("[href]").hide();
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<a href="https://www.w3schools.com/html/">HTML Tutorial</a>
+<a href="https://www.w3schools.com/css/">CSS Tutorial</a>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 342,
+    questionInstructions: `Use the correct selector to hide all odd table rows.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").hide();
+});
+</script>
+</head>
+<body>
+
+<table border="1">
+  <tr>
+    <th>Company</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Berglunds snabbköp</td>
+    <td>Sweden</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>UK</td>
+  </tr>
+</table>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("tr:odd").hide();
+});
+</script>
+</head>
+<body>
+
+<table border="1">
+  <tr>
+    <th>Company</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Berglunds snabbköp</td>
+    <td>Sweden</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>UK</td>
+  </tr>
+</table>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 343,
+    questionInstructions: `If you click on a <p> element, it should be hidden. Use the correct event to do so.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").event(function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 344,
+    questionInstructions: `If you double-click on a <p> element, it should be hidden. Use the correct event to do so.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").event(function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>If you double-click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").dblclick(function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>If you double-click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 345,
+    questionInstructions: `When the mouse pointer enters the <span> element, it should be hidden. Use the correct event to do so.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").event(function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+
+<span>If you mouse over me, I will disappear.</span><br>
+<span>If you mouse over me, I will disappear.</span>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("span").mouseenter(function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+
+<span>If you mouse over me, I will disappear.</span><br>
+<span>If you mouse over me, I will disappear.</span>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 346,
+    questionInstructions: `If you press a keyboard key inside the <input> element, it should be hidden. Use the correct event to do so.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").event(function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+
+<input type="text" value="Press any key inside me to hide me" size="40">
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("input").keypress(function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+
+<input type="text" value="Press any key inside me to hide me" size="40">
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 347,
+    questionInstructions: `Use the on() method to attach a click event handler to all <p> elements.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("selector").method("event", function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").on("click", function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 348,
+    questionInstructions: `Use a jQuery method to hide the <p> element when it is clicked on.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).method();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>If you click on me, I will disappear.</p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>If you click on me, I will disappear.</p>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 349,
+    questionInstructions: `Use a jQuery method to hide the <p> element when it is clicked on.
+The speed should be "slow".`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).method();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>If you click on me, I will disappear.</p>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide("slow");
+    });
+});
+</script>
+</head>
+<body>
+
+<p>If you click on me, I will disappear.</p>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 350,
+    questionInstructions: `There is a hidden <p> element in the document. 
+Use a jQuery method to show the <p> element with a click of a button.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").hide();
+
+    $("button").click(function(){
+        $("p").method();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+<button>Show</button>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").hide();
+
+    $("button").click(function(){
+        $("p").show();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+<button>Show</button>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 351,
+    questionInstructions: `Toggle between hiding and showing the <p> element when you click on the "Toggle" button.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").method();
+    });
+});
+</script>
+</head>
+<body>
+
+<button>Toggle</button>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").toggle();
+    });
+});
+</script>
+</head>
+<body>
+
+<button>Toggle</button>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 352,
+    questionInstructions: `Use a jQuery method to fade out the <div> element.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div style="width:80px;height:80px;background-color:red;"></div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").fadeOut();
+});
+</script>
+</head>
+<body>
+
+<div style="width:80px;height:80px;background-color:red;"></div>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 353,
+    questionInstructions: `Use a jQuery method to fade out the <div> element. 
+Note: The duration of the effect should be "slow".`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div style="width:80px;height:80px;background-color:red;"></div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").fadeOut("slow");
+});
+</script>
+</head>
+<body>
+
+<div style="width:80px;height:80px;background-color:red;"></div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 354,
+    questionInstructions: `Use a jQuery method to fade in the hidden <div> element. 
+Note: The duration of the effect should be 2000 milliseconds.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div style="width:80px;height:80px;display:none;background-color:red;"></div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").fadeIn(2000);
+});
+</script>
+</head>
+<body>
+
+<div style="width:80px;height:80px;display:none;background-color:red;"></div>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 355,
+    questionInstructions: `Use a jQuery method to fade the <div> element to an opacity of "0.2". 
+Note: The duration of the effect should be "slow".`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div style="width:80px;height:80px;background-color:red;"></div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").fadeTo("slow", 0.2);
+});
+</script>
+</head>
+<body>
+
+<div style="width:80px;height:80px;background-color:red;"></div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 356,
+    questionInstructions: `Use a jQuery method to toggle between fading in and out the <div> element, when clicking the button. 
+Note: The duration of the effect should be 1000 milliseconds.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        // add code here
+    });
+});
+</script>
+</head>
+<body>
+
+<button>Click to fade in/out div</button><br><br>
+
+<div style="width:80px;height:80px;background-color:red;"></div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("div").fadeToggle(1000);
+    });
+});
+</script>
+</head>
+<body>
+
+<button>Click to fade in/out div</button><br><br>
+
+<div style="width:80px;height:80px;background-color:red;"></div>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 357,
+    questionInstructions: `Use a jQuery method to slide up the <div> element.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div style="width:80px;height:80px;background-color:red;"></div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").slideUp();
+});
+</script>
+</head>
+<body>
+
+<div style="width:80px;height:80px;background-color:red;"></div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 358,
+    questionInstructions: `Use a jQuery method to slide up the <div> element. 
+The duration of the effect should be "slow".`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div style="width:80px;height:80px;background-color:red;"></div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").slideUp("slow");
+});
+</script>
+</head>
+<body>
+
+<div style="width:80px;height:80px;background-color:red;"></div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 359,
+    questionInstructions: `Use a jQuery method to slide down the <div> element. 
+The duration of the effect should be 3000 milliseconds.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div style="width:80px;height:80px;display:none;background-color:red;"></div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").slideDown(3000);
+});
+</script>
+</head>
+<body>
+
+<div style="width:80px;height:80px;display:none;background-color:red;"></div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 360,
+    questionInstructions: `Use a jQuery method to toggle between sliding up and down the <div> element, when clicking the button. 
+The duration of the effect should be 1000 milliseconds.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        // add code here
+    });
+});
+</script>
+</head>
+<body>
+
+<button>Click to slide up/down div</button><br><br>
+
+<div style="width:80px;height:80px;background-color:red;"></div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("div").slideToggle(1000);
+    });
+});
+</script>
+</head>
+<body>
+
+<button>Click to slide up/down div</button><br><br>
+
+<div style="width:80px;height:80px;background-color:red;"></div>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 361,
+    questionInstructions: `Use the animate() method to move the <div> element 250 pixels to the right.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").animate({left: '250px'});
+});
+</script>
+</head>
+<body>
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 362,
+    questionInstructions: `Use the animate() method to set the height of <div> to 500 pixels.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").animate({height: '500px'});
+});
+</script>
+</head>
+<body>
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 363,
+    questionInstructions: `Use the animate() method to set the following CSS properties for <div>: 
+opacity: 0.4, height: 500px, width: 500px.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").animate({
+        opacity: '0.4',
+        height: '500px',
+        width: '500px'
+    });
+});
+</script>
+</head>
+<body>
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 364,
+    questionInstructions: `Use the animate() method to set the font-size of <div> to 100 pixels. 
+The duration of the effect should be "slow".`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div style="background:#98bf21;height:200px;width:600px;">Hello World</div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").animate({fontSize: '100px'}, "slow");
+});
+</script>
+</head>
+<body>
+
+<div style="background:#98bf21;height:200px;width:600px;">Hello World</div>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 365,
+    questionInstructions: `Alert the text content of <p>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<p>This is some text.</p>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    alert($("p").text());
+});
+</script>
+</head>
+<body>
+
+<p>This is some text.</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 366,
+    questionInstructions: `Alert the HTML content of <p>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<p>This is some <b>bold</b> and <i>italic</i> text.</p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    alert($("p").html());
+});
+</script>
+</head>
+<body>
+
+<p>This is some <b>bold</b> and <i>italic</i> text.</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 367,
+    questionInstructions: `Alert the value of the input field.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+Name: <input type="text" value="Mickey Mouse">
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    alert($("input").val());
+});
+</script>
+</head>
+<body>
+
+Name: <input type="text" value="Mickey Mouse">
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 368,
+    questionInstructions: `Alert the URL address of the link.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<a href="https://www.w3schools.com">W3Schools</a>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    alert($("a").attr("href"));
+});
+</script>
+</head>
+<body>
+
+<a href="https://www.w3schools.com">W3Schools</a>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 369,
+    questionInstructions: `Use a jQuery method to change the text of the <p> element to "Hello World!".`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<p>This is some text.</p>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").text("Hello World!");
+});
+</script>
+</head>
+<body>
+
+<p>This is some text.</p>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 370,
+    questionInstructions: `Use a jQuery method to change the text of the <p> element to "Hello World!" in bold.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<p>This is some text.</p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").html("<b>Hello World!</b>");
+});
+</script>
+</head>
+<body>
+
+<p>This is some text.</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 371,
+    questionInstructions: `Use a jQuery method to change the value of the input field to "Dolly Duck".`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+Name: <input type="text" value="Mickey Mouse">
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("input").val("Dolly Duck");
+});
+</script>
+</head>
+<body>
+
+Name: <input type="text" value="Mickey Mouse">
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 372,
+    questionInstructions: `Use a jQuery method to change the value of the image's src attribute to "img_pulpitrock.jpg".`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<img id="image" src="img_moustiers-sainte-marie.jpg" width="284" height="213">
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("img").attr("src", "img_pulpitrock.jpg");
+});
+</script>
+</head>
+<body>
+
+<img id="image" src="img_moustiers-sainte-marie.jpg" width="284" height="213">
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 373,
+    questionInstructions: `Use jQuery to change the text of the link to "W3Schools Home",
+and change the value of href's attribute value to "www.w3schools.com".`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<a href="https://www.w3schools.com/jquery">Learn jquery here</a>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("a").text("W3Schools Home");
+    $("a").attr("href", "https://www.w3schools.com");
+});
+</script>
+</head>
+<body>
+
+<a href="https://www.w3schools.com/jquery">Learn jquery here</a>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 374,
+    questionInstructions: `Use a jQuery method to insert the text "YES!" at the end of the <p> element.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<p>Is jQuery FUN or what? </p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").append("YES!");
+});
+</script>
+</head>
+<body>
+
+<p>Is jQuery FUN or what? </p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 375,
+    questionInstructions: `Use a jQuery method to insert a third <li> element: "List item 3", at the end of the <ol> element.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<ol>
+  <li>List item 1</li>
+  <li>List item 2</li>
+</ol>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("ol").append("<li>List item 3</li>");
+});
+</script>
+</head>
+<body>
+
+<ol>
+  <li>List item 1</li>
+  <li>List item 2</li>
+</ol>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 376,
+    questionInstructions: `Use a jQuery method to insert the text "Hello" at the beginning of the <p> element.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<p> World!</p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").prepend("Hello");
+});
+</script>
+</head>
+<body>
+
+<p> World!</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 377,
+    questionInstructions: `Use a jQuery method to add the text "How are you?" after the <p> element.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<p>Hello?</p>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").after("How are you?");
+});
+</script>
+</head>
+<body>
+
+<p>Hello?</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 378,
+    questionInstructions: `Use a jQuery method to remove the <div> element.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div style="height:100px;width:300px;border:1px solid black;background-color:yellow;">
+  This is some text in the div.
+  <p>This is a paragraph in the div.</p>
+  <p>This is another paragraph in the div.</p>
+</div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").remove();
+});
+</script>
+</head>
+<body>
+
+<div style="height:100px;width:300px;border:1px solid black;background-color:yellow;">
+  This is some text in the div.
+  <p>This is a paragraph in the div.</p>
+  <p>This is another paragraph in the div.</p>
+</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 379,
+    questionInstructions: `Use a jQuery method to only remove the child elements of <div>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div style="height:100px;width:300px;border:1px solid black;background-color:yellow;">
+  This is some text in the div.
+  <p>This is a paragraph in the div.</p>
+  <p>This is another paragraph in the div.</p>
+</div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").empty();
+});
+</script>
+</head>
+<body>
+
+<div style="height:100px;width:300px;border:1px solid black;background-color:yellow;">
+  This is some text in the div.
+  <p>This is a paragraph in the div.</p>
+  <p>This is another paragraph in the div.</p>
+</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 380,
+    questionInstructions: `Use a jQuery method to remove all <p> elements with class="test".`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+<style>
+.test {
+    color: red;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p class="test">This is another paragraph.</p>
+<p class="test">This is another paragraph.</p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").remove(".test");
+});
+</script>
+<style>
+.test {
+    color: red;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p class="test">This is another paragraph.</p>
+<p class="test">This is another paragraph.</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 381,
+    questionInstructions: `Use a jQuery method to remove all <p> elements with class="test" and class="demo".`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+<style>
+.test {
+    color: red;
+    font-size: 20px;
+}
+
+.demo {
+    color: green;
+    font-size: 25px;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p class="test">This is p element with class="test".</p>
+<p class="test">This is p element with class="test".</p>
+<p class="demo">This is p element with class="demo".</p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").remove(".test, .demo");
+});
+</script>
+<style>
+.test {
+    color: red;
+    font-size: 20px;
+}
+
+.demo {
+    color: green;
+    font-size: 25px;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p class="test">This is p element with class="test".</p>
+<p class="test">This is p element with class="test".</p>
+<p class="demo">This is p element with class="demo".</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 382,
+    questionInstructions: `Use a jQuery method to add the "important" class to the <p> element.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+<style>
+.important {
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").addClass("important");
+});
+</script>
+<style>
+.important {
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 383,
+    questionInstructions: `Use a jQuery method to add both the "important" and "test" class to the <p> element.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+<style>
+.important {
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: yellow;
+}
+
+.test {
+    color: red;
+    border: 5px dotted blue;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").addClass("important test");
+});
+</script>
+<style>
+.important {
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: yellow;
+}
+
+.test {
+    color: red;
+    border: 5px dotted blue;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 384,
+    questionInstructions: `Use a jQuery method to remove the "important" class from the <p> element.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+<style>
+.important {
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<p class="important">This is a paragraph.</p>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").removeClass("important");
+});
+</script>
+<style>
+.important {
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<p class="important">This is a paragraph.</p>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 385,
+    questionInstructions: `Use a jQuery method to toggle between adding and 
+removing the "important" class from the <p> element, when you click on it.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        // add code here
+    });
+});
+</script>
+<style>
+.important {
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph - Click me to toggle class!</p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).toggleClass("important");
+    });
+});
+</script>
+<style>
+.important {
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph - Click me!</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 386,
+    questionInstructions: `Use the css() method to add a pink background color to <p>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").css("background-color", "pink");
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 387,
+    questionInstructions: `Use the css() method to add a 5 pixels, red dotted border to <p>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").css("border", "5px dotted red");
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 388,
+    questionInstructions: `Alert the background color of <p>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<p style="background-color:yellow;">This is a paragraph.</p>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    alert($("p").css("background-color"));
+});
+</script>
+</head>
+<body>
+
+<p style="background-color:yellow;">This is a paragraph.</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 389,
+    questionInstructions: `Use the css() method to set the following styles for <p>: 
+Green background color, white text color, 25 pixels font size and a padding of 15 pixels.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").css({
+        "background-color": "green",
+        "color": "white",
+        "font-size": "25px",
+        "padding": "15px"
+    });
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 390,
+    questionInstructions: `Use jQuery to set the height and width of <div> to 500 pixels.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+<style>
+div {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<div>I am a div.</div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").height(500).width(500);
+});
+</script>
+<style>
+div {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<div>I am a div.</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 391,
+    questionInstructions: `Alert the height of <div>, excluding padding, border and margin.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+<style>
+div {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<div>I am a div.</div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    alert($("div").height());
+});
+</script>
+<style>
+div {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<div>I am a div.</div>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 392,
+    questionInstructions: `Alert the height of <div>, including padding (not border and margin).`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+<style>
+div {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<div>I am a div.</div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    alert($("div").innerHeight());
+});
+</script>
+<style>
+div {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<div>I am a div.</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 393,
+    questionInstructions: `Alert the height of <div>, including padding and border.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+<style>
+div {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<div>I am a div.</div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    alert($("div").outerHeight());
+});
+</script>
+<style>
+div {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<div>I am a div.</div>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 394,
+    questionInstructions: `Alert the height of <div>, including padding, border and margin.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+<style>
+div {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<div>I am a div.</div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    alert($("div").outerHeight(true));
+});
+</script>
+<style>
+div {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<div>I am a div.</div>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 395,
+    questionInstructions: `Add a red color to the direct parent of <span>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("span").method.css({"color": "red"});
+});
+</script>
+</head>
+<body>
+
+<div class="ancestors">
+  <div style="width:500px;">div (great-grandparent)
+    <ul>ul (grandparent)  
+      <li>li (direct parent)
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("span").parent().css({"color": "red"});
+});
+</script>
+</head>
+<body>
+
+<div class="ancestors">
+  <div style="width:500px;">div (great-grandparent)
+    <ul>ul (grandparent)  
+      <li>li (direct parent)
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 396,
+    questionInstructions: `Add a red color to the grandparent of <span>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div class="ancestors">
+  <div style="width:500px;">div (great-grandparent)
+    <ul>ul (grandparent)  
+      <li>li (direct parent)
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("span").parents("ul").css({"color": "red"});
+});
+</script>
+</head>
+<body>
+
+<div class="ancestors">
+  <div style="width:500px;">div (great-grandparent)
+    <ul>ul (grandparent)  
+      <li>li (direct parent)
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 397,
+    questionInstructions: `Add a red color to all ancestors of <span>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div class="ancestors">
+  <div style="width:500px;">div (great-grandparent)
+    <ul>ul (grandparent)  
+      <li>li (direct parent)
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("span").parents().css({"color": "red"});
+});
+</script>
+</head>
+<body>
+
+<div class="ancestors">
+  <div style="width:500px;">div (great-grandparent)
+    <ul>ul (grandparent)  
+      <li>li (direct parent)
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</div>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 398,
+    questionInstructions: `Add a red color to the direct parent AND grandparent of <span>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div class="ancestors">
+  <div style="width:500px;">div (great-grandparent)
+    <ul>ul (grandparent)  
+      <li>li (direct parent)
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("span").parentsUntil("div").css({"color": "red"});
+});
+</script>
+</head>
+<body>
+
+<div class="ancestors">
+  <div style="width:500px;">div (great-grandparent)
+    <ul>ul (grandparent)  
+      <li>li (direct parent)
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 399,
+    questionInstructions: `Add a red color to the direct child of <ul>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div class="ancestors">
+  <div style="width:500px;">div
+    <ul>ul 
+      <li>li
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("ul").children().css({"color": "red"});
+});
+</script>
+</head>
+<body>
+
+<div class="ancestors">
+  <div style="width:500px;">div
+    <ul>ul 
+      <li>li
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 400,
+    questionInstructions: `Add a red color to the <span> element that is the descendant of <ul>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div class="ancestors">
+  <div style="width:500px;">div
+    <ul>ul 
+      <li>li
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("ul").find("span").css({"color": "red"});
+});
+</script>
+</head>
+<body>
+
+<div class="ancestors">
+  <div style="width:500px;">div
+    <ul>ul 
+      <li>li
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 401,
+    questionInstructions: `Add a red color to all descendants of <ul>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div class="ancestors">
+  <div style="width:500px;">div
+    <ul>ul 
+      <li>li
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("ul").find("*").css({"color": "red"});
+});
+</script>
+</head>
+<body>
+
+<div class="ancestors">
+  <div style="width:500px;">div
+    <ul>ul 
+      <li>li
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</div>
+
+</body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 402,
+    questionInstructions: `Use the children() method to add a red color to the element with class="demo" inside <div>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.descendants * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body>
+
+<div class="descendants" style="width:500px;">div (parent) 
+  <p class="demo">paragraph 1</p>
+  <p>paragraph 2</p>
+</div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.descendants * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("div").children(".demo").css({"color": "red"});
+});
+</script>
+</head>
+<body>
+
+<div class="descendants" style="width:500px;">div (parent) 
+  <p class="demo">paragraph 1</p>
+  <p>paragraph 2</p>
+</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 403,
+    questionInstructions: `Add a red color to all sibling elements of <h2>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.siblings * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body class="siblings">
+
+<div>div (parent)
+  <p>p</p>
+  <span>span</span>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <p>p</p>
+</div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.siblings * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("h2").siblings().css({"color": "red"});
+});
+</script>
+</head>
+<body class="siblings">
+
+<div>div (parent)
+  <p>p</p>
+  <span>span</span>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <p>p</p>
+</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 404,
+    questionInstructions: `Add a red color to all sibling elements of <h2> that are <p> elements.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.siblings * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body class="siblings">
+
+<div>div (parent)
+  <p>p</p>
+  <span>span</span>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <p>p</p>
+</div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.siblings * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("h2").siblings("p").css({"color": "red"});
+});
+</script>
+</head>
+<body class="siblings">
+
+<div>div (parent)
+  <p>p</p>
+  <span>span</span>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <p>p</p>
+</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 405,
+    questionInstructions: `Add a red color to the previous sibling of <h2>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.siblings * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body class="siblings">
+
+<div>div (parent)
+  <p>p</p>
+  <span>span</span>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <p>p</p>
+</div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.siblings * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("h2").prev().css({"color": "red"});
+});
+</script>
+</head>
+<body class="siblings">
+
+<div>div (parent)
+  <p>p</p>
+  <span>span</span>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <p>p</p>
+</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 406,
+    questionInstructions: `Add a red color to all next sibling elements of <h2>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.siblings * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body class="siblings">
+
+<div>div (parent)
+  <p>p</p>
+  <span>span</span>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <p>p</p>
+</div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.siblings * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("h2").nextAll().css({"color": "red"});
+});
+</script>
+</head>
+<body class="siblings">
+
+<div>div (parent)
+  <p>p</p>
+  <span>span</span>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <p>p</p>
+</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 407,
+    questionInstructions: `Add a red color to all previous sibling elements of <h2>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.siblings * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body class="siblings">
+
+<div>div (parent)
+  <p>p</p>
+  <span>span</span>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <p>p</p>
+</div>
+
+</body>
+</html>
+`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.siblings * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("h2").prevAll().css({"color": "red"});
+});
+</script>
+</head>
+<body class="siblings">
+
+<div>div (parent)
+  <p>p</p>
+  <span>span</span>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <p>p</p>
+</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 408,
+    questionInstructions: `Add a red color to all sibling elements between <h2> and <h6>.`,
+    question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.siblings * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    // add code here
+});
+</script>
+</head>
+<body class="siblings">
+
+<div>div (parent)
+  <p>p</p>
+  <span>span</span>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <h4>h4</h4>
+  <h5>h5</h5>
+  <h6>h6</h6>
+  <p>p</p>
+</div>
+
+</body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+<head>
+<style>
+.siblings * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("h2").nextUntil("h6").css({"color": "red"});
+});
+</script>
+</head>
+<body class="siblings">
+
+<div>div (parent)
+  <p>p</p>
+  <span>span</span>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <h4>h4</h4>
+  <h5>h5</h5>
+  <h6>h6</h6>
+  <p>p</p>
+</div>
+
+</body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 409,
     questionInstructions: ``,
     question: ``,
     answer: ``,
@@ -11023,7 +19843,442 @@ div {
     choice5: ``,
     explination: ``,
 }, {
-    questionNum: 237,
+    questionNum: 410,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 411,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 412,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 413,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 414,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 415,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 416,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 417,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 418,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 419,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 420,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 421,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 422,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 423,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 424,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 425,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 426,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 427,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 428,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 429,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 430,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 431,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 432,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 433,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 434,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 435,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 436,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 437,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 438,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 439,
     questionInstructions: ``,
     question: ``,
     answer: ``,
