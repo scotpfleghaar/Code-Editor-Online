@@ -132,37 +132,29 @@
 
 
 
-        // bad coding, I know, simply testing and trying to make a minimum viable product
+        //Multiple Choice set up and deploy
+
+        var currentMCanswer1 = question[index].answer1;
+        var currentMCanswer2 = question[index].answer2;
         var currentMCquestion1 = question[index].choice1;
         var currentMCquestion2 = question[index].choice2;
         var currentMCquestion3 = question[index].choice3;
         var currentMCquestion4 = question[index].choice4;
         var currentMCquestion5 = question[index].choice5;
-        var currentMCanswer1 = question[index].answer1;
-        var currentMCanswer2 = question[index].answer2;
 
-        if (currentMCquestion1.length > 0) {
-            $('.choices').append('<li class="choice list-group-item">' + currentMCquestion1 + '</li>');
+        function multipleChoiceSetUp(currentMc) {
+            if (currentMc.length > 0) {
+                $('.choices').append('<li class="choice list-group-item">' + currentMc + '</li>');
+            }
         }
 
-        if (currentMCquestion2.length > 0) {
-            $('.choices').append('<li class="choice list-group-item">' + currentMCquestion2 + '</li>');
-        }
-        if (currentMCquestion3.length > 0) {
-            $('.choices').append('<li class="choice list-group-item">' + currentMCquestion3 + '</li>');
-        }
-        if (currentMCquestion4.length > 0) {
-            $('.choices').append('<li class="choice list-group-item">' + currentMCquestion4 + '</li>');
-        }
-        if (currentMCquestion5.length > 0) {
-            $('.choices').append('<li class="choice list-group-item">' + currentMCquestion5 + '</li>');
-        }
-        if (currentMCanswer1.length > 0) {
-            $('.choices').append('<li class="choice list-group-item">' + currentMCanswer1 + '</li>');
-        }
-        if (currentMCanswer2.length > 0) {
-            $('.choices').append('<li class="choice list-group-item">' + currentMCanswer2 + '</li>');
-        }
+        multipleChoiceSetUp(currentMCquestion1);
+        multipleChoiceSetUp(currentMCquestion2);
+        multipleChoiceSetUp(currentMCquestion3);
+        multipleChoiceSetUp(currentMCquestion4);
+        multipleChoiceSetUp(currentMCquestion5);
+        multipleChoiceSetUp(currentMCanswer1);
+        multipleChoiceSetUp(currentMCanswer2);
 
         $(".choice").on("click", function () {
             $(this).toggleClass("selectedChoice");
@@ -242,15 +234,13 @@
         //Hide editors
         $("#editor2").hide();
 
-
-
-
         //Ensures that the question is formated correct to compare against
         var currentInstruction = $.trim(currentInstruction);
         //var currentQuestion = trimmer(currentQuestion); //Don't uncomment this it messes up the format of the code;
         var currentAnswer = trimmer(currentAnswer);
 
         // Sort Elements by timeCorrect (puts incorrect answers to the top)
+        console.log("Index before the sort: " + index);
         if (index === 7) {
             question.sort(function (a, b) {
                 if (a.timeCorrect > b.timeCorrect) {
@@ -276,7 +266,19 @@
         //Add the questions to the editor
         editor.insert(currentQuestion);
         $("#editor").show();
+
+
+        $("iframe").attr("srcdoc", " ");
         var code1 = editor.getValue();
+
+        editor.session.on('change', function () {
+            code1 = editor.getValue();
+            $("iframe").attr("srcdoc", code1);
+        });
+
+        //Inset code into iframe;
+        $("iframe").attr("srcdoc", code1);
+
         if (code1.length < 1) {
             $("#editor").hide();
         }
@@ -292,6 +294,10 @@
 
         //Tests the contents of the editor against the answer
         $('.test').off('click').on('click', function () { ////////NOTE: unbinding is a major issue I do not understand here.
+
+            //Inset code into iframe;
+            var code1 = editor.getValue();
+            $("iframe").attr("srcdoc", code1);
 
             //Reset Border
             $('.result').text('');
@@ -374,6 +380,10 @@
 
                     // When the submit button is clicked, evauluate the answer without decrementing timeCorrect
                     $('.submit').on('click', function () {
+                        //Inset code into iframe;
+                        var code1 = editor.getValue();
+                        $("iframe").attr("srcdoc", code1);
+
                         //MC Evaliation
                         var mCattempt = trimmer($(".selectedChoice").text());
                         console.log("mCattempt: " + mCattempt);
@@ -415,6 +425,7 @@
             $('.test').show();
             $('#editor').css('border', '');
 
+            console.log("Index before returning to zero" + index);
             //Every 7 questions move the index to zero (to review missed answers)
             if (index <= 7) {
                 loadQuestion(index);
