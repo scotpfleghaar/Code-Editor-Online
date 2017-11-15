@@ -265,6 +265,8 @@
 
         //Add the questions to the editor
         editor.insert(currentQuestion);
+
+
         $("#editor").show();
 
 

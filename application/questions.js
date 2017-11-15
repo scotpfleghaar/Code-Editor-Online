@@ -29,7 +29,7 @@ var frontEndDevelopment = [{
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 2,
         questionInstructions: `Change the size of the image to 250 pixels wide and 400 pixels tall.`,
         question: `<!DOCTYPE html>
@@ -59,7 +59,7 @@ var frontEndDevelopment = [{
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 3,
         questionInstructions: `Transform the text below into a link that goes to "https://www.w3schools.com".`,
         question: `<!DOCTYPE html>
@@ -90,7 +90,7 @@ This is a link
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 4,
         questionInstructions: `Change the destination of the link below to "www.wwf.org.uk".`,
         question: `<!DOCTYPE html>
@@ -121,7 +121,7 @@ This is a link
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 5,
         questionInstructions: `The image below does not exist. Specify the alternate text "w3schools.com" for the image.`,
         question: `<!DOCTYPE html>
@@ -152,7 +152,7 @@ This is a link
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 6,
         questionInstructions: `Add a heading to the paragraph with the text "London".`,
         question: `<!DOCTYPE html>
@@ -185,7 +185,7 @@ This is a link
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 7,
         questionInstructions: `Add a horizontal rule between the heading and the paragraph.`,
         question: `<!DOCTYPE html>
@@ -219,7 +219,7 @@ This is a link
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 8,
         questionInstructions: `Add six headings to the document with the text "Hello".
     
@@ -255,7 +255,7 @@ This is a link
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 9,
         questionInstructions: `Mark up the following text with appropriate tags: 
     "Universal Studios Presents" is the most important content. 
@@ -301,7 +301,7 @@ On the Island of Isla Nublar, a new park has been built: Jurassic Park is a them
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 10,
         questionInstructions: `Add a paragraph to this document with the text "Hello World!".`,
         question: `<!DOCTYPE html>
@@ -330,7 +330,7 @@ On the Island of Isla Nublar, a new park has been built: Jurassic Park is a them
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 11,
         questionInstructions: `Clean up this document with proper end tags.`,
         question: `<!DOCTYPE html>
@@ -368,7 +368,7 @@ On the Island of Isla Nublar, a new park has been built: Jurassic Park is a them
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 12,
         questionInstructions: `Fix the display of the poem below. Display the poem over 4 lines using <br> elements.`,
         question: `<!DOCTYPE html>
@@ -408,7 +408,7 @@ Oh, bring back my Bonnie to me.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 13,
         questionInstructions: `Fix the display of this poem. Display the poem as suggested in the code below using <pre>.`,
         question: `<!DOCTYPE html>
@@ -458,7 +458,7 @@ Oh, bring back my Bonnie to me.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 14,
         questionInstructions: `Change the text color of the paragraph to "blue".`,
         question: `<!DOCTYPE html>
@@ -488,7 +488,7 @@ Oh, bring back my Bonnie to me.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 15,
         questionInstructions: `Change the font of the paragraph to "courier".`,
         question: `<!DOCTYPE html>
@@ -519,7 +519,7 @@ Oh, bring back my Bonnie to me.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 16,
         questionInstructions: `Center align the paragraph.`,
         question: `<!DOCTYPE html>
@@ -549,7 +549,7 @@ Oh, bring back my Bonnie to me.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 17,
         questionInstructions: `Change the text size of the paragraph to 50px.`,
         question: `<!DOCTYPE html>
@@ -580,7 +580,7 @@ Oh, bring back my Bonnie to me.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 18,
         questionInstructions: `Change the background color of the page below to yellow.`,
         question: `<!DOCTYPE html>
@@ -615,7 +615,7 @@ Oh, bring back my Bonnie to me.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 19,
         questionInstructions: `Center align all content on the page.`,
         question: `<!DOCTYPE html>
@@ -657,7 +657,7 @@ Oh, bring back my Bonnie to me.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 20,
         questionInstructions: `Add extra importance to the word "degradation" in the paragraph below.`,
         question: `<!DOCTYPE html>
@@ -691,7 +691,7 @@ Oh, bring back my Bonnie to me.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 21,
         questionInstructions: `Emphasize the word "metropolitan" in the text below.`,
         question: `<!DOCTYPE html>
@@ -725,7 +725,7 @@ Oh, bring back my Bonnie to me.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 22,
         questionInstructions: `Highlight the word "FUN" in the text below.`,
         question: `<!DOCTYPE html>
@@ -755,7 +755,7 @@ Oh, bring back my Bonnie to me.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 23,
         questionInstructions: `Apply subscript formatting to the number "2" in the text below.`,
         question: `<!DOCTYPE html>
@@ -786,7 +786,7 @@ Oh, bring back my Bonnie to me.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 24,
         questionInstructions: `Add a line through (strikeout) the letters "blue" in the text below.`,
         question: `<!DOCTYPE html>
@@ -817,7 +817,7 @@ Oh, bring back my Bonnie to me.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 25,
         questionInstructions: `Use an HTML element to add quotation marks around the letters "cool".`,
         question: `<!DOCTYPE html>
@@ -849,7 +849,7 @@ Oh, bring back my Bonnie to me.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 26,
         questionInstructions: `The text below should be a quoted section.
     Add the proper HTML element to it, and specify that it is quoted from the following URL:
@@ -891,7 +891,7 @@ close to 5 million globally.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 27,
         questionInstructions: `Make the text below go right-to-left.`,
         question: `<!DOCTYPE html>
@@ -922,7 +922,7 @@ What a beautiful day!
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 28,
         questionInstructions: `The letters "WHO" in the text below is an abbreviation of "World Health Organization".
     Use an HTML element to provide the specified abbreviation of "WHO".`,
@@ -954,7 +954,7 @@ What a beautiful day!
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 29,
         questionInstructions: `Remove the comment tags around the <p> element:`,
         question: `<!DOCTYPE html>
@@ -985,7 +985,7 @@ What a beautiful day!
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 30,
         questionInstructions: `Add comment tags around the "Do not display this text in the browser" text:`,
         question: `<!DOCTYPE html>
@@ -1020,7 +1020,7 @@ Do not display this text in the browser
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 31,
         questionInstructions: `Change the background color of the page below to yellow.`,
         question: `<!DOCTYPE html>
@@ -1068,7 +1068,7 @@ p    {color:black}
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 32,
         questionInstructions: `Change the font of both the h1 and the p element to "courier".`,
         question: `<!DOCTYPE html>
@@ -1116,9 +1116,9 @@ p    {color:black}
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 33,
-        questionInstructions: `Change the color of all paragraphs in the page below.`,
+        questionInstructions: `Change the color of all paragraphs to blue in the page below.`,
         question: `<!DOCTYPE html>
 <html>
 <head>
@@ -1165,9 +1165,9 @@ p {color:blue}
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 34,
-        questionInstructions: `Add a red border to all paragraphs.`,
+        questionInstructions: `Add a 1px solid red border to all paragraphs.`,
         question: `<!DOCTYPE html>
 <html>
 <head>
@@ -1219,7 +1219,7 @@ p    {color:black;border:1px solid red}
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 35,
         questionInstructions: `Add an id with the value "special" to the last paragraph.`,
         question: `<!DOCTYPE html>
@@ -1273,10 +1273,13 @@ p#special {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 36,
         questionInstructions: `Add the "intro" class to all <p> elements.`,
-        question: `<style>
+        question: `<!DOCTYPE html>
+<html>
+<head>
+<style>
 p.intro {
     background-color:black;
     color:white;
@@ -1332,7 +1335,7 @@ p.intro {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 37,
         questionInstructions: `Make the link below go to https://www.w3schools.com.`,
         question: `<!DOCTYPE html>
@@ -1362,7 +1365,7 @@ p.intro {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 38,
         questionInstructions: `Change the link below to a local link.`,
         question: `<!DOCTYPE html>
@@ -1393,7 +1396,7 @@ p.intro {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 39,
         questionInstructions: `Change the link below to open in a new window.`,
         question: `<!DOCTYPE html>
@@ -1424,7 +1427,7 @@ p.intro {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 40,
         questionInstructions: `Remove the underline from the link below.`,
         question: `<!DOCTYPE html>
@@ -1454,7 +1457,7 @@ p.intro {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 41,
         questionInstructions: `Add a link to the image below (make it go "https://www.w3schools.com" if you click on it).`,
         question: `<!DOCTYPE html>
@@ -1484,7 +1487,7 @@ p.intro {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 42,
         questionInstructions: `Double the width and height of the image below.`,
         question: `<!DOCTYPE html>
@@ -1517,7 +1520,7 @@ width="96" height="96">
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 43,
         questionInstructions: `Double the width and height of the image below.`,
         question: `<!DOCTYPE html>
@@ -1550,7 +1553,7 @@ style="width:256px;height:256px">
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 44,
         questionInstructions: `Add a link to the image below (make it go to "https://www.w3schools.com" if you click on it).`,
         question: `<!DOCTYPE html>
@@ -1582,7 +1585,7 @@ style="width:42px;height:42px">
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 45,
         questionInstructions: `Make the image below float to the left of the paragraph.`,
         question: `<!DOCTYPE html>
@@ -1624,7 +1627,7 @@ A paragraph with an image. A paragraph with an image.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 46,
         questionInstructions: `Change the image address to "pic_mountain.jpg"`,
         question: `<!DOCTYPE html>
@@ -1655,7 +1658,7 @@ A paragraph with an image. A paragraph with an image.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 47,
         questionInstructions: `The image below is unavailable on purpose. Specify an alternate text of "w3schools.com" to be used,
     so it can be read by screen readers.`,
@@ -1687,7 +1690,7 @@ A paragraph with an image. A paragraph with an image.
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 48,
         questionInstructions: `Make the table borders collapse into single borders.`,
         question: `<!DOCTYPE html>
@@ -1772,7 +1775,7 @@ th, td {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 49,
         questionInstructions: `Make the table 300 pixels wide.`,
         question: `<!DOCTYPE html>
@@ -1859,7 +1862,7 @@ th, td {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 50,
         questionInstructions: `Add a caption with the letters "Names" to the table.`,
         question: `<!DOCTYPE html>
@@ -1948,7 +1951,7 @@ th, td {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 51,
         questionInstructions: `Change the table's border to 5 pixels, and make it red.`,
         question: `<!DOCTYPE html>
@@ -2033,7 +2036,7 @@ th, td {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 52,
         questionInstructions: `Left align the text in the table.`,
         question: `<!DOCTYPE html>
@@ -2116,7 +2119,7 @@ table, th, td {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 53,
         questionInstructions: `Add a black background color with white text to all table rows.`,
         question: `<!DOCTYPE html>
@@ -2199,7 +2202,7 @@ tr {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 54,
         questionInstructions: `Add a list item with the text "Coffee" inside <ul>.`,
         question: `<!DOCTYPE html>
@@ -2232,7 +2235,7 @@ tr {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 55,
         questionInstructions: `Change the list below to an ordered list.`,
         question: `<!DOCTYPE html>
@@ -2271,7 +2274,7 @@ tr {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 56,
         questionInstructions: `Change the list below to display squares instead of bullets.`,
         question: `<!DOCTYPE html>
@@ -2309,7 +2312,7 @@ tr {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 57,
         questionInstructions: `Change the list below to display letters instead of numbers.`,
         question: `<!DOCTYPE html>
@@ -2348,7 +2351,7 @@ tr {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 58,
         questionInstructions: `Complete the description list below. Each name should have a description.`,
         question: `<!DOCTYPE html>
@@ -2387,7 +2390,7 @@ tr {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 59,
         questionInstructions: `Make the list below display horizontally.`,
         question: `<!DOCTYPE html>
@@ -2454,7 +2457,7 @@ ul#menu li {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 60,
         questionInstructions: `Add the "cities" class to the <div> element.`,
         question: `<!DOCTYPE html>
@@ -2517,7 +2520,7 @@ ul#menu li {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 61,
         questionInstructions: `Create a class selector named "special".
     
@@ -2568,7 +2571,7 @@ ul#menu li {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 62,
         questionInstructions: `Create a class selector named "cities". Add the following styles:
     1. black background color
@@ -2626,7 +2629,7 @@ ul#menu li {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 63,
         questionInstructions: `Create an iframe with a URL address that goes to https://www.w3schools.com.`,
         question: `<!DOCTYPE html>
@@ -2655,7 +2658,7 @@ ul#menu li {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 64,
         questionInstructions: `Set the width of the iframe to 500 pixels.`,
         question: `<!DOCTYPE html>
@@ -2685,7 +2688,7 @@ ul#menu li {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 65,
         questionInstructions: `Remove the border from the iframe.`,
         question: `<!DOCTYPE html>
@@ -2715,7 +2718,7 @@ ul#menu li {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 66,
         questionInstructions: `Change the color of the iframe's border to red.`,
         question: `<!DOCTYPE html>
@@ -2745,7 +2748,7 @@ ul#menu li {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 67,
         questionInstructions: `Use JavaScript to change the HTML content of the <p> element to "Hello World!".`,
         question: `<!DOCTYPE html>
@@ -2784,7 +2787,7 @@ document.getElementById("demo").innerHTML = "Hello World!";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 68,
         questionInstructions: `Use JavaScript to change the text size of the <p> element to 40 pixels.`,
         question: `<!DOCTYPE html>
@@ -2822,7 +2825,7 @@ document.getElementById("demo").style.fontSize = "40px";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 69,
         questionInstructions: `Use JavaScript to add a red background color to the <p> element.`,
         question: `<!DOCTYPE html>
@@ -2861,7 +2864,7 @@ document.getElementById("demo").style.backgroundColor = "red";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 70,
         questionInstructions: `Use JavaScript to change the image (the src attribute) to a new image called "pic_mountain.jpg"`,
         question: `<!DOCTYPE html>
@@ -2900,7 +2903,7 @@ document.getElementById("image").src = "pic_mountain.jpg";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 71,
         questionInstructions: `Define the text "var person;" as programming code:`,
         question: `<!DOCTYPE html>
@@ -2930,7 +2933,7 @@ document.getElementById("image").src = "pic_mountain.jpg";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 72,
         questionInstructions: `Define the text inside the <code> element as preformatted text (preserve spaces and line breaks):`,
         question: `<!DOCTYPE html>
@@ -2969,7 +2972,7 @@ document.getElementById("image").src = "pic_mountain.jpg";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 73,
         questionInstructions: `Define the character "x" in the equation as a variable:`,
         question: `<!DOCTYPE html>
@@ -3000,7 +3003,7 @@ document.getElementById("image").src = "pic_mountain.jpg";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 74,
         questionInstructions: `Make a HTML form, containing an <input> element with type="button", and value="OK".`,
         question: `<!DOCTYPE html>
@@ -3031,7 +3034,7 @@ document.getElementById("image").src = "pic_mountain.jpg";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 75,
         questionInstructions: `Add 2 radio buttons to the form. One for "male", and one for "female", both with name="gender".`,
         question: `<!DOCTYPE html>
@@ -3066,7 +3069,7 @@ document.getElementById("image").src = "pic_mountain.jpg";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 76,
         questionInstructions: `Add a submit button to the form, and specify that the form should go to "/action_page.php".`,
         question: `<!DOCTYPE html>
@@ -3102,7 +3105,7 @@ Name: <input type="text" name="name">
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 77,
         questionInstructions: `Specify that the form is submitted using the "post" method.`,
         question: `<!DOCTYPE html>
@@ -3139,7 +3142,7 @@ Name: <input type="text" name="name">
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 78,
         questionInstructions: `Add a drop down list with name="cars" to the form. Include the following options: "volvo", "ford", "fiat", and "audi".`,
         question: `<!DOCTYPE html>
@@ -3180,7 +3183,7 @@ Name: <input type="text" name="name">
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 79,
         questionInstructions: `Add a text area with name="note" to the form.`,
         question: `<!DOCTYPE html>
@@ -3217,7 +3220,7 @@ Name: <input type="text" name="name">
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 80,
         questionInstructions: `Set the display text of the <button> to: "Click Me!".`,
         question: `<!DOCTYPE html>
@@ -3249,7 +3252,7 @@ Click Me!</button>
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 81,
         questionInstructions: `Create an input field for text.`,
         question: `<!DOCTYPE html>
@@ -3278,7 +3281,7 @@ Click Me!</button>
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 82,
         questionInstructions: `Create a submit button and place it inside the form element.`,
         question: `<!DOCTYPE html>
@@ -3314,7 +3317,7 @@ Click Me!</button>
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 83,
         questionInstructions: `1. Create two radio buttons and place them inside the form element, under the text "Favorite color".
 
@@ -3359,7 +3362,7 @@ Click Me!</button>
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 83,
         questionInstructions: `Create a button (using input types) that says "Click Me", which alerts "Hello World" when you click on it.`,
         question: `<!DOCTYPE html>
@@ -3388,7 +3391,7 @@ Click Me!</button>
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 84,
         questionInstructions: `1. Create an input field that should only contain a numeric value, and place it inside the <form> element.
 
@@ -3430,7 +3433,7 @@ Click Me!</button>
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 85,
         questionInstructions: `Specify an initial value of "John" for the input field.
 
@@ -3470,7 +3473,7 @@ Hint
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 86,
         questionInstructions: `Disable the input field.`,
         question: `<!DOCTYPE html>
@@ -3507,7 +3510,7 @@ Hint
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 87,
         questionInstructions: `Change the size of the input field to display up to 40 characters.`,
         question: `<!DOCTYPE html>
@@ -3544,7 +3547,7 @@ Hint
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 88,
         questionInstructions: `Add the text "First name" as a hint to the user of what can be entered in the input field.`,
         question: `<!DOCTYPE html>
@@ -3581,7 +3584,7 @@ Hint
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 89,
         questionInstructions: `Change the color of all <p> elements to "red".
 
@@ -3630,7 +3633,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 90,
         questionInstructions: `Change the color of the element with id="para1", to "red".`,
         question: `<!DOCTYPE html>
@@ -3676,7 +3679,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 91,
         questionInstructions: `Change the color of all elements with the class "colortext", to "red".`,
         question: `<!DOCTYPE html>
@@ -3725,7 +3728,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 92,
         questionInstructions: `Change the color of all <p> and <h1> elements, to "red". Group the selectors to minimize code.`,
         question: `<!DOCTYPE html>
@@ -3773,7 +3776,7 @@ h1, p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 93,
         questionInstructions: `Add an external style sheet with the URL: "mystyle.css".`,
         question: `<!DOCTYPE html>
@@ -3814,7 +3817,7 @@ h1, p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 94,
         questionInstructions: `Set "background-color: linen" for the page, using an internal style sheet.`,
         question: `<!DOCTYPE html>
@@ -3859,7 +3862,7 @@ body {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 95,
         questionInstructions: `Set "background-color: linen" for the page, using an inline style.`,
         question: `<!DOCTYPE html>
@@ -3898,7 +3901,7 @@ body {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 96,
         questionInstructions: `Remove all styles, except the external style sheet "mystyle.css".`,
         question: `<!DOCTYPE html>
@@ -3944,7 +3947,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 97,
         questionInstructions: `Set the background color for the page to "linen" and the background color for <h1> to "lightblue".`,
         question: `<!DOCTYPE html>
@@ -3993,7 +3996,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 98,
         questionInstructions: `Set "paper.gif" as the background image of the page.`,
         question: `<!DOCTYPE html>
@@ -4040,7 +4043,7 @@ body {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 99,
         questionInstructions: `Set "gradient_bg_vertical.png" as the background image of the page, and repeat it vertically only.`,
         question: `<!DOCTYPE html>
@@ -4088,7 +4091,7 @@ body {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 100,
         questionInstructions: `Specify that the background image should be shown once, in the top right corner.`,
         question: `<!DOCTYPE html>
@@ -4138,7 +4141,7 @@ body {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 101,
         questionInstructions: `Use the shorthand background property to set background image to "img_tree.png", show it once, in the top right corner.`,
         question: `<!DOCTYPE html>
@@ -4184,7 +4187,7 @@ body {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 102,
         questionInstructions: `Set a "4px", "dotted" border for <p>.`,
         question: `<!DOCTYPE html>
@@ -4228,7 +4231,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 103,
         questionInstructions: `Set the border color for <p> to "red".`,
         question: `<!DOCTYPE html>
@@ -4277,7 +4280,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 104,
         questionInstructions: `Change the 3 border properties, so that they only show the border on the top side.`,
         question: `<!DOCTYPE html>
@@ -4326,7 +4329,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 105,
         questionInstructions: `With the border property: Set the border for p to "10px", "solid" and "green".`,
         question: `<!DOCTYPE html>
@@ -4371,7 +4374,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 106,
         questionInstructions: `Set the left margin of <h1> to "20px".`,
         question: `<!DOCTYPE html>
@@ -4419,7 +4422,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 107,
         questionInstructions: `Set all margins for <h1> to "25px".`,
         question: `<!DOCTYPE html>
@@ -4467,7 +4470,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 108,
         questionInstructions: `Use the margin property to set the top and bottom margins for <h1> to "50px", and left and right margins to "25px".`,
         question: `<!DOCTYPE html>
@@ -4515,7 +4518,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 109,
         questionInstructions: `Use the margin property to center align the <h1> element.`,
         question: `<!DOCTYPE html>
@@ -4565,7 +4568,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 110,
         questionInstructions: `Set the top padding of <p> to "30px".`,
         question: `<!DOCTYPE html>
@@ -4612,7 +4615,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 111,
         questionInstructions: `Set all paddings for <p> to "50px".`,
         question: `<!DOCTYPE html>
@@ -4660,7 +4663,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 112,
         questionInstructions: `Use the padding property to set the top and bottom paddings for <p> to "25px", and left and right paddings to "50px".`,
         question: `<!DOCTYPE html>
@@ -4707,7 +4710,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 113,
         questionInstructions: `Set the height of <h1> to "100px".`,
         question: `<!DOCTYPE html>
@@ -4755,7 +4758,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 114,
         questionInstructions: `Set the width of <h1> to "50%".`,
         question: `<!DOCTYPE html>
@@ -4803,7 +4806,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 115,
         questionInstructions: `Set the width of the div to "200px".`,
         question: `<!DOCTYPE html>
@@ -4848,7 +4851,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 116,
         questionInstructions: `Set the padding of the div to "25px".`,
         question: `<!DOCTYPE html>
@@ -4896,7 +4899,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 117,
         questionInstructions: `Set the border of the div to "25px solid navy".`,
         question: `<!DOCTYPE html>
@@ -4946,7 +4949,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 118,
         questionInstructions: `Set the margin of the div to "25px".`,
         question: `<!DOCTYPE html>
@@ -4996,7 +4999,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 119,
         questionInstructions: `Set a "solid", "5px" outline for <p>.`,
         question: `<!DOCTYPE html>
@@ -5041,7 +5044,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 120,
         questionInstructions: `Set the outline color for <p> to "green".
 
@@ -5093,7 +5096,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 121,
         questionInstructions: `With the outline property: Set the outline for p to "red", "dotted" and "10px".`,
         question: `<!DOCTYPE html>
@@ -5138,7 +5141,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 122,
         questionInstructions: `Set the text color for the page to "red", and the text color for <h1> to "blue".`,
         question: `<!DOCTYPE html>
@@ -5188,7 +5191,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 123,
         questionInstructions: `Center align the <h1> element.`,
         question: `<!DOCTYPE html>
@@ -5235,7 +5238,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 124,
         questionInstructions: `Remove the underline from the link.`,
         question: `<!DOCTYPE html>
@@ -5282,7 +5285,7 @@ a {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 126,
         questionInstructions: `Style text in <h1> to uppercase letters, and text in <p> to capitalized letters.
 
@@ -5333,7 +5336,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 127,
         questionInstructions: `Indent the first line of the <p> element with 20px.`,
         question: `<!DOCTYPE html>
@@ -5378,7 +5381,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 128,
         questionInstructions: `Set the font family for the page to "Courier New", and the font family for <h1> to "Verdana".`,
         question: `<!DOCTYPE html>
@@ -5429,7 +5432,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 129,
         questionInstructions: `Show <p> elements as "italic" text.`,
         question: `<!DOCTYPE html>
@@ -5476,7 +5479,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 130,
         questionInstructions: `Set the font size for the page to "20px", and the font size for <h1> to "3em".`,
         question: `<!DOCTYPE html>
@@ -5527,7 +5530,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 131,
         questionInstructions: `Show <p> elements as "bold" text.`,
         question: `<!DOCTYPE html>
@@ -5574,7 +5577,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 132,
         questionInstructions: `With the font property: Set the <p> to "italic", "20px" and "Verdana".`,
         question: `<!DOCTYPE html>
@@ -5622,7 +5625,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 133,
         questionInstructions: `Set the color for links to "green".`,
         question: `<!DOCTYPE html>
@@ -5668,7 +5671,7 @@ a {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 134,
         questionInstructions: `Set the color for unvisited links to "red", and the color for visited links "blue".`,
         question: `<!DOCTYPE html>
@@ -5739,7 +5742,7 @@ a:active {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 135,
         questionInstructions: `Remove underlines for visited and unvisited links, and specify "underline" for the hover and active link states.`,
         question: `<!DOCTYPE html>
@@ -5820,7 +5823,7 @@ a:active {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 136,
         questionInstructions: `Set the background color for visited and unvisited links to "lightblue", and the background color for the hover and active link states to "yellow".`,
         question: `<!DOCTYPE html>
@@ -5901,7 +5904,7 @@ a:active {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 137,
         questionInstructions: `Set the list style for unordered lists to "square", and the list style for ordered lists to "upper-roman".`,
         question: `<!DOCTYPE html>
@@ -5970,7 +5973,7 @@ ol {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 138,
         questionInstructions: `Set the image "sqpurple.gif" as the list item marker for the unordered list.`,
         question: `<!DOCTYPE html>
@@ -6023,7 +6026,7 @@ ul {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 139,
         questionInstructions: `With the list-style property: Set the unordered list marker to "img_marker.png", with a backup style of "circle", and display the markers inside the content flow.`,
         question: `<!DOCTYPE html>
@@ -6075,7 +6078,7 @@ ul {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 140,
         questionInstructions: `Remove the bullets/markers from the list items.`,
         question: `<!DOCTYPE html>
@@ -6126,7 +6129,7 @@ ul {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 141,
         questionInstructions: `Set the border to "2px solid green" for table, th and td elements.`,
         question: `<!DOCTYPE html>
@@ -6195,7 +6198,7 @@ table, th, td {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 142,
         questionInstructions: `Collapse the table borders into a single border.`,
         question: `<!DOCTYPE html>
@@ -6269,7 +6272,7 @@ table, td, th {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 143,
         questionInstructions: `Set the width of the table to "100%".`,
         question: `<!DOCTYPE html>
@@ -6343,7 +6346,7 @@ table, td, th {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 144,
         questionInstructions: `Set the text alignment in <td> elements to "right".`,
         question: `<!DOCTYPE html>
@@ -6417,7 +6420,7 @@ td {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 145,
         questionInstructions: `Set the padding in <th> elements to "15px".`,
         question: `<!DOCTYPE html>
@@ -6491,7 +6494,7 @@ th {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 146,
         questionInstructions: `Set the background color of <th> elements to "lightblue".`,
         question: `<!DOCTYPE html>
@@ -6565,7 +6568,7 @@ th {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 147,
         questionInstructions: `Hide the <h1> element. It should still take up the same space as before.`,
         question: `<!DOCTYPE html>
@@ -6611,7 +6614,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 148,
         questionInstructions: `Hide the <h1> element. It should not take up any space.`,
         question: `<!DOCTYPE html>
@@ -6658,7 +6661,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 149,
         questionInstructions: `Display the list items as inline elements.`,
         question: `<!DOCTYPE html>
@@ -6713,7 +6716,7 @@ li {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 150,
         questionInstructions: `Display the <strong> elements as block elements.`,
         question: `<!DOCTYPE html>
@@ -6760,7 +6763,7 @@ strong {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 151,
         questionInstructions: `Position the <h1> element relative to the browser window. 50px from the top, and 50px from the right.`,
         question: `<!DOCTYPE html>
@@ -6811,7 +6814,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 152,
         questionInstructions: `Position the <h1> element 20px left, and 30px down, relative to its normal position.`,
         question: `<!DOCTYPE html>
@@ -6863,7 +6866,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 153,
         questionInstructions: `Position the <h1> element 50px from the left, and 100px from the top, relative to the HTML page.`,
         question: `<!DOCTYPE html>
@@ -6914,7 +6917,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 154,
         questionInstructions: `Position the <img> element behind the text.`,
         question: `<!DOCTYPE html>
@@ -6969,7 +6972,7 @@ img {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 155,
         questionInstructions: `Position the element with the "topleft" class 30px from the left, and 15px from the top, relative to its container.`,
         question: `<!DOCTYPE html>
@@ -7045,7 +7048,7 @@ img {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 156,
         questionInstructions: `Add a scrollbar to the <div> element.`,
         question: `<!DOCTYPE html>
@@ -7103,7 +7106,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 157,
         questionInstructions: `Specify that the overflowing text in the <div> element should not be visible, not even with scrolling.`,
         question: `<!DOCTYPE html>
@@ -7153,7 +7156,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 158,
         questionInstructions: `Add a horizontal scrollbar to <div>.`,
         question: `<!DOCTYPE html>
@@ -7211,7 +7214,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 159,
         questionInstructions: `Center align the <div> element using margins.`,
         question: `<!DOCTYPE html>
@@ -7266,7 +7269,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 160,
         questionInstructions: `Position the <div> element all the way to the right using absolute positioning.`,
         question: `<!DOCTYPE html>
@@ -7321,7 +7324,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 161,
         questionInstructions: `Change the color of all <p> elements, that are descendants of <div> elements, to "red".`,
         question: `<!DOCTYPE html>
@@ -7378,7 +7381,7 @@ div p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 162,
         questionInstructions: `Change the color of all <p> elements, that are immediate children of <div> elements, to "red".`,
         question: `<!DOCTYPE html>
@@ -7435,7 +7438,7 @@ div > p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 163,
         questionInstructions: `Change the color of <p> elements, that are the adjacent (immediately following) sibling of a <div> element, to "red".`,
         question: `<!DOCTYPE html>
@@ -7492,7 +7495,7 @@ div + p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 164,
         questionInstructions: `Change the color of <p> elements, that are the siblings of a <div> element, to "red".`,
         question: `<!DOCTYPE html>
@@ -7549,7 +7552,7 @@ div ~ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 165,
         questionInstructions: `Set the background color for visited and unvisited links to "lightblue", and the background color for the hover and active link states to "yellow".`,
         question: `<!DOCTYPE html>
@@ -7630,7 +7633,7 @@ a:active {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 166,
         questionInstructions: `Change the background color, when a user hovers over p elements, with the class "highlight", to "lightblue".`,
         question: `<!DOCTYPE html>
@@ -7677,7 +7680,7 @@ p.highlight:hover {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 167,
         questionInstructions: `Set the background color of <p> elements, that are the first child of any element, to "lightblue".`,
         question: `<!DOCTYPE html>
@@ -7722,7 +7725,7 @@ p:first-child {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 168,
         questionInstructions: `Set the background color of <input> elements that are in focus (clicked or active), to "lightblue".`,
         question: `<!DOCTYPE html>
@@ -7773,7 +7776,7 @@ input:focus {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 169,
         questionInstructions: `Set text color to red, for the first line of the <p> element.`,
         question: `<!DOCTYPE html>
@@ -7816,7 +7819,7 @@ p::first-line {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 170,
         questionInstructions: `Set text color to "red", and the text size to "xx-large", for the first letter of the <p> element.`,
         question: `<!DOCTYPE html>
@@ -7859,7 +7862,7 @@ p::first-letter {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 171,
         questionInstructions: `Insert the image "smiley.gif" before, and after <p> elements, using the ::before and ::after pseudo-elements.`,
         question: `<!DOCTYPE html>
@@ -7909,7 +7912,7 @@ p::after{
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 172,
         questionInstructions: `Set the transparency/opacity of the <img> element to "0.4".`,
         question: `<!DOCTYPE html>
@@ -7952,7 +7955,7 @@ img {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 173,
         questionInstructions: `Remove the transparency/opacity of the <img> element when the user hovers over it with the mouse pointer.`,
         question: `<!DOCTYPE html>
@@ -8000,7 +8003,7 @@ img:hover {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 174,
         questionInstructions: `Set the background-color to "lightblue" for elements with a "target" attribute.`,
         question: `<!DOCTYPE html>
@@ -8047,7 +8050,7 @@ a[target] {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 175,
         questionInstructions: `Set the background-color to "lightblue" for elements with an attribute like: target="_blank"`,
         question: `<!DOCTYPE html>
@@ -8094,7 +8097,7 @@ a[target="_blank"] {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 176,
         questionInstructions: `Set a border with the color "red", around elements with a "title" attribute containing the word "red".`,
         question: `<!DOCTYPE html>
@@ -8143,7 +8146,7 @@ a[target="_blank"] {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 177,
         questionInstructions: `Set a border with the color "red", around elements with a "title" attribute starting with "red".`,
         question: `<!DOCTYPE html>
@@ -8192,7 +8195,7 @@ a[target="_blank"] {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 178,
         questionInstructions: `Set a border with the color "red", around elements with a "title" attribute ending with the word "flower" (not flowers).`,
         question: `<!DOCTYPE html>
@@ -8241,7 +8244,7 @@ a[target="_blank"] {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 179,
         questionInstructions: `Set a border with the color "red", around elements with a "title" attribute containing the value "flow".`,
         question: `<!DOCTYPE html>
@@ -8290,7 +8293,7 @@ a[target="_blank"] {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 180,
         questionInstructions: `Give the <div> element rounded corners (use the shorthand property and the value "25px").`,
         question: `<!DOCTYPE html>
@@ -8339,7 +8342,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 181,
         questionInstructions: `Give the <div> element a rounded corner (25px radius) on the bottom left side.`,
         question: `<!DOCTYPE html>
@@ -8389,7 +8392,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 182,
         questionInstructions: `Give the <div> element an image border using the image "border.png". Slice the image at 30px and repeat it.`,
         question: `<!DOCTYPE html>
@@ -8435,7 +8438,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 183,
         questionInstructions: `Give the <div> element an image border using the image "border.png". Slice the image at 30px and stretch it.`,
         question: `<!DOCTYPE html>
@@ -8480,7 +8483,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 184,
         questionInstructions: `Add a second background image ("img_flwr.gif") to the <body> element. Make sure that "img_flwr.gif" is displayed on top of the current background image.`,
         question: `<!DOCTYPE html>
@@ -8529,7 +8532,7 @@ body {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 185,
         questionInstructions: `Change the size of the background image to: width 100px, height 80px.`,
         question: `<!DOCTYPE html>
@@ -8581,7 +8584,7 @@ body {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 186,
         questionInstructions: `Change the size of the background image so it always fits the entire page.`,
         question: `<!DOCTYPE html>
@@ -8636,7 +8639,7 @@ body {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 187,
         questionInstructions: `Specify that the background image position should start from the upper left corner of the content-box.`,
         question: `<!DOCTYPE html>
@@ -8695,7 +8698,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 188,
         questionInstructions: `Specify that the "painting area" of the background should be to the outside edge of the padding.`,
         question: `<!DOCTYPE html>
@@ -8752,7 +8755,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 189,
         questionInstructions: `Set the opacity for the background color of the <h1> element to "0.3" by using a RGBA color instead of RGB.`,
         question: `<!DOCTYPE html>
@@ -8800,7 +8803,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 190,
         questionInstructions: `Set the following HSL color as the background of the <h1> element: Set the Hue to red (0), Saturation to 100%, and lightness to 50%.`,
         question: `<!DOCTYPE html>
@@ -8849,7 +8852,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 191,
         questionInstructions: `Set the opacity for the background color of the <h1> element to "0.3" by using a HSLA color instead of HSL.`,
         question: `<!DOCTYPE html>
@@ -8898,7 +8901,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 192,
         questionInstructions: `Set the transparency/opacity of the <h1> element to "0.4".`,
         question: `<!DOCTYPE html>
@@ -8948,7 +8951,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 193,
         questionInstructions: `Set a linear gradient background for the <div> element, going from the top to bottom, transitioning from "white" to "green".`,
         question: `<!DOCTYPE html>
@@ -8992,7 +8995,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 194,
         questionInstructions: `Set a linear gradient background for the <div> element, going from the top left to the bottom right, transitioning from "white" to "green".`,
         question: `<!DOCTYPE html>
@@ -9037,7 +9040,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 195,
         questionInstructions: `Set a linear gradient background for the <div> element, going at a 70 degree angle, transitioning from "white" to "green".`,
         question: `<!DOCTYPE html>
@@ -9082,7 +9085,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 196,
         questionInstructions: `Set a linear gradient background for the <div> element, going from the top to bottom, transitioning from "white" to "red" to "blue" to "green".`,
         question: `<!DOCTYPE html>
@@ -9127,7 +9130,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 197,
         questionInstructions: `Set a linear gradient background for the <div> element, going from the top to bottom, transitioning from "rgba(0,255,0,0.2)" to "rgba(0,255,0,1)".`,
         question: `<!DOCTYPE html>
@@ -9172,7 +9175,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 198,
         questionInstructions: `Set a radial gradient background for the <div> element, transitioning from "white" to "green".`,
         question: `<!DOCTYPE html>
@@ -9217,7 +9220,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 199,
         questionInstructions: `Set a radial gradient background for the <div> element, with a circle shape, transitioning from "white" to "green".`,
         question: `<!DOCTYPE html>
@@ -9262,7 +9265,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 200,
         questionInstructions: `Set a "2px" horizontal, and "2px" vertical, text shadow for the <h1> element.`,
         question: `<!DOCTYPE html>
@@ -9313,7 +9316,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 201,
         questionInstructions: `Change the color of the text shadow to "green", and set a "5px" blur radius.`,
         question: `<!DOCTYPE html>
@@ -9364,7 +9367,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 202,
         questionInstructions: `Add a new shadow (do not remove the current one) to the <h1> element with: no horizontal or vertical shadow, 10px blur, and a red color.`,
         question: `<!DOCTYPE html>
@@ -9414,7 +9417,7 @@ h1 {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 203,
         questionInstructions: `Set a "10px" horizontal, and "10px" vertical, box shadow for the <div> element.`,
         question: `<!DOCTYPE html>
@@ -9466,7 +9469,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 204,
         questionInstructions: `Change the color of the box shadow to "grey", and set a "5px" blur.`,
         question: `<!DOCTYPE html>
@@ -9519,7 +9522,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 205,
         questionInstructions: `Specify that the overflowed content for the <p> element should be signaled with an ellipsis (...)`,
         question: `<!DOCTYPE html>
@@ -9570,7 +9573,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 206,
         questionInstructions: `Specify that text in the <p> element should wrap, even if it needs to split in the middle of a word.`,
         question: `<!DOCTYPE html>
@@ -9616,7 +9619,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 207,
         questionInstructions: `Specify that text in the <p> element can break between any two letters.`,
         question: `<!DOCTYPE html>
@@ -9663,7 +9666,7 @@ p {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 208,
         questionInstructions: `Add a web font with the name "sansation" and the URL "sansation_light.woff".`,
         question: `<!DOCTYPE html>
@@ -9718,7 +9721,7 @@ body {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 209,
         questionInstructions: `Add another @font-face rule for bold characters of the "sansation" font. Use the URL "sansation_bold.woff".`,
         question: `<!DOCTYPE html>
@@ -9785,7 +9788,7 @@ body {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 210,
         questionInstructions: `With the transform property, move the <div> element 100px to the right, and 200px down.`,
         question: `<!DOCTYPE html>
@@ -9839,7 +9842,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 211,
         questionInstructions: `With the transform property, rotate the <div> element 45 degrees.`,
         question: `<!DOCTYPE html>
@@ -9895,7 +9898,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 212,
         questionInstructions: `With the transform property, change the size of the <div> to half its width, but double its height.`,
         question: `<!DOCTYPE html>
@@ -9951,7 +9954,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 213,
         questionInstructions: `With the transform property, skew the <div> element 20 degrees along the X-axis, and 30 degrees along the Y-axis.`,
         question: `<!DOCTYPE html>
@@ -10007,7 +10010,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 214,
         questionInstructions: `With the transform property, rotate the <div> element 150deg around its X-axis.`,
         question: `<!DOCTYPE html>
@@ -10060,7 +10063,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 215,
         questionInstructions: `With the transform property, rotate the <div> element 120deg around its Y-axis.`,
         question: `<!DOCTYPE html>
@@ -10114,7 +10117,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 216,
         questionInstructions: `With the transform property, rotate the <div> element 90deg around its Z-axis.`,
         question: `<!DOCTYPE html>
@@ -10168,7 +10171,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 217,
         questionInstructions: `Add a 2 second transition effect for width changes of the <div> element.`,
         question: `<!DOCTYPE html>
@@ -10230,7 +10233,7 @@ div:hover {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 218,
         questionInstructions: `Specify that the transition of the <div> element should have a "ease-in-out" speed curve.`,
         question: `<!DOCTYPE html>
@@ -10294,7 +10297,7 @@ div:hover {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 219,
         questionInstructions: `Specify that the transition of the <div> element should have a "0.5" second delay before starting.`,
         question: `<!DOCTYPE html>
@@ -10358,7 +10361,7 @@ div:hover {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 220,
         questionInstructions: `Add a 2 second transition effect for background, and transform changes of the <div> element.`,
         question: `<!DOCTYPE html>
@@ -10420,7 +10423,7 @@ div:hover {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 221,
         questionInstructions: `Using the transition shorthand property, specify width changes for the <div> element should have:
 "2" second duration, "ease-in-out" speed curve, and a "0.5" second delay before starting.`,
@@ -10481,7 +10484,7 @@ div:hover {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 222,
         questionInstructions: `Add a 2 second animation for the <div> element, which changes the color from red to blue. Call the animation "example"`,
         question: `<!DOCTYPE html>
@@ -10537,7 +10540,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 223,
         questionInstructions: `Add the following 5 steps to the animation "example" (using 0%, 25%, 50%, 75%, and 100%):
 
@@ -10609,7 +10612,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 224,
         questionInstructions: `Specify that the animation of the <div> element should have a "1" second delay before starting.`,
         question: `<!DOCTYPE html>
@@ -10677,7 +10680,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 225,
         questionInstructions: `Specify that the animation of the <div> element should continue to loop for ever.`,
         question: `<!DOCTYPE html>
@@ -10745,7 +10748,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 226,
         questionInstructions: `Specify that the animation of the <div> element should alternate between running forwards and backwards.`,
         question: `<!DOCTYPE html>
@@ -10819,7 +10822,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 227,
         questionInstructions: `Specify that the animation of the <div> element should have a "ease-in-out" speed curve.`,
         question: `<!DOCTYPE html>
@@ -10887,7 +10890,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 228,
         questionInstructions: `Create a variable called carName, assign the value "Volvo" to it, and display it.`,
         question: `<!DOCTYPE html>
@@ -10927,7 +10930,7 @@ document.getElementById("demo").innerHTML = carName;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 229,
         questionInstructions: `Create a variable called number, assign the value 50 to it, and display it.`,
         question: `<!DOCTYPE html>
@@ -10967,7 +10970,7 @@ document.getElementById("demo").innerHTML = number;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 230,
         questionInstructions: `The code below should display "Volvo" - Fix it.`,
         question: `<!DOCTYPE html>
@@ -11007,7 +11010,7 @@ document.getElementById("demo").innerHTML = carName;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 231,
         questionInstructions: `Display the sum of 5 + 10, using two variables x and y.`,
         question: `<!DOCTYPE html>
@@ -11047,7 +11050,7 @@ document.getElementById("demo").innerHTML = x + y;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 232,
         questionInstructions: `Create a third variable called z, assign x + y to it, and display it.`,
         question: `<!DOCTYPE html>
@@ -11089,7 +11092,7 @@ document.getElementById("demo").innerHTML = z;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 233,
         questionInstructions: `Use a single var keyword to create three variables with the following values: 
 firstName = "John" 
@@ -11136,7 +11139,7 @@ firstName + " " + lastName + " is " + age;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 234,
         questionInstructions: `Display the sum of 10 + 5, using two variables x and y.`,
         question: `<!DOCTYPE html>
@@ -11178,7 +11181,7 @@ document.getElementById("demo").innerHTML = x + y;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 235,
         questionInstructions: `Display the difference of 10 - 5, using two variables x and y.`,
         question: `<!DOCTYPE html>
@@ -11219,7 +11222,7 @@ document.getElementById("demo").innerHTML = x - y;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 236,
         questionInstructions: `Display the product of 10 * 5, using two variables x and y.`,
         question: `<!DOCTYPE html>
@@ -11261,7 +11264,7 @@ document.getElementById("demo").innerHTML = x * y;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 237,
         questionInstructions: `Display the result of 10 / 5, using two variables x and y.`,
         question: `<!DOCTYPE html>
@@ -11302,7 +11305,7 @@ document.getElementById("demo").innerHTML = x / y;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 239,
         questionInstructions: `Find the remainder when 15 is divided by 9, using two variables x and y.`,
         question: `<!DOCTYPE html>
@@ -11344,7 +11347,7 @@ document.getElementById("demo").innerHTML = x % y;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 240,
         questionInstructions: `Use the += operator to add a value of 5 to the variable x.`,
         question: `<!DOCTYPE html>
@@ -11387,7 +11390,7 @@ document.getElementById("demo").innerHTML = x;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 241,
         questionInstructions: `Use the -= operator to subtract a value of 5 from the variable x.`,
         question: `<!DOCTYPE html>
@@ -11430,7 +11433,7 @@ document.getElementById("demo").innerHTML = x;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 242,
         questionInstructions: `Use the *= operator to multiply the variable x with 5.`,
         question: `<!DOCTYPE html>
@@ -11472,7 +11475,7 @@ document.getElementById("demo").innerHTML = x;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 243,
         questionInstructions: `Use the /= operator to divide the variable x with 5.`,
         question: `<!DOCTYPE html>
@@ -11515,7 +11518,7 @@ document.getElementById("demo").innerHTML = x;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 244,
         questionInstructions: `Use the %= operator to assign a remainder of 10 / 3 to the variable x.`,
         question: `<!DOCTYPE html>
@@ -11557,7 +11560,7 @@ document.getElementById("demo").innerHTML = x;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 245,
         questionInstructions: `Call the function.`,
         question: `<!DOCTYPE html>
@@ -11601,7 +11604,7 @@ myFunction();
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 246,
         questionInstructions: `Figure out what is wrong with the function - fix it and run it as it should!`,
         question: `<!DOCTYPE html>
@@ -11646,7 +11649,7 @@ myFunction();
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 247,
         questionInstructions: `Use the function to display the product of 5 * 5.`,
         question: `<!DOCTYPE html>
@@ -11691,7 +11694,7 @@ document.getElementById("demo").innerHTML = myFunction();
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 248,
         questionInstructions: `Use the function to display "Hello John".`,
         question: `<!DOCTYPE html>
@@ -11735,7 +11738,7 @@ document.getElementById("demo").innerHTML = myFunction("John");
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 249,
         questionInstructions: `Define a function named "myFunction", and make it display "Hello World!" in the <p> element.`,
         question: `<!DOCTYPE html>
@@ -11777,7 +11780,7 @@ myFunction();
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 250,
         questionInstructions: `Display "John" by extracting information from the person object.`,
         question: `<!DOCTYPE html>
@@ -11816,7 +11819,7 @@ document.getElementById("demo").innerHTML = person.firstName;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 251,
         questionInstructions: `Add the following property and value to the person object: country: USA`,
         question: `<!DOCTYPE html>
@@ -11856,7 +11859,7 @@ document.getElementById("demo").innerHTML = person.country;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 252,
         questionInstructions: `Create an object called person with name = John, age = 50.
 Then, access the object to display "John is 50 years old".`,
@@ -11898,7 +11901,7 @@ person.name + " is " + person.age + " years old.";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 253,
         questionInstructions: `The <p> element should do something when someone clicks on it. Try to fix it!`,
         question: `<!DOCTYPE html>
@@ -11928,7 +11931,7 @@ person.name + " is " + person.age + " years old.";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 254,
         questionInstructions: `When the button is clicked, trigger myFunction() with an event.`,
         question: `<!DOCTYPE html>
@@ -11974,7 +11977,7 @@ function myFunction() {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 255,
         questionInstructions: `The <span> element should do something when someone moves the mouse over it. Try to fix it!`,
         question: `<!DOCTYPE html>
@@ -12005,7 +12008,7 @@ function myFunction() {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 256,
         questionInstructions: `Assign the string "Hello World!" to the variable txt.`,
         question: `<!DOCTYPE html>
@@ -12045,7 +12048,7 @@ document.getElementById("demo").innerHTML = txt;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 257,
         questionInstructions: `Use the length property to display the length of the txt variable's value.`,
         question: `<!DOCTYPE html>
@@ -12086,7 +12089,7 @@ document.getElementById("demo").innerHTML = txt.length;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 258,
         questionInstructions: `The string below is broken - use escape characters to display the text correctly.`,
         question: `<!DOCTYPE html>
@@ -12125,7 +12128,7 @@ document.getElementById("demo").innerHTML = "We are \"Vikings\".";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 259,
         questionInstructions: `Concatenate the two strings to display "Hello World!".`,
         question: `<!DOCTYPE html>
@@ -12167,7 +12170,7 @@ document.getElementById("demo").innerHTML = str1 + str2;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 260,
         questionInstructions: `Display the position of the first occurrence of "World" in the variable txt.`,
         question: `<!DOCTYPE html>
@@ -12208,7 +12211,7 @@ document.getElementById("demo").innerHTML = txt.indexOf("World");
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 261,
         questionInstructions: `Use the slice() method to display only "Banana,Kiwi".`,
         question: `<!DOCTYPE html>
@@ -12249,7 +12252,7 @@ document.getElementById("demo").innerHTML = str.slice(6);
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 262,
         questionInstructions: `Use the replace() method to replace "World" with "Universe".`,
         question: `<!DOCTYPE html>
@@ -12290,7 +12293,7 @@ document.getElementById("demo").innerHTML = txt.replace("World", "Universe");
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 263,
         questionInstructions: `Convert the value of txt to upper case.`,
         question: `<!DOCTYPE html>
@@ -12330,7 +12333,7 @@ document.getElementById("demo").innerHTML = txt.toUpperCase();
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 264,
         questionInstructions: `Convert the value of txt to lower case.`,
         question: `<!DOCTYPE html>
@@ -12371,7 +12374,7 @@ document.getElementById("demo").innerHTML = txt.toLowerCase();
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 265,
         questionInstructions: `Use the concat() method to join the two strings: str1 and str2.`,
         question: `<!DOCTYPE html>
@@ -12413,7 +12416,7 @@ document.getElementById("demo").innerHTML = str1.concat(str2);
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 266,
         questionInstructions: `Create a variable called myNumber, assign the value 50 to it, and display it.`,
         question: `<!DOCTYPE html>
@@ -12453,7 +12456,7 @@ document.getElementById("demo").innerHTML = myNumber;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 267,
         questionInstructions: `The value of z should be 11. Find out what's wrong and fix it.`,
         question: `<!DOCTYPE html>
@@ -12497,7 +12500,7 @@ document.getElementById("demo").innerHTML = z;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 268,
         questionInstructions: `Divide x by 3.`,
         question: `<!DOCTYPE html>
@@ -12538,7 +12541,7 @@ document.getElementById("demo").innerHTML = x / 3;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 269,
         questionInstructions: `Display the product of 8 * 5, using two variables x and y.`,
         question: `<!DOCTYPE html>
@@ -12579,7 +12582,7 @@ document.getElementById("demo").innerHTML = x * y;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 270,
         questionInstructions: `Use the random() method to display a random number.`,
         question: `<!DOCTYPE html>
@@ -12618,7 +12621,7 @@ document.getElementById("demo").innerHTML = Math.random();
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 271,
         questionInstructions: `Fix the code to display the number with the highest value.`,
         question: `<!DOCTYPE html>
@@ -12657,7 +12660,7 @@ document.getElementById("demo").innerHTML = Math.max(0, 150, 30, 20, -8);
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 272,
         questionInstructions: `Round "5.3" to the nearest integer, and display it.`,
         question: `<!DOCTYPE html>
@@ -12695,7 +12698,7 @@ document.getElementById("demo").innerHTML = Math.round(5.3);
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 273,
         questionInstructions: `Display the square root of "9".`,
         question: `<!DOCTYPE html>
@@ -12734,7 +12737,7 @@ document.getElementById("demo").innerHTML = Math.sqrt(9);
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 274,
         questionInstructions: `Create a Date object to display the current date and time.`,
         question: `<!DOCTYPE html>
@@ -12773,7 +12776,7 @@ document.getElementById("demo").innerHTML = new Date();
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 275,
         questionInstructions: `Create a Date object with the following value: "January 10, 2015 10:00:00".`,
         question: `<!DOCTYPE html>
@@ -12812,7 +12815,7 @@ document.getElementById("demo").innerHTML = new Date("January 10, 2015 10:00:00"
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 276,
         questionInstructions: `Use the toDateString() method to convert the date to a more readable format.`,
         question: `<!DOCTYPE html>
@@ -12850,7 +12853,7 @@ document.getElementById("demo").innerHTML = new Date().toDateString();
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 277,
         questionInstructions: `Create an array named cars, assign the values "Saab", "Volvo" and "BMW" to it, and display it.`,
         question: `<!DOCTYPE html>
@@ -12890,7 +12893,7 @@ document.getElementById("demo").innerHTML = cars;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 278,
         questionInstructions: `Display the "Volvo" item of the cars array.`,
         question: `<!DOCTYPE html>
@@ -12931,7 +12934,7 @@ document.getElementById("demo").innerHTML = cars[1];
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 279,
         questionInstructions: `Change the first item of cars to "Opel" by referring to the index number, and display the whole array.`,
         question: `<!DOCTYPE html>
@@ -12973,7 +12976,7 @@ document.getElementById("demo").innerHTML = cars;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 280,
         questionInstructions: `Use the length property to display the number of array items in cars.`,
         question: `<!DOCTYPE html>
@@ -13013,7 +13016,7 @@ document.getElementById("demo").innerHTML = cars.length;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 281,
         questionInstructions: `Use the length property to add a new item to cars: Mercedes.`,
         question: `<!DOCTYPE html>
@@ -13055,7 +13058,7 @@ document.getElementById("demo").innerHTML = cars;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 282,
         questionInstructions: `Use the pop() method to remove the last item from the fruits array.`,
         question: `<!DOCTYPE html>
@@ -13096,7 +13099,7 @@ document.getElementById("demo").innerHTML = fruits;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 283,
         questionInstructions: `Use the push() method to add a new item to fruits: Kiwi.`,
         question: `<!DOCTYPE html>
@@ -13137,7 +13140,7 @@ document.getElementById("demo").innerHTML = fruits;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 284,
         questionInstructions: `Use the splice() method to remove "Orange" and "Apple" from fruits.`,
         question: `<!DOCTYPE html>
@@ -13178,7 +13181,7 @@ document.getElementById("demo").innerHTML = fruits;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 285,
         questionInstructions: `Use the concat() method to concatenate girls and boys.`,
         question: `<!DOCTYPE html>
@@ -13223,7 +13226,7 @@ document.getElementById("demo").innerHTML = children;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 286,
         questionInstructions: `Use the sort() method to sort the array alphabetically.`,
         question: `<!DOCTYPE html>
@@ -13265,7 +13268,7 @@ document.getElementById("demo").innerHTML = fruits;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 287,
         questionInstructions: `Choose the correct comparison operator to display "true", when:
 5 is less than 7.`,
@@ -13304,7 +13307,7 @@ document.getElementById("demo").innerHTML = 5 < 7;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 288,
         questionInstructions: `Choose the correct comparison operator to display "true", when:
 10 is greater than 7.`,
@@ -13344,7 +13347,7 @@ document.getElementById("demo").innerHTML = 10 > 7;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 289,
         questionInstructions: `Choose the correct comparison operator to display "true", when:
 10 is equal to 10.`,
@@ -13384,7 +13387,7 @@ document.getElementById("demo").innerHTML = 10 == 10;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 290,
         questionInstructions: `Choose the correct comparison operator to display "true", when:
 10 is NOT equal to 8.`,
@@ -13424,7 +13427,7 @@ document.getElementById("demo").innerHTML = 10 != 8;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 291,
         questionInstructions: `Use a conditional (ternary) operator for this exercise:
 If the variable age is a value below 18, the value of the variable voteable should be "Too young", 
@@ -13476,7 +13479,7 @@ function checkAge() {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 292,
         questionInstructions: `Use a conditional (ternary) operator for this exercise:
 If the variable firstName is equal to "John", the value of the variable result should be "Hello John!", 
@@ -13529,7 +13532,7 @@ function checkName() {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 293,
         questionInstructions: `Use the if statement to output some text if 5 is greater than 2.`,
         question: `<!DOCTYPE html>
@@ -13572,7 +13575,7 @@ if (5 > 2) {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 294,
         questionInstructions: `1. Write an if statement with the following condition: 10 is greater than 5. 
 2. If the condition is true, display "I did it!".`,
@@ -13613,7 +13616,7 @@ if (10 > 5) {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 295,
         questionInstructions: `Change the value of the variable firstName to make the if statement run.`,
         question: `<!DOCTYPE html>
@@ -13659,7 +13662,7 @@ if (firstName === "John") {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 296,
         questionInstructions: `Add an else statement to display "You're not John!".`,
         question: `<!DOCTYPE html>
@@ -13708,7 +13711,7 @@ if (firstName === "John") {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 297,
         questionInstructions: `Write an if/else statement with the following condition:
 
@@ -13756,7 +13759,7 @@ if (age > 18) {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 298,
         questionInstructions: `The if/else statement does not work. Try to fix it.`,
         question: `<!DOCTYPE html>
@@ -13812,7 +13815,7 @@ document.getElementById("demo").innerHTML = greeting;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 299,
         questionInstructions: `The switch statement is missing a case for "Apple". Add it, and set text to "How you like them apples?"`,
         question: `<!DOCTYPE html>
@@ -13891,7 +13894,7 @@ function checkFruit() {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 300,
         questionInstructions: `The switch statement is missing a default case.
 
@@ -13971,7 +13974,7 @@ function checkFruit() {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 301,
         questionInstructions: `The switch statement does not work. Try to fix it.`,
         question: `<!DOCTYPE html>
@@ -14047,7 +14050,7 @@ function checkFruit() {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 302,
         questionInstructions: `Finish the switch statement. Add the following cases: BMW, Ford and Peugeot. 
 Set the value of the variable text to: "German car" for BMW. "American car" for Ford. "French car" for Peugeot. 
@@ -14118,7 +14121,7 @@ function checkCar() {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 303,
         questionInstructions: `In the for loop, change num1 to 0 and num2 to 10 and run the code.`,
         question: `<!DOCTYPE html>
@@ -14162,7 +14165,7 @@ for (i = 0; i < 10; i++) {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 304,
         questionInstructions: `Make the loop start counting from 5 instead of 0:`,
         question: `<!DOCTYPE html>
@@ -14206,7 +14209,7 @@ for (i = 5; i < 10; i++) {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 305,
         questionInstructions: `Make the loop start counting from 5. Count up to (including) 50, and count only every fifth number.`,
         question: `<!DOCTYPE html>
@@ -14250,7 +14253,7 @@ for (i = 5; i <= 50; i = i + 5) {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 306,
         questionInstructions: `Make the loop start counting downwards from 10 and stop at 1.
 
@@ -14296,7 +14299,7 @@ for (i = 10; i > 0; i--) {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 307,
         questionInstructions: `Inside the for loop: 
 Set the counter variable (i) to 0. 
@@ -14354,7 +14357,7 @@ document.getElementById("demo").innerHTML = text;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 308,
         questionInstructions: `In this exercise, you are going to create a for loop from scratch. 
 We have already created the counter variable i for you, and a text variable for output. 
@@ -14407,7 +14410,7 @@ document.getElementById("demo").innerHTML = text;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 309,
         questionInstructions: `Inside the <script> element; change num1 to 0 and num2 to 10 and run the code.`,
         question: `<!DOCTYPE html>
@@ -14454,7 +14457,7 @@ while (i < 10) {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 310,
         questionInstructions: `Make the loop start counting from 5 instead of 0:`,
         question: `<!DOCTYPE html>
@@ -14501,7 +14504,7 @@ while (i < 10) {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 311,
         questionInstructions: `Make the loop start counting from 5. Count up to (including) 50 and count only every fifth number.`,
         question: `<!DOCTYPE html>
@@ -14548,7 +14551,7 @@ while (i <= 50) {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 312,
         questionInstructions: `Make the loop start counting downwards from 10 and stop at 1.
 
@@ -14596,7 +14599,7 @@ while (i > 0) {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 313,
         questionInstructions: `The do/while loop should output 0 1 2 3 4. Try to fix it!`,
         question: `<!DOCTYPE html>
@@ -14645,7 +14648,7 @@ while (i < 5)
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 314,
         questionInstructions: `Use the break statement to stop the loop at 5.`,
         question: `<!DOCTYPE html>
@@ -14692,7 +14695,7 @@ for (i = 1; i < 10; i++) {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 315,
         questionInstructions: `Use the continue statement to skip the number 5 in the loop.`,
         question: `<!DOCTYPE html>
@@ -14740,7 +14743,7 @@ for (i = 1; i < 10; i++) {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 316,
         questionInstructions: `Use the continue statement to skip the numbers 5 AND 7 in the loop.`,
         question: `<!DOCTYPE html>
@@ -14788,7 +14791,7 @@ for (i = 1; i < 10; i++) {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 317,
         questionInstructions: `The switch statement does not work. Try to fix it.`,
         question: `<!DOCTYPE html>
@@ -14864,7 +14867,7 @@ function checkCar() {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 318,
         questionInstructions: `Use the continue statement to not output the array's element "Saab".`,
         question: `<!DOCTYPE html>
@@ -14915,7 +14918,7 @@ document.getElementById("demo").innerHTML = text;
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 319,
         questionInstructions: `Use the getElementById method to find the <p> element, and change its text to "Good Job!".`,
         question: `<!DOCTYPE html>
@@ -14954,7 +14957,7 @@ document.getElementById("demo").innerHTML = "Good Job!";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 320,
         questionInstructions: `Use the getElementsByTagName method to find the <p> element, and change its text to "Good Job!".`,
         question: `<!DOCTYPE html>
@@ -14992,7 +14995,7 @@ document.getElementsByTagName("p")[0].innerHTML = "Good Job!";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 321,
         questionInstructions: `Use the getElementsByClassName method to find the <p> element, and change its text to "Good Job!".`,
         question: `<!DOCTYPE html>
@@ -15030,7 +15033,7 @@ document.getElementsByClassName("test")[0].innerHTML = "Good Job!";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 322,
         questionInstructions: `Use the querySelectorAll method to find the <p> element, and change its text to "Good Job!".`,
         question: `<!DOCTYPE html>
@@ -15069,7 +15072,7 @@ document.querySelectorAll("p")[0].innerHTML = "Good Job!";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 323,
         questionInstructions: `Use the DOM to find and display the document's title.`,
         question: `<!DOCTYPE html>
@@ -15115,7 +15118,7 @@ document.getElementById("demo").innerHTML =
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 324,
         questionInstructions: `Use the innerHTML property to change the content of the <p> element to "New text!".`,
         question: `<!DOCTYPE html>
@@ -15154,7 +15157,7 @@ document.getElementById("demo").innerHTML = "New text!";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 325,
         questionInstructions: `Use the innerHTML property to change the content of the <h1> element to "New Header".`,
         question: `<!DOCTYPE html>
@@ -15193,7 +15196,7 @@ document.getElementById("myHeader").innerHTML = "New Header";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 326,
         questionInstructions: `Use HTML DOM to change the value of the image's src attribute to "pic_mountain.jpg".`,
         question: `<!DOCTYPE html>
@@ -15231,7 +15234,7 @@ document.getElementById("image").src = "pic_mountain.jpg";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 327,
         questionInstructions: `Use HTML DOM to change the value of the input's value attribute to "Goodbye".`,
         question: `<!DOCTYPE html>
@@ -15269,7 +15272,7 @@ document.getElementById("myText").value = "Goodbye";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 328,
         questionInstructions: `Use the document.write() method to output "Hello World!".`,
         question: `<!DOCTYPE html>
@@ -15304,7 +15307,7 @@ document.write("Hello World!");
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 329,
         questionInstructions: `Use the HTML DOM to set the text color of <p> to "red".`,
         question: `<!DOCTYPE html>
@@ -15343,7 +15346,7 @@ document.getElementById("demo").style.color = "red";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 330,
         questionInstructions: `Use the HTML DOM to add a yellow background color to <p>.`,
         question: `<!DOCTYPE html>
@@ -15381,7 +15384,7 @@ document.getElementById("demo").style.backgroundColor = "yellow";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 331,
         questionInstructions: `Use the HTML DOM to center-align the text of <p>.`,
         question: `<!DOCTYPE html>
@@ -15419,7 +15422,7 @@ document.getElementById("demo").style.textAlign = "center";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 332,
         questionInstructions: `Use the HTML DOM to change the text size of <p> to 40 pixels.`,
         question: `<!DOCTYPE html>
@@ -15458,7 +15461,7 @@ document.getElementById("demo").style.fontSize = "40px";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 333,
         questionInstructions: `Use the HTML DOM to hide the <p> element.`,
         question: `<!DOCTYPE html>
@@ -15496,7 +15499,7 @@ document.getElementById("demo").style.visibility = "hidden";
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 334,
         questionInstructions: `Add an onclick event attribute to <button>. Clicking the button should trigger myFunction().`,
         question: `<!DOCTYPE html>
@@ -15543,7 +15546,7 @@ function myFunction() {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 335,
         questionInstructions: `Use the DOM to assign an onclick event to the <button> element. Clicking the button should trigger displayDate().`,
         question: `<!DOCTYPE html>
@@ -15593,7 +15596,7 @@ function displayDate() {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 336,
         questionInstructions: `The <span> element should do something when someone moves the mouse over it. Try to fix it!`,
         question: `<!DOCTYPE html>
@@ -15624,7 +15627,7 @@ function displayDate() {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 337,
         questionInstructions: `Use the correct selector to hide all <p> elements.`,
         question: `<!DOCTYPE html>
@@ -15675,7 +15678,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 338,
         questionInstructions: `Use the correct selector to hide the element with id="test".`,
         question: `<!DOCTYPE html>
@@ -15723,7 +15726,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 339,
         questionInstructions: `Use the correct selector to hide all elements with class="test".`,
         question: `<!DOCTYPE html>
@@ -15776,7 +15779,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 340,
         questionInstructions: `Use the correct selector to hide all elements in the document.`,
         question: `<!DOCTYPE html>
@@ -15836,7 +15839,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 341,
         questionInstructions: `Use the correct selector to hide all elements with an href attribute.`,
         question: `<!DOCTYPE html>
@@ -15888,7 +15891,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 342,
         questionInstructions: `Use the correct selector to hide all odd table rows.`,
         question: `<!DOCTYPE html>
@@ -15985,7 +15988,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 343,
         questionInstructions: `If you click on a <p> element, it should be hidden. Use the correct event to do so.`,
         question: `<!DOCTYPE html>
@@ -16039,7 +16042,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 344,
         questionInstructions: `If you double-click on a <p> element, it should be hidden. Use the correct event to do so.`,
         question: `<!DOCTYPE html>
@@ -16093,7 +16096,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 345,
         questionInstructions: `When the mouse pointer enters the <span> element, it should be hidden. Use the correct event to do so.`,
         question: `<!DOCTYPE html>
@@ -16146,7 +16149,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 346,
         questionInstructions: `If you press a keyboard key inside the <input> element, it should be hidden. Use the correct event to do so.`,
         question: `<!DOCTYPE html>
@@ -16197,7 +16200,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 347,
         questionInstructions: `Use the on() method to attach a click event handler to all <p> elements.`,
         question: `<!DOCTYPE html>
@@ -16252,7 +16255,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 348,
         questionInstructions: `Use a jQuery method to hide the <p> element when it is clicked on.`,
         question: `<!DOCTYPE html>
@@ -16302,7 +16305,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 349,
         questionInstructions: `Use a jQuery method to hide the <p> element when it is clicked on.
 The speed should be "slow".`,
@@ -16352,7 +16355,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 350,
         questionInstructions: `There is a hidden <p> element in the document. 
 Use a jQuery method to show the <p> element with a click of a button.`,
@@ -16411,7 +16414,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 351,
         questionInstructions: `Toggle between hiding and showing the <p> element when you click on the "Toggle" button.`,
         question: `<!DOCTYPE html>
@@ -16465,7 +16468,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 352,
         questionInstructions: `Use a jQuery method to fade out the <div> element.`,
         question: `<!DOCTYPE html>
@@ -16511,7 +16514,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 353,
         questionInstructions: `Use a jQuery method to fade out the <div> element. 
 Note: The duration of the effect should be "slow".`,
@@ -16559,7 +16562,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 354,
         questionInstructions: `Use a jQuery method to fade in the hidden <div> element. 
 Note: The duration of the effect should be 2000 milliseconds.`,
@@ -16606,7 +16609,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 355,
         questionInstructions: `Use a jQuery method to fade the <div> element to an opacity of "0.2". 
 Note: The duration of the effect should be "slow".`,
@@ -16653,7 +16656,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 356,
         questionInstructions: `Use a jQuery method to toggle between fading in and out the <div> element, when clicking the button. 
 Note: The duration of the effect should be 1000 milliseconds.`,
@@ -16708,7 +16711,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 357,
         questionInstructions: `Use a jQuery method to slide up the <div> element.`,
         question: `<!DOCTYPE html>
@@ -16754,7 +16757,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 358,
         questionInstructions: `Use a jQuery method to slide up the <div> element. 
 The duration of the effect should be "slow".`,
@@ -16802,7 +16805,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 359,
         questionInstructions: `Use a jQuery method to slide down the <div> element. 
 The duration of the effect should be 3000 milliseconds.`,
@@ -16849,7 +16852,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 360,
         questionInstructions: `Use a jQuery method to toggle between sliding up and down the <div> element, when clicking the button. 
 The duration of the effect should be 1000 milliseconds.`,
@@ -16903,7 +16906,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 361,
         questionInstructions: `Use the animate() method to move the <div> element 250 pixels to the right.`,
         question: `<!DOCTYPE html>
@@ -16949,7 +16952,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 362,
         questionInstructions: `Use the animate() method to set the height of <div> to 500 pixels.`,
         question: `<!DOCTYPE html>
@@ -16996,7 +16999,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 363,
         questionInstructions: `Use the animate() method to set the following CSS properties for <div>: 
 opacity: 0.4, height: 500px, width: 500px.`,
@@ -17047,7 +17050,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 364,
         questionInstructions: `Use the animate() method to set the font-size of <div> to 100 pixels. 
 The duration of the effect should be "slow".`,
@@ -17093,7 +17096,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 365,
         questionInstructions: `Alert the text content of <p>.`,
         question: `<!DOCTYPE html>
@@ -17139,7 +17142,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 366,
         questionInstructions: `Alert the HTML content of <p>.`,
         question: `<!DOCTYPE html>
@@ -17186,7 +17189,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 367,
         questionInstructions: `Alert the value of the input field.`,
         question: `<!DOCTYPE html>
@@ -17232,7 +17235,7 @@ Name: <input type="text" value="Mickey Mouse">
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 368,
         questionInstructions: `Alert the URL address of the link.`,
         question: `<!DOCTYPE html>
@@ -17279,7 +17282,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 369,
         questionInstructions: `Use a jQuery method to change the text of the <p> element to "Hello World!".`,
         question: `<!DOCTYPE html>
@@ -17324,7 +17327,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 370,
         questionInstructions: `Use a jQuery method to change the text of the <p> element to "Hello World!" in bold.`,
         question: `<!DOCTYPE html>
@@ -17371,7 +17374,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 371,
         questionInstructions: `Use a jQuery method to change the value of the input field to "Dolly Duck".`,
         question: `<!DOCTYPE html>
@@ -17417,7 +17420,7 @@ Name: <input type="text" value="Mickey Mouse">
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 372,
         questionInstructions: `Use a jQuery method to change the value of the image's src attribute to "img_pulpitrock.jpg".`,
         question: `<!DOCTYPE html>
@@ -17463,7 +17466,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 373,
         questionInstructions: `Use jQuery to change the text of the link to "W3Schools Home",
 and change the value of href's attribute value to "www.w3schools.com".`,
@@ -17511,7 +17514,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 374,
         questionInstructions: `Use a jQuery method to insert the text "YES!" at the end of the <p> element.`,
         question: `<!DOCTYPE html>
@@ -17558,7 +17561,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 375,
         questionInstructions: `Use a jQuery method to insert a third <li> element: "List item 3", at the end of the <ol> element.`,
         question: `<!DOCTYPE html>
@@ -17611,7 +17614,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 376,
         questionInstructions: `Use a jQuery method to insert the text "Hello" at the beginning of the <p> element.`,
         question: `<!DOCTYPE html>
@@ -17658,7 +17661,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 377,
         questionInstructions: `Use a jQuery method to add the text "How are you?" after the <p> element.`,
         question: `<!DOCTYPE html>
@@ -17704,7 +17707,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 378,
         questionInstructions: `Use a jQuery method to remove the <div> element.`,
         question: `<!DOCTYPE html>
@@ -17759,7 +17762,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 379,
         questionInstructions: `Use a jQuery method to only remove the child elements of <div>.`,
         question: `<!DOCTYPE html>
@@ -17813,7 +17816,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 380,
         questionInstructions: `Use a jQuery method to remove all <p> elements with class="test".`,
         question: `<!DOCTYPE html>
@@ -17876,7 +17879,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 381,
         questionInstructions: `Use a jQuery method to remove all <p> elements with class="test" and class="demo".`,
         question: `<!DOCTYPE html>
@@ -17951,7 +17954,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 382,
         questionInstructions: `Use a jQuery method to add the "important" class to the <p> element.`,
         question: `<!DOCTYPE html>
@@ -18011,7 +18014,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 383,
         questionInstructions: `Use a jQuery method to add both the "important" and "test" class to the <p> element.`,
         question: `<!DOCTYPE html>
@@ -18081,7 +18084,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 384,
         questionInstructions: `Use a jQuery method to remove the "important" class from the <p> element.`,
         question: `<!DOCTYPE html>
@@ -18140,7 +18143,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 385,
         questionInstructions: `Use a jQuery method to toggle between adding and 
 removing the "important" class from the <p> element, when you click on it.`,
@@ -18206,7 +18209,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 386,
         questionInstructions: `Use the css() method to add a pink background color to <p>.`,
         question: `<!DOCTYPE html>
@@ -18253,7 +18256,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 387,
         questionInstructions: `Use the css() method to add a 5 pixels, red dotted border to <p>.`,
         question: `<!DOCTYPE html>
@@ -18299,7 +18302,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 388,
         questionInstructions: `Alert the background color of <p>.`,
         question: `<!DOCTYPE html>
@@ -18346,7 +18349,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 389,
         questionInstructions: `Use the css() method to set the following styles for <p>: 
 Green background color, white text color, 25 pixels font size and a padding of 15 pixels.`,
@@ -18398,7 +18401,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 390,
         questionInstructions: `Use jQuery to set the height and width of <div> to 500 pixels.`,
         question: `<!DOCTYPE html>
@@ -18465,7 +18468,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 391,
         questionInstructions: `Alert the height of <div>, excluding padding, border and margin.`,
         question: `<!DOCTYPE html>
@@ -18530,7 +18533,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 392,
         questionInstructions: `Alert the height of <div>, including padding (not border and margin).`,
         question: `<!DOCTYPE html>
@@ -18597,7 +18600,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 393,
         questionInstructions: `Alert the height of <div>, including padding and border.`,
         question: `<!DOCTYPE html>
@@ -18662,7 +18665,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 394,
         questionInstructions: `Alert the height of <div>, including padding, border and margin.`,
         question: `<!DOCTYPE html>
@@ -18727,7 +18730,7 @@ div {
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 395,
         questionInstructions: `Add a red color to the direct parent of <span>.`,
         question: `<!DOCTYPE html>
@@ -18807,7 +18810,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 396,
         questionInstructions: `Add a red color to the grandparent of <span>.`,
         question: `<!DOCTYPE html>
@@ -18888,7 +18891,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 397,
         questionInstructions: `Add a red color to all ancestors of <span>.`,
         question: `<!DOCTYPE html>
@@ -18968,7 +18971,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 398,
         questionInstructions: `Add a red color to the direct parent AND grandparent of <span>.`,
         question: `<!DOCTYPE html>
@@ -19048,7 +19051,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 399,
         questionInstructions: `Add a red color to the direct child of <ul>.`,
         question: `<!DOCTYPE html>
@@ -19129,7 +19132,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 400,
         questionInstructions: `Add a red color to the <span> element that is the descendant of <ul>.`,
         question: `<!DOCTYPE html>
@@ -19210,7 +19213,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 401,
         questionInstructions: `Add a red color to all descendants of <ul>.`,
         question: `<!DOCTYPE html>
@@ -19290,7 +19293,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 402,
         questionInstructions: `Use the children() method to add a red color to the element with class="demo" inside <div>.`,
         question: `<!DOCTYPE html>
@@ -19360,7 +19363,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 403,
         questionInstructions: `Add a red color to all sibling elements of <h2>.`,
         question: `<!DOCTYPE html>
@@ -19437,7 +19440,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 404,
         questionInstructions: `Add a red color to all sibling elements of <h2> that are <p> elements.`,
         question: `<!DOCTYPE html>
@@ -19514,7 +19517,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 405,
         questionInstructions: `Add a red color to the previous sibling of <h2>.`,
         question: `<!DOCTYPE html>
@@ -19591,7 +19594,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 406,
         questionInstructions: `Add a red color to all next sibling elements of <h2>.`,
         question: `<!DOCTYPE html>
@@ -19668,7 +19671,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 407,
         questionInstructions: `Add a red color to all previous sibling elements of <h2>.`,
         question: `<!DOCTYPE html>
@@ -19745,7 +19748,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 408,
         questionInstructions: `Add a red color to all sibling elements between <h2> and <h6>.`,
         question: `<!DOCTYPE html>
@@ -19827,7 +19830,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 409,
         questionInstructions: `Add a red color to first <p> element.`,
         question: `<!DOCTYPE html>
@@ -19879,7 +19882,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 410,
         questionInstructions: `Add a red color to last <p> element.`,
         question: `<!DOCTYPE html>
@@ -19931,7 +19934,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 411,
         questionInstructions: `Add a red color to third <p> element.`,
         question: `<!DOCTYPE html>
@@ -19983,7 +19986,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 412,
         questionInstructions: `Add a red color to all <p> elements with class="intro".`,
         question: `<!DOCTYPE html>
@@ -20036,7 +20039,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 413,
         questionInstructions: `Add a red color to all <p> elements that do not have the class name "intro".`,
         question: `<!DOCTYPE html>
@@ -20089,7 +20092,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 414,
         questionInstructions: `Add a yellow background color to the last <p> element inside the last <div> element.`,
         question: `<!DOCTYPE html>
@@ -20150,7 +20153,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 415,
         questionInstructions: `Use a Bootstrap class to style the table properly (with padding and horizontal dividers).`,
         question: `<!DOCTYPE html>
@@ -20246,7 +20249,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 416,
         questionInstructions: `Add zebra-stripes to the table.`,
         question: `<!DOCTYPE html>
@@ -20343,7 +20346,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 417,
         questionInstructions: `Add borders on all sides of the table and cells.`,
         question: `<!DOCTYPE html>
@@ -20440,7 +20443,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 418,
         questionInstructions: `Enable a hover state on table rows.`,
         question: `<!DOCTYPE html>
@@ -20537,7 +20540,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 419,
         questionInstructions: `Make the table more compact by cutting cell padding in half.`,
         question: `<!DOCTYPE html>
@@ -20634,7 +20637,7 @@ $(document).ready(function(){
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 420,
         questionInstructions: `Use contextual classes to add the following: 
 Green color to the table row containing John. 
@@ -20734,7 +20737,7 @@ Orange color to the last table row.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 421,
         questionInstructions: `Use a Bootstrap class to shape the image to a circle.`,
         question: `<!DOCTYPE html>
@@ -20781,7 +20784,7 @@ Orange color to the last table row.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 422,
         questionInstructions: `Add rounded corners to the image.`,
         question: `<!DOCTYPE html>
@@ -20828,7 +20831,7 @@ Orange color to the last table row.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 423,
         questionInstructions: `Shape the image to a thumbnail.`,
         question: `<!DOCTYPE html>
@@ -20875,7 +20878,7 @@ Orange color to the last table row.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 424,
         questionInstructions: `Make the image responsive. 
 Note: Resize the browser window to see the effect.`,
@@ -20923,7 +20926,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 425,
         questionInstructions: `Create an alert message that indicates a successful or positive action.`,
         question: `<!DOCTYPE html>
@@ -20974,7 +20977,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 426,
         questionInstructions: `Look at the following messages; add the appropriate alert class to each of them.`,
         question: `<!DOCTYPE html>
@@ -21043,7 +21046,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 427,
         questionInstructions: `Make the alert message closable.`,
         question: `<!DOCTYPE html>
@@ -21096,7 +21099,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 428,
         questionInstructions: `Use a Bootstrap class to style the button properly with a red color.`,
         question: `<!DOCTYPE html>
@@ -21142,7 +21145,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 429,
         questionInstructions: `Change the size of the buttons in the following order: large, medium, small and xsmall.`,
         question: `<!DOCTYPE html>
@@ -21195,7 +21198,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 430,
         questionInstructions: `Make the button span the entire width of the parent element.`,
         question: `<!DOCTYPE html>
@@ -21241,7 +21244,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 431,
         questionInstructions: `Use a Bootstrap class to disable the button.`,
         question: `<!DOCTYPE html>
@@ -21286,7 +21289,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 432,
         questionInstructions: `Group the buttons together.`,
         question: `<!DOCTYPE html>
@@ -21341,7 +21344,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 433,
         questionInstructions: `Make all buttons in the group LARGE with a single class.`,
         question: `<!DOCTYPE html>
@@ -21396,7 +21399,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 434,
         questionInstructions: `Create a vertical button group of the buttons below.`,
         question: `<!DOCTYPE html>
@@ -21451,7 +21454,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 435,
         questionInstructions: `Justify the button group: make them span the entire width of the screen.`,
         question: `<!DOCTYPE html>
@@ -21506,7 +21509,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 436,
         questionInstructions: `Add the dropdown-toggle class and the data-toggle="dropdown" attribute to the Sony button to create a dropdown menu.`,
         question: `<!DOCTYPE html>
@@ -21575,7 +21578,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 437,
         questionInstructions: `Use a span element to create a "search" icon.`,
         question: `<!DOCTYPE html>
@@ -21622,7 +21625,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 438,
         questionInstructions: `Create a button that indicates a successful action, and add a "search" icon on it.`,
         question: `<!DOCTYPE html>
@@ -21667,7 +21670,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 439,
         questionInstructions: `Find out why the span element does not display the glyphicon correctly - Fix it!`,
         question: `<!DOCTYPE html>
@@ -21713,7 +21716,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 440,
         questionInstructions: `After the "Comments" text, add a badge with the number "2" inside of it.`,
         question: `<!DOCTYPE html>
@@ -21759,7 +21762,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 441,
         questionInstructions: `Inside the button, after the "Comments" text, add a badge with the number "2".`,
         question: `<!DOCTYPE html>
@@ -21805,7 +21808,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 442,
         questionInstructions: `After the "Ice Cream" text, add a default label with the text "YES!" inside of it.`,
         question: `<!DOCTYPE html>
@@ -21851,7 +21854,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 443,
         questionInstructions: `Use a contextual class to make the label red (indicates danger).`,
         question: `<!DOCTYPE html>
@@ -21897,7 +21900,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 444,
         questionInstructions: `Find out why the progress bar does not work as expected - Fix it!`,
         question: `<!DOCTYPE html>
@@ -21958,7 +21961,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 445,
         questionInstructions: `Use a contextual class to make the progressbar green.`,
         question: `<!DOCTYPE html>
@@ -22018,7 +22021,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 446,
         questionInstructions: `Add stripes to the progress bar.`,
         question: `<!DOCTYPE html>
@@ -22079,7 +22082,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 447,
         questionInstructions: `Add a Bootstrap class to animate the progress bar.`,
         question: `<!DOCTYPE html>
@@ -22140,7 +22143,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 448,
         questionInstructions: `Create a basic pagination of the list below.`,
         question: `<!DOCTYPE html>
@@ -22203,7 +22206,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 449,
         questionInstructions: `Add the active state to the first list item.`,
         question: `<!DOCTYPE html>
@@ -22266,7 +22269,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 450,
         questionInstructions: `Use a Bootstrap class to disable the first list item.`,
         question: `<!DOCTYPE html>
@@ -22329,7 +22332,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 451,
         questionInstructions: `Use a Bootstrap class to make the pagination larger.`,
         question: `<!DOCTYPE html>
@@ -22392,7 +22395,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 452,
         questionInstructions: `Use a Bootstrap class to make the pagination smaller.`,
         question: `<!DOCTYPE html>
@@ -22455,7 +22458,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 453,
         questionInstructions: `Use the elements below to create a basic Bootstrap List Group.`,
         question: `<!DOCTYPE html>
@@ -22510,7 +22513,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 454,
         questionInstructions: `Use the list below to make a list group with linked items.`,
         question: `<!DOCTYPE html>
@@ -22565,7 +22568,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 455,
         questionInstructions: `Disable the first item in the list.`,
         question: `<!DOCTYPE html>
@@ -22620,7 +22623,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 456,
         questionInstructions: `Use contextual classes to make the first item green, the second item yellow and the third red.`,
         question: `<!DOCTYPE html>
@@ -22674,7 +22677,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 457,
         questionInstructions: `Add the active state to the first list item.`,
         question: `<!DOCTYPE html>
@@ -22728,7 +22731,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 458,
         questionInstructions: `Create a basic Bootstrap Panel with the words: "Hello World".`,
         question: `<!DOCTYPE html>
@@ -22776,7 +22779,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 459,
         questionInstructions: `Add a heading to the panel with the words "Good Job".`,
         question: `<!DOCTYPE html>
@@ -22829,7 +22832,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 460,
         questionInstructions: `Add a footer to the panel with the words "I ROCK!".`,
         question: `<!DOCTYPE html>
@@ -22884,7 +22887,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 461,
         questionInstructions: `Use a Bootstrap class to group the panels below.`,
         question: `<!DOCTYPE html>
@@ -22957,7 +22960,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 462,
         questionInstructions: `Use a contextual class to color the panel green.`,
         question: `<!DOCTYPE html>
@@ -23010,7 +23013,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 463,
         questionInstructions: `Add the required classes and attributes to create a dropdown list of the elements below.`,
         question: `<!DOCTYPE html>
@@ -23073,7 +23076,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 464,
         questionInstructions: `Add a header at the top of the dropdown menu with the text "Header".`,
         question: `<!DOCTYPE html>
@@ -23138,7 +23141,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 465,
         questionInstructions: `Add a divider after "JavaScript" in the dropdown list.`,
         question: `<!DOCTYPE html>
@@ -23205,7 +23208,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 466,
         questionInstructions: `Right-align the dropdown menu, when clicking on it.`,
         question: `<!DOCTYPE html>
@@ -23270,7 +23273,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 467,
         questionInstructions: `Make the dropdown menu expand upwards instead of downwards when clicking on it.`,
         question: `<!DOCTYPE html>
@@ -23333,7 +23336,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 468,
         questionInstructions: `Create a Tab menu of the list below.`,
         question: `<!DOCTYPE html>
@@ -23390,7 +23393,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 469,
         questionInstructions: `Add the active state to the first list item.`,
         question: `<!DOCTYPE html>
@@ -23447,7 +23450,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 470,
         questionInstructions: `Create a Pill menu of the list below.`,
         question: `<!DOCTYPE html>
@@ -23504,7 +23507,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 471,
         questionInstructions: `Display the pills vertically.`,
         question: `<!DOCTYPE html>
@@ -23561,7 +23564,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 472,
         questionInstructions: `Justify/Center the Pills.`,
         question: `<!DOCTYPE html>
@@ -23618,7 +23621,7 @@ Note: Resize the browser window to see the effect.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 473,
         questionInstructions: `Make the tabs toggleable. 
 To get you started, we have added the .tab-pane and .tab-content classes.`,
@@ -23704,7 +23707,7 @@ To get you started, we have added the .tab-pane and .tab-content classes.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 474,
         questionInstructions: `Find out why the navbar is not displayed correctly - Fix it!`,
         question: `<!DOCTYPE html>
@@ -23775,7 +23778,7 @@ To get you started, we have added the .tab-pane and .tab-content classes.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 475,
         questionInstructions: `Use a Bootstrap Navbar Class to make the navigation bar black.`,
         question: `<!DOCTYPE html>
@@ -23846,7 +23849,7 @@ To get you started, we have added the .tab-pane and .tab-content classes.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 476,
         questionInstructions: `Make the navigation bar stay at the bottom of the page.`,
         question: `<!DOCTYPE html>
@@ -23929,7 +23932,7 @@ To get you started, we have added the .tab-pane and .tab-content classes.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-}, {
+    }, {
         questionNum: 477,
         questionInstructions: `Right-align the navigation bar buttons. 
 Note: You will not see the result if your screen is not wide enough.`,
@@ -24001,531 +24004,531 @@ Note: You will not see the result if your screen is not wide enough.`,
         choice4: ``,
         choice5: ``,
         explination: ``,
-},
-//                           {
-//    questionNum: 478,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 479,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 480,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 481,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 482,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 483,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 484,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 485,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 486,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 487,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 488,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 489,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 490,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 491,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 492,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 493,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 494,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 495,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 496,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 497,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 498,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 499,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 500,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 501,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 502,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 503,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 504,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 505,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 506,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 507,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 508,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 509,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 510,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 511,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, {
-//    questionNum: 512,
-//    questionInstructions: ``,
-//    question: ``,
-//    answer: ``,
-//    timeCorrect: 0,
-//    questionLanguage: 'html',
-//    answer1: ``,
-//    answer2: ``,
-//    choice1: ``,
-//    choice2: ``,
-//    choice3: ``,
-//    choice4: ``,
-//    choice5: ``,
-//    explination: ``,
-//}, 
-                          ]
+    },
+    //                           {
+    //    questionNum: 478,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 479,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 480,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 481,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 482,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 483,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 484,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 485,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 486,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 487,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 488,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 489,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 490,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 491,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 492,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 493,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 494,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 495,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 496,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 497,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 498,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 499,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 500,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 501,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 502,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 503,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 504,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 505,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 506,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 507,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 508,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 509,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 510,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 511,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, {
+    //    questionNum: 512,
+    //    questionInstructions: ``,
+    //    question: ``,
+    //    answer: ``,
+    //    timeCorrect: 0,
+    //    questionLanguage: 'html',
+    //    answer1: ``,
+    //    answer2: ``,
+    //    choice1: ``,
+    //    choice2: ``,
+    //    choice3: ``,
+    //    choice4: ``,
+    //    choice5: ``,
+    //    explination: ``,
+    //}, 
+]
