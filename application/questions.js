@@ -1675,7 +1675,7 @@ A paragraph with an image. A paragraph with an image.
 <html>
 <body>
 
-<img src="w3schooooools.jpg" alt="W3Schools.com" width="135" height="50">
+<img src="w3schooooools.jpg" alt="w3schools.com" width="135" height="50">
 
 </body>
 </html>

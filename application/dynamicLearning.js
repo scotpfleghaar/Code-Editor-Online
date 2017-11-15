@@ -14,6 +14,8 @@
         var question = question;
         window.location.reload();
     });
+
+
     if (localStorage.questions) {
         var items = localStorage.questions;
         question = JSON.parse(items);
@@ -59,7 +61,11 @@
         }
         return array;
     }
-    // shuffle(question); // Uncomment this for random.
+
+
+    $(".onOrOff").hide();
+
+
 
     //Custom Functions
     function trimmer(value) {
@@ -97,6 +103,31 @@
     /////////////////////// Here is where the content becomes dynamic
     function loadQuestion(index) {
 
+        $('.randomize').off('click').on('click', function () {
+            $(this).toggleClass("randomizeOn");
+            $(".onOrOff").toggle();
+            if ($('.randomize').hasClass("randomizeOn")) {
+                console.log("Randomizing Questions");
+                shuffle(question);
+            } else {
+                question.sort(function (a, b) {
+                    if (a.timeCorrect > b.timeCorrect) {
+                        return 1;
+                    } else if (a.timeCorrect < b.timeCorrect) {
+                        return -1;
+                    }
+
+                    // Else go to the 2nd item
+                    if (a.questionNum < b.questionNum) {
+                        return -1;
+                    } else if (a.questionNum > b.questionNum) {
+                        return 1;
+                    } else {
+                        return 0;
+                    }
+                });
+            }
+        });
 
         // Load Question Variables
         var currentInstruction = question[index].questionInstructions,
@@ -241,7 +272,7 @@
 
         // Sort Elements by timeCorrect (puts incorrect answers to the top)
         console.log("Index before the sort: " + index);
-        if (index === 7) {
+        if (index === 6) {
             question.sort(function (a, b) {
                 if (a.timeCorrect > b.timeCorrect) {
                     return 1;
@@ -330,7 +361,10 @@
             //Doing check on code challange
             if ((attempt == currentAnswer) || isMCCorrect) { // "==="" is unnecesary as both items should be a type
                 console.log('Correct!');
-                $('.explination').show();
+                if (currentMCexplination = "") {
+                    $('.explination').show();
+                }
+
                 $('.explination').text(currentMCexplination);
                 //Change result color and text based on result
                 $('.result').css('background-color', 'green');
@@ -359,7 +393,9 @@
                 //When the code is incorrect to many times, this block gives the answers
                 // and allows user to enter correct answer
                 if (attemptNumber > 1) {
-                    $('.explination').show();
+                    if (currentMCexplination = "") {
+                        $('.explination').show();
+                    }
                     $('.explination').text(currentMCexplination);
                     $('.result').css('background-color', '#80dfff');
                     $('#editor').css('border', 'solid 2px #80dfff');
