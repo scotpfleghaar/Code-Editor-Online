@@ -349,7 +349,7 @@
                 $('#editor').css('border', 'solid 2px #ff8566');
 
                 //Moves the timeCorrect down based on incorrect answer
-                question[index].timeCorrect = question[index].timeCorrect - 1;
+                question[index].timeCorrect = question[index].timeCorrect - 0.75;
                 console.log(question[index].timeCorrect);
                 attemptNumber += 1;
                 console.log("Inside attemptNumber:" + attemptNumber);
