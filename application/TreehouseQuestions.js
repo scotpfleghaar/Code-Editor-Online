@@ -1,0 +1,16 @@
+var treeHouseQuestions = [{
+    questionNum: 1,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'java',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, ]

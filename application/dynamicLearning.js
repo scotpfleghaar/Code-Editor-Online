@@ -211,8 +211,6 @@
             return this;
         };
         $('.choice').shuffle();
-
-
         $('.explination').text("");
         $('.explination').hide();
 
@@ -301,16 +299,35 @@
         $("#editor").show();
 
 
+        // Insert code into iframe
+
         $("iframe").attr("srcdoc", " ");
         var code1 = editor.getValue();
 
-        editor.session.on('change', function () {
-            code1 = editor.getValue();
-            $("iframe").attr("srcdoc", code1);
-        });
+        if (questionCodeLanguage == 'html') {
+            editor.session.on('change', function () {
+                code1 = editor.getValue();
+                $("iframe").attr("srcdoc", code1);
+            });
+        }
+
+
+
+
 
         //Inset code into iframe;
-        $("iframe").attr("srcdoc", code1);
+        if (questionCodeLanguage == 'html') {
+            $('.html-display').show();
+            $('.editor-display').addClass('col-sm-7');
+            $('.editor-display').removeClass('col-sm-12');
+            $("iframe").attr("srcdoc", code1);
+        } else {
+            $('.html-display').hide();
+            $('.editor-display').removeClass('col-sm-7');
+            $('.editor-display').addClass('col-sm-12');
+        }
+
+
 
         if (code1.length < 1) {
             $("#editor").hide();
@@ -329,8 +346,11 @@
         $('.test').off('click').on('click', function () { ////////NOTE: unbinding is a major issue I do not understand here.
 
             //Inset code into iframe;
-            var code1 = editor.getValue();
-            $("iframe").attr("srcdoc", code1);
+            if (questionCodeLanguage == 'html') {
+                var code1 = editor.getValue();
+                $("iframe").attr("srcdoc", code1);
+            }
+
 
             //Reset Border
             $('.result').text('');
@@ -344,7 +364,6 @@
             editor2.setValue("");
 
             //MC Evaluation
-
             var mCattempt = trimmer($(".selectedChoice").text());
             console.log("mCattempt: " + mCattempt);
             var mCanswer = trimmer(currentMCanswer1 + currentMCanswer2);
@@ -355,8 +374,6 @@
                 isMCCorrect = false;
             }
             console.log(isMCCorrect);
-
-
 
             //Doing check on code challange
             if ((attempt == currentAnswer) || isMCCorrect) { // "==="" is unnecesary as both items should be a type
@@ -409,7 +426,6 @@
                         $("#editor2").hide();
                     }
 
-
                     if (questionCodeLanguage === 'javascript') {
                         beatify2();
                     }
@@ -419,8 +435,11 @@
                     // When the submit button is clicked, evauluate the answer without decrementing timeCorrect
                     $('.submit').on('click', function () {
                         //Inset code into iframe;
-                        var code1 = editor.getValue();
-                        $("iframe").attr("srcdoc", code1);
+                        if (questionCodeLanguage == 'html') {
+                            var code1 = editor.getValue();
+                            $("iframe").attr("srcdoc", code1);
+                        }
+
 
                         //MC Evaliation
                         var mCattempt = trimmer($(".selectedChoice").text());
