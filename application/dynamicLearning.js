@@ -7,7 +7,7 @@
         attemptNumber = 0; //Keeps track of each question attempts
 
     // The question bank:
-    const qBank = frontEndDevelopment; // Pulls in question bank
+    const qBank = treehouseQuestions; // Pulls in question bank
     var question = qBank;
     $('.resetBank').on('click', function () {
         localStorage.clear();
@@ -175,7 +175,7 @@
 
         function multipleChoiceSetUp(currentMc) {
             if (currentMc.length > 0) {
-                $('.choices').append('<li class="choice list-group-item">' + currentMc + '</li>');
+                $('.choices').append('<li class="choice list-group-item">' + currentMc.toString() + '</li>');
             }
         }
 

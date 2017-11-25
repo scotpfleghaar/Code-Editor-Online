@@ -24532,3 +24532,3624 @@ Note: You will not see the result if your screen is not wide enough.`,
     //    explination: ``,
     //}, 
 ]
+
+
+var treehouseQuestions = [{
+    questionNum: 1,
+    questionInstructions: `What is HTML used for?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `Defining the structure of a web page`,
+    choice1: `Adding interactivity to a web page`,
+    choice2: `Styling HTML elements on a web page`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 2,
+    questionInstructions: `Please close the following HTML tag: `,
+    question: `<h1>Welcome to my webpage`,
+    answer: `<h1>Welcome to my webpage</h1>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 3,
+    questionInstructions: `What is CSS used for?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `Styling HTML elements on a web page`,
+    choice1: `Defining the structure of a web page`,
+    choice2: `Adding interactivity to a web page`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 4,
+    questionInstructions: `<h1>Hello, world!</h1> is an example of ____.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `HTML`,
+    choice1: `CSS`,
+    choice2: `JavaScript`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 5,
+    questionInstructions: `You can use HTML and CSS to retrieve information from a database.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `False`,
+    choice1: `True`,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 6,
+    questionInstructions: `Change the HTML paragraph tag to an h1 tag.`,
+    question: `<!doctype html>
+<html>
+    <head>
+    <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+    
+    <p>Welcome to My Web Page!</p>
+    
+    </body>
+</html>`,
+    answer: `<!doctype html>
+<html>
+    <head>
+    <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+    
+    <h1>Welcome to My Web Page!</h1>
+    
+    </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 7,
+    questionInstructions: `Change the color of the h1 tag to purple.`,
+    question: `<!doctype html>
+<html>
+  <head>
+    <style>
+      h1 {
+         color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <h1>Welcome to My Web Page!</h1>
+    
+  </body>
+</html>`,
+    answer: `<!doctype html>
+<html>
+  <head>
+    <style>
+      h1 {
+         color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <h1>Welcome to My Web Page!</h1>
+    
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 8,
+    questionInstructions: `The bulk of the content of our web page goes in the _____ section.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `Body`,
+    choice1: `Head`,
+    choice2: `Footer`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 9,
+    questionInstructions: `Which tags commonly appear inside the part of a web page that you see in the browser window?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `header, main, footer`,
+    choice1: `beginning, middle, end`,
+    choice2: `doctype, body, title`,
+    choice3: `head, title, html`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 10,
+    questionInstructions: `The <head></head> tags are where we put information you don’t see in the browser, like the page's title, and links to JavaScript and CSS files.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `True`,
+    choice1: `False`,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 11,
+    questionInstructions: `Which of the code examples below tells the browser that the contents of the document are HTML?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `"<!doctype html>"`,
+    choice1: `"<!htmldoc>"`,
+    choice2: `"<!documenttype html>"`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 12,
+    questionInstructions: `What is the purpose of an href attribute on an anchor tag?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `To tell the browser where we want the link to go.`,
+    choice1: `To define an image file path.`,
+    choice2: `To create a paragraph element.`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 13,
+    questionInstructions: `What two attributes should you put on an <img> tag?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `src and alt`,
+    choice1: `class and alt`,
+    choice2: `ID and href`,
+    choice3: `class and ID`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 14,
+    questionInstructions: `A <p> tag is used to:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `commence a paragraph of text.`,
+    choice1: `Add punctuation.`,
+    choice2: `Make an element purple.`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 15,
+    questionInstructions: `You can place an <img> tag inside an <a> tag to turn the image into a link.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `True`,
+    choice1: `False`,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 16,
+    questionInstructions: `What is the alt attribute on an <img> tag for?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `It describes an image`,
+    choice1: `It provides the file path to an image.`,
+    choice2: `It points to a backup image`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 17,
+    questionInstructions: `Give the image tag a src attribute with a file path of "images/spain.jpg"`,
+    question: `<!doctype>
+<html>
+  <head>
+    <title>My trip to Spain</title>
+  </head>
+  <body>
+    
+    <img alt="A picture of me in Spain">
+    Here is a picture of me in Spain last summer!
+    <a>Go back to the top of the page.</a>
+    
+  </body>
+</html>
+`,
+    answer: `<!doctype>
+<html>
+  <head>
+    <title>My trip to Spain</title>
+  </head>
+  <body>
+    
+    <img src="images/spain.jpg" alt="A picture of me in Spain">
+    Here is a picture of me in Spain last summer!
+    <a>Go back to the top of the page.</a>
+    
+  </body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 18,
+    questionInstructions: `Put the text in a paragraph tag.`,
+    question: `<!doctype>
+<html>
+  <head>
+    <title>My trip to Spain</title>
+  </head>
+  <body>
+    
+    <img src="images/spain.jpg" alt="A picture of me in Spain">
+    Here is a picture of me in Spain last summer!
+    <a>Go back to the top of the page.</a>
+    
+  </body>
+</html>
+`,
+    answer: `<!doctype>
+<html>
+  <head>
+    <title>My trip to Spain</title>
+  </head>
+  <body>
+    
+    <img src="images/spain.jpg" alt="A picture of me in Spain">
+    <p>Here is a picture of me in Spain last summer!</p>
+    <a>Go back to the top of the page.</a>
+    
+  </body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 19,
+    questionInstructions: `Set the anchor tag so that it points to the top of the page. (Hint: you'll need the href attribute.)`,
+    question: `<!doctype>
+<html>
+  <head>
+    <title>My trip to Spain</title>
+  </head>
+  <body>
+    
+    <img src="images/spain.jpg" alt="A picture of me in Spain">
+    <p>Here is a picture of me in Spain last summer!</p>
+    <a>Go back to the top of the page.</a>
+    
+  </body>
+</html>
+`,
+    answer: `<!doctype>
+<html>
+  <head>
+    <title>My trip to Spain</title>
+  </head>
+  <body>
+    
+    <img src="images/spain.jpg" alt="A picture of me in Spain">
+    <p>Here is a picture of me in Spain last summer!</p>
+    <a href="#top" >Go back to the top of the page.</a>
+    
+  </body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 20,
+    questionInstructions: `Add an unordered list element between the <body> tags.`,
+    question: `<!doctype html>
+<html>
+    <head>
+    <title>List Example</title>
+    </head>
+    <body>
+    
+    
+    </body>
+</html>`,
+    answer: `<!doctype html>
+<html>
+  <head>
+    <title>List Example</title>
+  </head>
+  <body>
+    <ul>
+    </ul>
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 21,
+    questionInstructions: `Add three list item tags to the unordered list, and add the names "John", "Sandy", and "Bertha"`,
+    question: `<!doctype html>
+<html>
+    <head>
+    <title>List Example</title>
+    </head>
+    <body>
+    <ul>
+        
+    </ul>
+    </body>
+</html>`,
+    answer: `<!doctype html>
+<html>
+  <head>
+    <title>List Example</title>
+  </head>
+  <body>
+    <ul>
+      <li>John</li>
+      <li>Sandy</li>
+      <li>Bertha</li>
+    </ul>
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 22,
+    questionInstructions: `Add a class called "main-pg" to the paragraph element.`,
+    question: `<!doctype html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <p>My amazing website</p>
+    
+  </body>
+</html>`,
+    answer: `<!doctype html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <p class="main-pg">My amazing website</p>
+    
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 23,
+    questionInstructions: `Create a rule for the .main-pg class. You don't need to write any style instructions yet.`,
+    question: `<!doctype html>
+<html>
+    <head>
+    <script>
+        
+    </script>
+    </head>
+    <body>
+    
+    <p class="main-pg">My amazing website</p>
+    
+    </body>
+</html>`,
+    answer: `<!doctype html>
+<html>
+    <head>
+    <script>
+        .main-pg {
+        
+        }
+    </script>
+    </head>
+    <body>
+    
+    <p class="main-pg">My amazing website</p>
+    
+    </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 24,
+    questionInstructions: `Give the paragraph a border that is 4px wide, solid and red.`,
+    question: `<!doctype html>
+<html>
+  <head>
+    <script>
+      .main-pg {
+       
+      }
+    </script>
+  </head>
+  <body>
+    
+    <p class="main-pg">My amazing website</p>
+    
+  </body>
+</html>`,
+    answer: `<!doctype html>
+<html>
+  <head>
+    <script>
+      .main-pg {
+        border: 4px solid red;
+      }
+    </script>
+  </head>
+  <body>
+    
+    <p class="main-pg">My amazing website</p>
+    
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 25,
+    questionInstructions: `If you have a <p> element with a class called “left-column”, which of the following selectors would you use to style it in the CSS?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `.left-column`,
+    choice1: `#left-column`,
+    choice2: `left-column`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 26,
+    questionInstructions: `Which of the following is an example of a CSS property?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `border-radius`,
+    choice1: `alt`,
+    choice2: `header`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 27,
+    questionInstructions: `Margin and padding are used to increase and decrease the amount of space around an element.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `True`,
+    choice1: `False`,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 28,
+    questionInstructions: `Given this CSS rule, what will the browser do?`,
+    question: `
+p { 
+    color: blue; 
+}`,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: `It will make the font color of every paragraph tag on the page blue.`,
+    choice1: `It will make the font color of only the first paragraph tag blue.`,
+    choice2: `It will make the font color of only the last paragraph tag blue.`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 29,
+    questionInstructions: `If you forget to enclose your CSS styles in curly braces { }, the browser will:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `Fail to apply the styles to your web page.`,
+    choice1: `Give you an error message.`,
+    choice2: `Add the curly braces for you.`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 30,
+    questionInstructions: `Add a class called "social-links" to each anchor tag.`,
+    question: `<!doctype html>
+<html>
+  <head>
+    <title>List Example</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    
+    <a href="#">Follow me on Twitter!</a>
+    <a href="#">Send me an Email!</a>
+
+  </body>
+</html>`,
+    answer: `<!doctype html>
+<html>
+  <head>
+    <title>List Example</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    
+    <a class="social-links" href="#">Follow me on Twitter!</a>
+    <a Class="social-links" href="#">Send me an Email!</a>
+
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 31,
+    questionInstructions: `Create a rule for the .social-links class. You don't need to write any style instructions yet.`,
+    question: `<!doctype html>
+<html>
+  <head>
+    <title>List Example</title>
+    <script>
+      
+    </script>
+  </head>
+  <body>
+    
+    <a class="social-links" href="#">Follow me on Twitter!</a>
+    <a class="social-links" href="#">Send me an Email!</a>
+
+  </body>
+</html>`,
+    answer: `<!doctype html>
+<html>
+  <head>
+    <title>List Example</title>
+    <script>
+      .social-links{
+        
+      }
+    </script>
+  </head>
+  <body>
+    
+    <a class="social-links" href="#">Follow me on Twitter!</a>
+    <a class="social-links" href="#">Send me an Email!</a>
+
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 32,
+    questionInstructions: `Use the class to give both <a> tags 15px of padding and 10px of margin.`,
+    question: `<!doctype html>
+<html>
+  <head>
+    <title>List Example</title>
+    <script>
+      .social-links{
+        
+      }
+    </script>
+  </head>
+  <body>
+    
+    <a class="social-links" href="#">Follow me on Twitter!</a>
+    <a class="social-links" href="#">Send me an Email!</a>
+
+  </body>
+</html>`,
+    answer: `<!doctype html>
+<html>
+  <head>
+    <title>List Example</title>
+    <script>
+      .social-links{
+          padding: 15px;
+          margin: 10px;
+      }
+    </script>
+  </head>
+  <body>
+    
+    <a class="social-links" href="#">Follow me on Twitter!</a>
+    <a class="social-links" href="#">Send me an Email!</a>
+
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 33,
+    questionInstructions: `Set up your HTML document with the <!doctype> and <html> tags.`,
+    question: ``,
+    answer: `<!doctype html>
+<html>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 34,
+    questionInstructions: `Now add the two tags that should always be nested within the <html></html> element.`,
+    question: `<!doctype html>
+<html>
+
+</html>`,
+    answer: `<!doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+    </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 35,
+    questionInstructions: `Between the <head> and </head> tags, give your web page a <title> of "webpage".`,
+    question: `<!doctype html>
+<html>
+    <head>
+    
+    </head>
+    <body>
+    </body>
+</html>`,
+    answer: `<!doctype html>
+<html>
+    <head>
+    <title>website</title>
+    </head>
+    <body>
+    </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 36,
+    questionInstructions: `Put a set of anchor tags around "Menu" in the last list item.`,
+    question: `<!doctype html> 
+<html>
+  <head>
+    <title>Al's Restaurant</title>
+  </head>
+  <body>
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="food-gallery.html">Food Gallery</a></li>
+          <li>Menu</li>
+        </ul>
+  </body>
+</html>`,
+    answer: `<!doctype html> 
+<html>
+  <head>
+    <title>Al's Restaurant</title>
+  </head>
+  <body>
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="food-gallery.html">Food Gallery</a></li>
+          <li><a>Menu</a></li>
+        </ul>
+  </body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 37,
+    questionInstructions: `Add an href attribute to the anchor tag, and point it to another webpage called "menu.html".`,
+    question: `<!doctype html> 
+<html>
+  <head>
+    <title>Al's Restaurant</title>
+  </head>
+  <body>
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="food-gallery.html">Food Gallery</a></li>
+          <li><a>Menu</a></li>
+        </ul>
+  </body>
+</html>
+`,
+    answer: `<!doctype html> 
+<html>
+  <head>
+    <title>Al's Restaurant</title>
+  </head>
+  <body>
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="food-gallery.html">Food Gallery</a></li>
+          <li><a href="menu.html">Menu</a></li>
+        </ul>
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 38,
+    questionInstructions: `Use the correct html attribute on the <a> to link a new web page. `,
+    question: `<a    =”new-page.html”>This is a link to my new web page. </a>`,
+    answer: `<a href=”new-page.html”>This is a link to my new web page. </a>`,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 39,
+    questionInstructions: `What is a text editor?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `Software for web developers that make coding easier by color-coding code and automatically closing tags.`,
+    choice1: `A line of code that is crucial for the proper setup of an HTML document.`,
+    choice2: `A CSS property that changes the text in an HTML document.`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 40,
+    questionInstructions: `A website is basically a collection of web pages linked together through a central page.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `True`,
+    choice1: `False`,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 41,
+    questionInstructions: `You have a stylesheet called styles.css in a folder called css. What file path would you put in the href?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `<link rel=”stylesheet” href=”css/styles.css">`,
+    choice1: `<link rel=”stylesheet” href=”styles.css">`,
+    choice2: `<link rel=”stylesheet” href=”home/css/styles.css">`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 42,
+    questionInstructions: `The tags you need to set up a basic web page from scratch are:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: `<header>, <main>, <footer>`,
+    answer2: `<!doctype html>, <html>, <head>, <body>`,
+    choice1: `<h1>, <h2>, <nav>`,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 43,
+    questionInstructions: `HTML provides the _____ layer of a web page.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `contnet`,
+    choice1: `interactivity`,
+    choice2: `performance`,
+    choice3: `presentation`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 44,
+    questionInstructions: `What element provides general information about the document, like the title and links to style sheets?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `<head>`,
+    choice1: `<!DOCTYPE html>`,
+    choice2: `<body>`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 45,
+    questionInstructions: `A _____ provides meaning to text in a document, using instructions that describe how text should be structured and formatted.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `markup language`,
+    choice1: `web page`,
+    choice2: `cascading style sheet`,
+    choice3: `browser`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 46,
+    questionInstructions: `What instructs the browser the version of HTML you're using?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `The doctype declaration`,
+    choice1: `The <head> element`,
+    choice2: `The <title> element`,
+    choice3: `The <html> element`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 47,
+    questionInstructions: `Where do you include the content you want to display in the browser?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `The <body> element`,
+    choice1: `The <!DOCTYPE html> declaration`,
+    choice2: `The <head> element`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 48,
+    questionInstructions: `Set the main headline to a heading level 1 element. Then, place the line of text below the main headline inside opening and closing paragraph tags.`,
+    question: `<!DOCTYPE html>
+<html>
+    <head>
+    <link href="styles.css" rel="stylesheet">
+    <title>Headings and Paragraphs</title>
+    </head>
+    <body>
+    This is the Main Headline!  
+    Oat cake chocolate bar jelly. Tootsie roll cheesecake sweet gummies candy cookie pudding cotton candy carrot cake. Souffl&eacute; caramels brownie oat cake cheesecake.
+    
+    Level 2 Heading 
+    Ice cream candy canes muffin icing pudding muffin jelly topping carrot cake. I love gingerbread dessert jujubes bonbon cupcake tootsie roll I love. Oat cake topping caramels I love cupcake oat cake chocolate topping donut.
+    
+    Level 3 Heading
+    Cotton candy topping halvah sugar plum gummies souffl&eacute;. Ice cream danish donut sugar plum. Macaroon carrot cake gummies. Caramels oat cake chocolate cake.
+    </body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <title>Headings and Paragraphs</title>
+  </head>
+  <body>
+    <h1>This is the Main Headline!</h1>
+    <p>Oat cake chocolate bar jelly. Tootsie roll cheesecake sweet gummies candy cookie pudding cotton candy carrot cake. Souffl&eacute; caramels brownie oat cake cheesecake.</p>
+    
+    Level 2 Heading 
+    Ice cream candy canes muffin icing pudding muffin jelly topping carrot cake. I love gingerbread dessert jujubes bonbon cupcake tootsie roll I love. Oat cake topping caramels I love cupcake oat cake chocolate topping donut.
+    
+    Level 3 Heading
+    Cotton candy topping halvah sugar plum gummies souffl&eacute;. Ice cream danish donut sugar plum. Macaroon carrot cake gummies. Caramels oat cake chocolate cake.
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 49,
+    questionInstructions: `Set the subheading to a heading level 2 element and the line of text below it to a paragraph element.`,
+    question: `<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <title>Headings and Paragraphs</title>
+  </head>
+  <body>
+    <h1>This is the Main Headline!</h1>
+    <p>Oat cake chocolate bar jelly. Tootsie roll cheesecake sweet gummies candy cookie pudding cotton candy carrot cake. Souffl&eacute; caramels brownie oat cake cheesecake.</p>
+    
+    Level 2 Heading
+    Ice cream candy canes muffin icing pudding muffin jelly topping carrot cake. I love gingerbread dessert jujubes bonbon cupcake tootsie roll I love. Oat cake topping caramels I love cupcake oat cake chocolate topping donut.
+    
+    Level 3 Heading
+    Cotton candy topping halvah sugar plum gummies souffl&eacute;. Ice cream danish donut sugar plum. Macaroon carrot cake gummies. Caramels oat cake chocolate cake.
+  </body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <title>Headings and Paragraphs</title>
+  </head>
+  <body>
+    <h1>This is the Main Headline!</h1>
+    <p>Oat cake chocolate bar jelly. Tootsie roll cheesecake sweet gummies candy cookie pudding cotton candy carrot cake. Souffl&eacute; caramels brownie oat cake cheesecake.</p>
+    
+    <h2>Level 2 Heading</h2>
+    <p>Ice cream candy canes muffin icing pudding muffin jelly topping carrot cake. I love gingerbread dessert jujubes bonbon cupcake tootsie roll I love. Oat cake topping caramels I love cupcake oat cake chocolate topping donut.</p>
+    
+    Level 3 Heading
+    Cotton candy topping halvah sugar plum gummies souffl&eacute;. Ice cream danish donut sugar plum. Macaroon carrot cake gummies. Caramels oat cake chocolate cake.
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 50,
+    questionInstructions: `Set the third heading to a heading level 3 element and the text below it to a paragraph.`,
+    question: `<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <title>Headings and Paragraphs</title>
+  </head>
+  <body>
+    <h1>This is the Main Headline!</h1>
+    <p>Oat cake chocolate bar jelly. Tootsie roll cheesecake sweet gummies candy cookie pudding cotton candy carrot cake. Souffl&eacute; caramels brownie oat cake cheesecake.</p>
+    
+    <h2>Level 2 Heading</h2>
+    <p>Ice cream candy canes muffin icing pudding muffin jelly topping carrot cake. I love gingerbread dessert jujubes bonbon cupcake tootsie roll I love. Oat cake topping caramels I love cupcake oat cake chocolate topping donut.</p>
+    
+    Level 3 Heading
+    Cotton candy topping halvah sugar plum gummies souffl&eacute;. Ice cream danish donut sugar plum. Macaroon carrot cake gummies. Caramels oat cake chocolate cake.
+  </body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <title>Headings and Paragraphs</title>
+  </head>
+  <body>
+    <h1>This is the Main Headline!</h1>
+    <p>Oat cake chocolate bar jelly. Tootsie roll cheesecake sweet gummies candy cookie pudding cotton candy carrot cake. Souffl&eacute; caramels brownie oat cake cheesecake.</p>
+    
+    <h2>Level 2 Heading</h2>
+    <p>Ice cream candy canes muffin icing pudding muffin jelly topping carrot cake. I love gingerbread dessert jujubes bonbon cupcake tootsie roll I love. Oat cake topping caramels I love cupcake oat cake chocolate topping donut.</p>
+    
+    <h3>Level 3 Heading</h3>
+    <p>Cotton candy topping halvah sugar plum gummies souffl&eacute;. Ice cream danish donut sugar plum. Macaroon carrot cake gummies. Caramels oat cake chocolate cake.</p>
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 51,
+    questionInstructions: `Convert the text inside the <body> tags into an unordered list.`,
+    question: `<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lists and Links</title>
+  </head>
+  <body>
+  
+  Cakes
+  Pies
+  Candy
+    
+  </body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lists and Links</title>
+  </head>
+  <body>
+    <ul>
+     <li>Cakes</li>
+     <li>Pies</li>
+     <li>Candy</li>
+    </ul> 
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 52,
+    questionInstructions: `Make the text inside each list item a link. The first item should link to cakes.html, the second to pies.html and the third to candy.html.`,
+    question: `<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lists and Links</title>
+  </head>
+  <body>
+    <ul>
+     <li>Cakes</li>
+     <li>Pies</li>
+     <li>Candy</li>
+    </ul> 
+  </body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lists and Links</title>
+  </head>
+  <body>
+    <ul>
+     <li><a href="cakes.html">Cakes</a></li>
+     <li><a href="pies.html">Pies</a></li>
+     <li><a href="candy.html">Candy</a></li>
+    </ul> 
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 53,
+    questionInstructions: `Group each set of h3 and p elements using an element that describes self-contained pieces of content.`,
+    question: `<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <title>My Blog</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Web Design &amp; Development Blog!</h1> 
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Recent Work</a></li>            
+        </ul>
+      </nav>
+    </header>
+    
+    <h2>The Main Articles</h2>   
+    
+    <h3>My Favorite HTML Courses</h3> 
+    <p>Fusce semper id ipsum sed scelerisque. Etiam nec elementum massa. Pellentesque tristique ex ac ipsum hendrerit, eget <a href="#">feugiat ante faucibus</a>.</p>
+    
+    <h3>10 Handy CSS Features</h3> 
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et <a href="#">ultrices posuere</a>.</p>    
+    
+    <h3>Follow Me on Social Media:</h3>
+    <ul>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">LinkedIn</a></li>     
+    </ul>
+
+    <footer>
+      <p>&copy; 2017 My Blog</p>
+    </footer>
+  </body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <title>My Blog</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Web Design &amp; Development Blog!</h1> 
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Recent Work</a></li>            
+        </ul>
+      </nav>
+    </header>
+    
+    <h2>The Main Articles</h2>   
+    <article>
+    <h3>My Favorite HTML Courses</h3> 
+        <p>Fusce semper id ipsum sed scelerisque. Etiam nec elementum massa. Pellentesque tristique ex ac ipsum hendrerit, eget <a href="#">feugiat ante faucibus</a>.</p>
+    </article>
+    <article>
+        <h3>10 Handy CSS Features</h3> 
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et <a href="#">ultrices posuere</a>.</p>    
+    </article>
+    
+    <h3>Follow Me on Social Media:</h3>
+    <ul>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">LinkedIn</a></li>     
+    </ul>
+
+    <footer>
+      <p>&copy; 2017 My Blog</p>
+    </footer>
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 54,
+    questionInstructions: `Place the "social media" heading and list of links inside an element that represents a section of content that's indirectly related to the main content of the page.`,
+    question: `<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <title>My Blog</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Web Design &amp; Development Blog!</h1> 
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Recent Work</a></li>            
+        </ul>
+      </nav>
+    </header>
+    
+    <h2>The Main Articles</h2>   
+    <article>
+      <h3>My Favorite HTML Courses</h3> 
+      <p>Fusce semper id ipsum sed scelerisque. Etiam nec elementum massa. Pellentesque tristique ex ac ipsum hendrerit, eget <a href="#">feugiat ante faucibus</a>.</p>
+    </article>
+    <article>
+      <h3>10 Handy CSS Features</h3> 
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et <a href="#">ultrices posuere</a>.</p>    
+    </article>
+    
+    <h3>Follow Me on Social Media:</h3>
+    <ul>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">LinkedIn</a></li>     
+    </ul>
+
+    <footer>
+      <p>&copy; 2017 My Blog</p>
+    </footer>
+  </body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <title>My Blog</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Web Design &amp; Development Blog!</h1> 
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Recent Work</a></li>            
+        </ul>
+      </nav>
+    </header>
+    
+    <h2>The Main Articles</h2>   
+    <article>
+      <h3>My Favorite HTML Courses</h3> 
+      <p>Fusce semper id ipsum sed scelerisque. Etiam nec elementum massa. Pellentesque tristique ex ac ipsum hendrerit, eget <a href="#">feugiat ante faucibus</a>.</p>
+    </article>
+    <article>
+      <h3>10 Handy CSS Features</h3> 
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et <a href="#">ultrices posuere</a>.</p>    
+    </article>
+    
+    <aside>
+    <h3>Follow Me on Social Media:</h3>
+        <ul>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">LinkedIn</a></li>     
+        </ul>
+    </aside>
+    <footer>
+      <p>&copy; 2017 My Blog</p>
+    </footer>
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 55,
+    questionInstructions: `Place the h2 and articles inside an element that represents the main content of the <body> of the page.`,
+    question: `<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <title>My Blog</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Web Design &amp; Development Blog!</h1> 
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Recent Work</a></li>            
+        </ul>
+      </nav>
+    </header>
+    
+    
+    <h2>The Main Articles</h2>   
+    <article>
+      <h3>My Favorite HTML Courses</h3> 
+      <p>Fusce semper id ipsum sed scelerisque. Etiam nec elementum massa. Pellentesque tristique ex ac ipsum hendrerit, eget <a href="#">feugiat ante faucibus</a>.</p>
+    </article>
+    <article>
+      <h3>10 Handy CSS Features</h3> 
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et <a href="#">ultrices posuere</a>.</p>    
+    </article>
+   
+    <aside>
+    <h3>Follow Me on Social Media:</h3>
+    <ul>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">LinkedIn</a></li>     
+    </ul>
+    </aside>
+    <footer>
+      <p>&copy; 2017 My Blog</p>
+    </footer>
+  </body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <title>My Blog</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Web Design &amp; Development Blog!</h1> 
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Recent Work</a></li>            
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+        <h2>The Main Articles</h2>   
+        <article>
+            <h3>My Favorite HTML Courses</h3> 
+            <p>Fusce semper id ipsum sed scelerisque. Etiam nec elementum massa. Pellentesque tristique ex ac ipsum hendrerit, eget <a href="#">feugiat ante faucibus</a>.</p>
+        </article>
+        <article>
+            <h3>10 Handy CSS Features</h3> 
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et <a href="#">ultrices posuere</a>.</p>    
+        </article>
+    </main>
+    <aside>
+    <h3>Follow Me on Social Media:</h3>
+    <ul>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">LinkedIn</a></li>     
+    </ul>
+    </aside>
+    <footer>
+      <p>&copy; 2017 My Blog</p>
+    </footer>
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 56,
+    questionInstructions: `The content of a _____ element should be unique to the document; therefore, you should use it only once per page.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `<main>`,
+    choice1: `<div>`,
+    choice2: `<footer>`,
+    choice3: `<nav>`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 57,
+    questionInstructions: `Which element should be used only when no other semantic element (like <article> or <aside>) is appropriate?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `<div>`,
+    choice1: `<section>`,
+    choice2: `<main>`,
+    choice3: `<dl>`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 58,
+    questionInstructions: `Introductory content like the site logo, navigation and main heading should be placed inside which element?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `<header>`,
+    choice1: `<head>`,
+    choice2: `<main>`,
+    choice3: `<aside>`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 59,
+    questionInstructions: `Which element describes a self-contained piece of content, like a blog entry?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `<article>`,
+    choice1: `<div>`,
+    choice2: `<aside>`,
+    choice3: `<main>`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 60,
+    questionInstructions: `The first element inside a <section> should be:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `a heading (<h1>-<h6>) that indicates what the section is about`,
+    choice1: `an image related to the topic`,
+    choice2: `a link back to the top of the page`,
+    choice3: `a list describing what the section is about`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 61,
+    questionInstructions: `Markup that describes the meaning of content rather than define its presentation is:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `semantic`,
+    choice1: `logical`,
+    choice2: `structured`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 62,
+    questionInstructions: `Inside the <body>, display the image moon.jpg located inside a folder named img.`,
+    question: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>The Moon</title>
+  </head>
+  <body>
+    
+  </body>
+</html>`,
+    answer: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>The Moon</title>
+  </head>
+  <body>
+    <img src="img/moon.jpg">
+  </body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 63,
+    questionInstructions: `Provide the browser alternative text describing the image as a "image of a moon".`,
+    question: `<!DOCTYPE html> 
+<html>
+    <head>
+    <title>The Moon</title>
+    </head>
+    <body>
+    <img src="img/moon.jpg">
+    </body>
+</html>
+    `,
+    answer: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>The Moon</title>
+  </head>
+  <body>
+    <img src="img/moon.jpg" alt="image of a moon">
+  </body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 64,
+    questionInstructions: `Add a caption that describes the image as a "Midnight Moon"`,
+    question: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>The Moon</title>
+  </head>
+  <body>
+    <img src="img/moon.jpg" alt="image of a moon">
+  </body>
+</html>
+`,
+    answer: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>The Moon</title>
+  </head>
+  <body>
+    <figure>
+        <img src="img/moon.jpg" alt="image of a moon">
+        <figcaption>Midnight Moon</figcaption>
+    </figure>
+  </body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 65,
+    questionInstructions: `Add line breaks to the address in the second paragraph.`,
+    question: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>HTML Text</title>
+  </head>
+  <body>
+    <p>Mike's favorite course is HTML Basics</p>
+    <p>
+      Mike T. Frog
+      100 Lilypad Way
+      Portland, OR 97227
+    </p>
+  </body>
+</html>
+`,
+    answer: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>HTML Text</title>
+  </head>
+  <body>
+    <p>Mike's favorite course is HTML Basics</p>
+    
+    <p>
+      Mike T. Frog<br>
+      100 Lilypad Way<br>
+      Portland, OR 97227
+    </p>
+  </body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 66,
+    questionInstructions: `Give the text "Mike T. Frog" strong importance, using the element that displays text in bold.`,
+    question: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>HTML Text</title>
+  </head>
+  <body>
+    <p>Mike's favorite course is HTML Basics</p>
+    
+    <p>
+      Mike T. Frog<br>
+      100 Lilypad Way<br>
+      Portland, OR 97227
+    </p>
+  </body>
+</html>
+`,
+    answer: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>HTML Text</title>
+  </head>
+  <body>
+    <p>Mike's favorite course is HTML Basics</p>
+    
+    <p>
+      <strong>Mike T. Frog</strong><br>
+      100 Lilypad Way<br>
+      Portland, OR 97227
+    </p>
+  </body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 67,
+    questionInstructions: `Use the element that displays text in italic to add emphasis to the words "HTML Basics".`,
+    question: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>HTML Text</title>
+  </head>
+  <body>
+    <p>Mike's favorite course is HTML Basics</p>
+    
+    <p>
+      <strong>Mike T. Frog</strong><br>
+      100 Lilypad Way<br>
+      Portland, OR 97227
+    </p>
+  </body>
+</html>
+`,
+    answer: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>HTML Text</title>
+  </head>
+  <body>
+    <p>Mike's favorite course is <em>HTML Basics</em></p>
+    
+    <p>
+      <strong>Mike T. Frog</strong><br>
+      100 Lilypad Way<br>
+      Portland, OR 97227
+    </p>
+  </body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 68,
+    questionInstructions: `Set the <img> element's src attribute to a path that goes one level out of the current folder and inside a folder named img.`,
+    question: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>Portfolio Page</title>
+  </head>
+  <body>
+    <img src="logo.png" alt="Site logo">
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Portfolio</a></li>                
+    </ul>
+    <h1 id="portfolio">My Portfolio</h1>
+  </body>
+</html>
+`,
+    answer: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>Portfolio Page</title>
+  </head>
+  <body>
+    <img src="../img/logo.png" alt="Site logo">
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Portfolio</a></li>                
+    </ul>
+    <h1 id="portfolio">My Portfolio</h1>
+  </body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 69,
+    questionInstructions: `Set the "Home" link to a root-relative path that navigates to index.html.`,
+    question: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>Portfolio Page</title>
+  </head>
+  <body>
+    <img src="../img/logo.png" alt="Site logo">
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Portfolio</a></li>                
+    </ul>
+    <h1 id="portfolio">My Portfolio</h1>
+  </body>
+</html>
+`,
+    answer: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>Portfolio Page</title>
+  </head>
+  <body>
+    <img src="../img/logo.png" alt="Site logo">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="">Portfolio</a></li>                
+    </ul>
+    <h1 id="portfolio">My Portfolio</h1>
+  </body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 70,
+    questionInstructions: `Set the "Portfolio" link to navigate to the section of the page with the id portfolio.`,
+    question: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>Portfolio Page</title>
+  </head>
+  <body>
+    <img src="../img/logo.png" alt="Site logo">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="">Portfolio</a></li>                
+    </ul>
+    <h1 id="portfolio">My Portfolio</h1>
+  </body>
+</html>`,
+    answer: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>Portfolio Page</title>
+  </head>
+  <body>
+    <img src="../img/logo.png" alt="Site logo">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>                
+    </ul>
+    <h1 id="portfolio">My Portfolio</h1>
+  </body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 71,
+    questionInstructions: `Set the "contact" link to begin composing an email in the user's default email program when clicked. You may use "email@email.com" as the email address, as long as it's formatted correctly.`,
+    question: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>My Page</title>
+  </head>
+  <body>
+    <h3>Design & Development</h3>
+    <p>Contact me at <a href="">this email</a>.</p>
+    <p>© 2017</p>
+  </body>
+</html>
+`,
+    answer: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>My Page</title>
+  </head>
+  <body>
+    <h3>Design & Development</h3>
+    <p>Contact me at <a href="mailto:email@email.com" >this email</a>.</p>
+    <p>© 2017</p>
+  </body>
+</html>
+`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 72,
+    questionInstructions: `Replace the ampersand and copyright symbol with an HTML character entity.`,
+    question: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>My Page</title>
+  </head>
+  <body>
+    <h3>Design & Development</h3>
+    <p>Contact me at <a href="mailto:email@email.com" >this email</a>.</p>
+    <p>© 2017</p>
+  </body>
+</html>
+`,
+    answer: `<!DOCTYPE html> 
+<html>
+  <head>
+    <title>My Page</title>
+  </head>
+  <body>
+    <h3>Design &amp; Development</h3>
+    <p>Contact me at <a href="mailto:email@email.com" >this email</a>.</p>
+    <p>&copy; 2017</p>
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 73,
+    questionInstructions: `The ___ attribute gives an element a unique identifier that can be used to navigate to a specific section of a page.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `id`,
+    choice1: `cite`,
+    choice2: `href`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 74,
+    questionInstructions: `Which of the following is an example of an HTML comment?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `<!-- start of main content -->`,
+    choice1: `<-- start of main content -->`,
+    choice2: `<!-- start of main content --!>`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 75,
+    questionInstructions: `You can target any HTML element and change its appearance (like size, color and position) with:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `CSS (Cascading Style Sheets)`,
+    choice1: `HTML comments`,
+    choice2: `Root-relative paths`,
+    choice3: `HTML entities`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 76,
+    questionInstructions: `Which characters are reserved for use in HTML code only?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `&, <, >`,
+    choice1: `{, }, $`,
+    choice2: `=, +, −`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 77,
+    questionInstructions: `What type of file path is the following link using?`,
+    question: `<a href="../pets/doggos.html">`,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: `Relative`,
+    choice1: `Absolute`,
+    choice2: `Root-relative`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 78,
+    questionInstructions: `Which paths work only when a website is uploaded to a web server or when you have a local web server running on your computer?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `Root-relative`,
+    choice1: `Relative`,
+    choice2: `Absolute`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 79,
+    questionInstructions: `The latest evolution of CSS is:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `CSS3`,
+    choice1: `CSS 3.1`,
+    choice2: `CSS4`,
+    choice3: `CSS 2.1`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 80,
+    questionInstructions: `CSS is what handles the _ _ _ _ _ layer of a web page.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `presentation`,
+    choice1: `front-end`,
+    choice2: `behavior`,
+    choice3: `content`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 81,
+    questionInstructions: `Mozilla Developer Network, Web Platform Docs, and W3C are helpful CSS resources.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `True. These resources always have important, up-to-date information on a given CSS topic.`,
+    choice1: `False. We should not rely on any resources.`,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 82,
+    questionInstructions: `"CSS" stands for:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `Cascading Style Sheets`,
+    choice1: `Cascading Style Sources`,
+    choice2: `Cascading Selector Styles`,
+    choice3: `Compounding Style Sheets`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 83,
+    questionInstructions: `Was HTML meant to be a presentational language?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `No. It's impractical to create websites where the content of each HTML page isn't separate from the presentation.`,
+    choice1: `Yes. Presentational HTML tags are a practical solution for styling web pages.`,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 84,
+    questionInstructions: `Are we required to memorize every CSS selector, property and value available?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `No. A solid understanding of the concepts and reliable references is all we need.`,
+    choice1: `Yes. It is the only way we can be good developers.`,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 85,
+    questionInstructions: `What are the three methods for adding CSS to a page?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `inline styles, internal styles, external style sheet`,
+    choice1: `property styles, href styles, selector styles`,
+    choice2: `inherited styles, element styles, inline styles`,
+    choice3: `imported styles, property styles, method styles`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 86,
+    questionInstructions: `We write inline styles directly inside an element's tag, using which of the following attributes?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `style`,
+    choice1: `css`,
+    choice2: `styles`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 87,
+    questionInstructions: `What attribute specifies the relationship between the current HTML document and the linked document?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `rel`,
+    choice1: `href`,
+    choice2: `style`,
+    choice3: `type`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 88,
+    questionInstructions: `With an _ _ _ _ _ style sheet, we can change the look of an entire website with one file.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `external`,
+    choice1: `internal`,
+    choice2: `embedded`,
+    choice3: `inline`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 89,
+    questionInstructions: `What file extension do we need to use when creating a style sheet?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `.css`,
+    choice1: `.ss`,
+    choice2: `.html`,
+    choice3: `.style`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 90,
+    questionInstructions: `Which method allows us to bring one or more style sheets into another style sheet?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `@import`,
+    choice1: `rel`,
+    choice2: `href`,
+    choice3: `inline styles`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 91,
+    questionInstructions: `What is a downside to using internal styles on large projects?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: `We're duplicating many styles across multiple pages.`,
+    answer2: `The browser is required to download all styles each time a new page loads.`,
+    choice1: `Any styling changes or additions we need to make are done in one file.`,
+    choice2: `The styles are cached by the browser after the first request.`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 92,
+    questionInstructions: `Create a type selector that targets the body element. Then, add the text-align property and set the value to center.`,
+    question: ``,
+    answer: `body {
+  text-align: center;
+}
+`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 93,
+    questionInstructions: `Create a new type selector that targets the paragraph elements. Add a color property and set the value to lightslategrey.`,
+    question: ``,
+    answer: `p {
+  color: lightslategrey;
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 94,
+    questionInstructions: `Create a new type selector that targets the header element. Set the background color to orange and the text color to white.`,
+    question: ``,
+    answer: `header {
+  background-color: orange;
+  color: white;
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 95,
+    questionInstructions: `Create a new type selector that targets the div element. Add a background-color property and set the value to lightblue.`,
+    question: ``,
+    answer: `div {
+  background-color: lightblue;
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 96,
+    questionInstructions: `Give the header element a class attribute. Then, set the class value to main-header.`,
+    question: `<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lake Tahoe</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> 
+    <header>
+      <span>Journey through the Sierra Nevada Mountains</span>
+      <h1>Lake Tahoe, California</h1>
+    </header>
+    <p>
+      Lake Tahoe is one of the most breathtaking attractions located in California. It's home to a number of ski resorts, summer outdoor recreation, and tourist attractions. Snow and skiing are a significant part of the area's reputation.
+    </p>
+    <a href="#">Find out more</a>
+    <div>
+      <h2>Check out all the Wildlife</h2>
+      <p>
+        As spawning season approaches, the fish acquire a humpback and protuberant jaw. After spawning, they die and their carcasses provide a feast for gatherings of mink, bears, and Bald eagles.
+      </p>
+      <a href="#">See the Wildlife</a>
+    </div>
+  </body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lake Tahoe</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> 
+    <header class="main-header">
+      <span>Journey through the Sierra Nevada Mountains</span>
+      <h1>Lake Tahoe, California</h1>
+    </header>
+    <p>
+      Lake Tahoe is one of the most breathtaking attractions located in California. It's home to a number of ski resorts, summer outdoor recreation, and tourist attractions. Snow and skiing are a significant part of the area's reputation.
+    </p>
+    <a href="#">Find out more</a>
+    <div>
+      <h2>Check out all the Wildlife</h2>
+      <p>
+        As spawning season approaches, the fish acquire a humpback and protuberant jaw. After spawning, they die and their carcasses provide a feast for gatherings of mink, bears, and Bald eagles.
+      </p>
+      <a href="#">See the Wildlife</a>
+    </div>
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 97,
+    questionInstructions: `In the style sheet, target main-header with a class selector. Then, add a background-color property and set the value to orange.`,
+    question: ``,
+    answer: `.main-header {
+  background-color: orange;
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 98,
+    questionInstructions: `In the HTML file, give the h1 element the class main-heading.`,
+    question: `<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lake Tahoe</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> 
+    <header class="main-header">
+      <span>Journey through the Sierra Nevada Mountains</span>
+      <h1>Lake Tahoe, California</h1>
+    </header>
+    <p>
+      Lake Tahoe is one of the most breathtaking attractions located in California. It's home to a number of ski resorts, summer outdoor recreation, and tourist attractions. Snow and skiing are a significant part of the area's reputation.
+    </p>
+    <a href="#">Find out more</a>
+    <div>
+      <h2>Check out all the Wildlife</h2>
+      <p>
+        As spawning season approaches, the fish acquire a humpback and protuberant jaw. After spawning, they die and their carcasses provide a feast for gatherings of mink, bears, and Bald eagles.
+      </p>
+      <a href="#">See the Wildlife</a>
+    </div>
+  </body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lake Tahoe</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> 
+    <header class="main-header">
+      <span>Journey through the Sierra Nevada Mountains</span>
+      <h1 class="main-heading">Lake Tahoe, California</h1>
+    </header>
+    <p>
+      Lake Tahoe is one of the most breathtaking attractions located in California. It's home to a number of ski resorts, summer outdoor recreation, and tourist attractions. Snow and skiing are a significant part of the area's reputation.
+    </p>
+    <a href="#">Find out more</a>
+    <div>
+      <h2>Check out all the Wildlife</h2>
+      <p>
+        As spawning season approaches, the fish acquire a humpback and protuberant jaw. After spawning, they die and their carcasses provide a feast for gatherings of mink, bears, and Bald eagles.
+      </p>
+      <a href="#">See the Wildlife</a>
+    </div>
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 99,
+    questionInstructions: `Target the class main-heading. Give the heading a font-size property and set the value to 72px.`,
+    question: ``,
+    answer: `.main-heading {
+  font-size: 72px;
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 100,
+    questionInstructions: `In the HTML file, give the div element an ID name of main-content.`,
+    question: `<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lake Tahoe</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> 
+    <header class="main-header">
+      <span>Journey through the Sierra Nevada Mountains</span>
+      <h1 class="main-heading">Lake Tahoe, California</h1>
+    </header>
+    <p>
+      Lake Tahoe is one of the most breathtaking attractions located in California. It's home to a number of ski resorts, summer outdoor recreation, and tourist attractions. Snow and skiing are a significant part of the area's reputation.
+    </p>
+    <a href="#">Find out more</a>
+    <div>
+      <h2>Check out all the Wildlife</h2>
+      <p>
+        As spawning season approaches, the fish acquire a humpback and protuberant jaw. After spawning, they die and their carcasses provide a feast for gatherings of mink, bears, and Bald eagles.
+      </p>
+      <a href="#">See the Wildlife</a>
+    </div>
+  </body>
+</html>`,
+    answer: `<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lake Tahoe</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> 
+    <header class="main-header">
+      <span>Journey through the Sierra Nevada Mountains</span>
+      <h1 class="main-heading">Lake Tahoe, California</h1>
+    </header>
+    <p>
+      Lake Tahoe is one of the most breathtaking attractions located in California. It's home to a number of ski resorts, summer outdoor recreation, and tourist attractions. Snow and skiing are a significant part of the area's reputation.
+    </p>
+    <a href="#">Find out more</a>
+    <div id="main-content">
+      <h2>Check out all the Wildlife</h2>
+      <p>
+        As spawning season approaches, the fish acquire a humpback and protuberant jaw. After spawning, they die and their carcasses provide a feast for gatherings of mink, bears, and Bald eagles.
+      </p>
+      <a href="#">See the Wildlife</a>
+    </div>
+  </body>
+</html>`,
+    timeCorrect: 0,
+    questionLanguage: 'html',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 101,
+    questionInstructions: `Target main-content with an ID selector. Add a background-color property and set the value to lightsteelblue.`,
+    question: ``,
+    answer: `#main-content {
+  background-color: lightsteelblue;
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 102,
+    questionInstructions: `Use the pseudo-class selector that targets default, unvisited links. Set their color value to orange.`,
+    question: ``,
+    answer: `a:link {
+  color: orange;
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 103,
+    questionInstructions: `create a pseudo-class selector that targets all visited links. Add a color property and set the value to steelblue.`,
+    question: ``,
+    answer: `a:visited {
+  color: steelblue;
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 104,
+    questionInstructions: `Add a new pseudo-class selector that targets all links on hover. Add a color property and set the value to tomato.`,
+    question: ``,
+    answer: `a:hover {
+  color: tomato
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 105,
+    questionInstructions: `Which selector targets every element on the page at once and applies the styles we set?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `universal selector`,
+    choice1: `ID selector`,
+    choice2: `class selector`,
+    choice3: `descendant selector`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 106,
+    questionInstructions: `When targeting an element with a type selector:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `we use the element’s HTML tag as the selector`,
+    choice1: `we use the element’s class name as the selector`,
+    choice2: `we use the element’s content as the selector`,
+    choice3: `we use the element’s ID as the selector`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 107,
+    questionInstructions: `Do IDs have browser functionality?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `Yes. We can use IDs as fragment identifiers that create anchors in a page.`,
+    choice1: `No. IDs can only target HTML elements.`,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 108,
+    questionInstructions: `A descendant selector consists of:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `two or more selectors separated by whitespace`,
+    choice1: `ID selectors only`,
+    choice2: `two or more class selectors only`,
+    choice3: `type selectors only`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 109,
+    questionInstructions: `Which of the following are common CSS pseudo-classes?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `:link, :visited, :hover, :active`,
+    choice1: `.main-header, a, .primary-content, .main-footer`,
+    choice2: `:touch, :scroll, :click, :press`,
+    choice3: `:linked, :activate, :visit, :hovered`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 110,
+    questionInstructions: `The color value steelblue is an example of which of the following?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `predefined keyword`,
+    choice1: `RGB value`,
+    choice2: `hexadecimal value`,
+    choice3: `RGBa value`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 111,
+    questionInstructions: `The RGBa color function:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `extends the RGB model by allowing us to set the opacity of a color via the alpha channel`,
+    choice1: `is a shorthand notation for hexadecimal values`,
+    choice2: `uses predefined keywords to define a value`,
+    choice3: `uses six hexadecimal characters represented by the numbers 0 - 9 and the letters A - F`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 112,
+    questionInstructions: `An RGB color value defined in hexadecimal notation uses:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `a combination of red, green, and blue colors using three or six hexadecimal characters`,
+    choice1: `an rgb() functional notation to specify the colors`,
+    choice2: `the rgba() function to set the opacity value for any color`,
+    choice3: `a combination of predefined keyword values`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 113,
+    questionInstructions: `A unitless line-height value is relative to:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `the font-size given to the element`,
+    choice1: `the width value given to the element`,
+    choice2: `the height value given to the element`,
+    choice3: `the font-size of the root element in the document`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 114,
+    questionInstructions: `How does the browser determine the line height in the following rule?`,
+    question: `.intro { 
+  font-size: 1.2em; 
+  line-height: 1.7; 
+}`,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: `The browser multiplies the font-size value by 1.7`,
+    choice1: `The browser adds 1.7em to the font-size value`,
+    choice2: `The browser divides the font-size value by 1.7`,
+    choice3: `The browser subtracts 1.7em from the font-size value`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 115,
+    questionInstructions: `A prioritized list of fonts the browser cycles through until it finds a font installed on a user’s computer is called a:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `font stack`,
+    choice1: `web font`,
+    choice2: `font style`,
+    choice3: `font family`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 116,
+    questionInstructions: `Line-height is what defines:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `the vertical spacing between lines of text`,
+    choice1: `the length of paragraphs`,
+    choice2: `the font size of text`,
+    choice3: `the horizontal spacing between lines of text`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 117,
+    questionInstructions: `When we use the margin value _______, the browser automatically calculates the margins for each side.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `auto`,
+    choice1: `0`,
+    choice2: `100%`,
+    choice3: `inherit`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 118,
+    questionInstructions: `What type of elements take up the full width available based on the width of their parent element?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `block elements`,
+    choice1: `box elements`,
+    choice2: `inline elements`,
+    choice3: `all HTML elements`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 119,
+    questionInstructions: `In the CSS box model, what is the innermost area of a "box"?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `content area`,
+    choice1: `border area`,
+    choice2: `padding area`,
+    choice3: `margin area`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 120,
+    questionInstructions: `Which type of elements only take up as much width as they need?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `inline`,
+    choice1: `div`,
+    choice2: `HTML`,
+    choice3: `block`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 121,
+    questionInstructions: `The _______ area creates space inside the box, while the _______ area creates space outside and around the box.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `padding, margin`,
+    choice1: `padding, border`,
+    choice2: `margin, border`,
+    choice3: `margin, padding`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 122,
+    questionInstructions: `The same order of values in the padding property applies to the margin shorthand property. e.g. padding: top, right, bottom, left;`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `True`,
+    choice1: `False`,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 123,
+    questionInstructions: `Write the declaration that will turn off the display for .featured-img: .featured-img {   _______: _______; }`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `display, none`,
+    choice1: `display, 0`,
+    choice2: `display, false`,
+    choice3: `transparency, false`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 124,
+    questionInstructions: `What is the order of values in the following shorthand property?
+    padding: 10px 20px 10px 20px;`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `top, right, bottom, left`,
+    choice1: `right, left, bottom, top`,
+    choice2: `left, bottom, right, top`,
+    choice3: `bottom, left, top, right`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 125,
+    questionInstructions: `Create a new rule that targets the class 'wildlife'. Set the bear.jpg image, located in the img folder, as the background image.`,
+    question: ``,
+    answer: `.wildlife {
+  background-image: url("img/bear.jpg");
+}`,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 126,
+    questionInstructions: `Define the background property and value that prevents a background image from repeating in any direction.`,
+    question: `
+.wildlife {
+  background-image: url("img/bear.jpg");
+  
+}`,
+    answer: `
+.wildlife {
+    background-image: url("img/bear.jpg");
+    background-repeat: no-repeat;
+}`,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 127,
+    questionInstructions: `Which of the following properties and values will take .main out of the normal page flow and place it along the left side of its container?`,
+    question: `.main {
+  /* Your answer here... */
+}`,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `float: left;`,
+    choice1: `position: auto;`,
+    choice2: `float: none;`,
+    choice3: `float: right;`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 128,
+    questionInstructions: `The ________ property can alter the way a browser calculates the total width of an element.`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `box-sizing`,
+    choice1: `float`,
+    choice2: `position`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 129,
+    questionInstructions: `Which CSS property do we use to prevent content from becoming wider than a certain width?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `max-width`,
+    choice1: `width`,
+    choice2: `min-width`,
+    choice3: `overflow`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 130,
+    questionInstructions: `If we specify one background-position value, what will the browser assume is the vertical position value?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `center or 50%`,
+    choice1: `top or 0%`,
+    choice2: `100%`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 131,
+    questionInstructions: `Which box-sizing value forces any padding and border-width values into the width and height of an element?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `border-box`,
+    choice1: `padding-box`,
+    choice2: `auto`,
+    choice3: `content-box`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 132,
+    questionInstructions: `Which background-repeat value repeats a background image horizontally?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `repeat-x`,
+    choice1: `repeat-horizontal`,
+    choice2: `repeat-y`,
+    choice3: `no-repeat`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 133,
+    questionInstructions: `Which background-size value displays the full image while maintaining the width and height proportions?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `cover`,
+    choice1: `no-repeat`,
+    choice2: `contain`,
+    choice3: `auto`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 134,
+    questionInstructions: `Create a new rule that targets .main-heading. Give the heading a text shadow by setting the horizontal and vertical offsets to 0, the blur radius to 5px, and the color to the hex value be7b31.`,
+    question: ``,
+    answer: `.main-heading {
+  text-shadow: 0 0 5px #be7b31;
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 135,
+    questionInstructions: `Create a new rule that targets .title. Let's also give .title a text shadow by setting the horizontal offset to 1px, the vertical offset to 3px, the blur radius to 0, and the color to #e59740.`,
+    question: ``,
+    answer: `.title {
+  text-shadow: 1px 3px 0 #e59740;
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 136,
+    questionInstructions: `Create a rule that targets .main-header. This time, we'll give .main-header a box shadow. Set the box shadow's horizontal offset to 0, the vertical offset to 2px, the blur radius to 15px, and the color to #aaa.`,
+    question: ``,
+    answer: `.main-header {
+  box-shadow: 0 2px 15px #aaa,
+}`,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 137,
+    questionInstructions: `Just like the text-shadow property the box-shadow can take multiple comma-seperated values to add additional shadows to the same element.
+    Let's give .main-header an inner-shadow with a second set of box-shadow values. Set the new shadow's horizontal and vertical offsets to 0, the blur radius to 60px, the spread radius to 5px, and the color to firebrick. Don't forget to include the keyword value that creates an inner box shadow.`,
+    question: `.main-header {
+  box-shadow: 0 2px 15px #aaa,
+}`,
+    answer: `.main-header { 
+   box-shadow: 0 2px 15px #aaa, inset 0 0 60px 5px firebrick; 
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 138,
+    questionInstructions: `Let's give the .wildlife div rounded corners! Add the shorthand property for setting rounded corners. Set the top-left border radius to 20px, the top-right radius to 5px, the bottom-right radius to 20px, and the bottom-left radius to 5px.`,
+    question: ``,
+    answer: `.wildlife {
+  border-radius: 20px 5px 20px 5px;
+}`,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 139,
+    questionInstructions: `Write the @ directive that lets you link to each font format in one rule:`,
+    question: `_______ { 
+        font-family: 'My Webfont'; 
+        src: url('my-webfont.woff') format('woff'), 
+             url('my-webfont.ttf') format('truetype'); 
+      }`,
+    answer: `
+@font-face { 
+  font-family: 'My Webfont'; 
+  src: url('my-webfont.woff') format('woff'), 
+       url('my-webfont.ttf') format('truetype'); 
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 140,
+    questionInstructions: `Which font format has the strongest browser support?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `WOFF (Web Open Font Format)`,
+    choice1: `ATFF (AllType Font Format)`,
+    choice2: `TTF (TrueType Format)`,
+    choice3: `EOT (Embedded OpenType)`,
+    choice4: ``,
+    choice5: ``,
+    explination: `The WOFF format was developed by Mozilla and is supported by all modern browsers.`,
+}, {
+    questionNum: 141,
+    questionInstructions: `Which of the following CSS properties increases the space between letters?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `letter-spacing`,
+    choice1: `text-transform`,
+    choice2: `line-height`,
+    choice3: `font-style`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 142,
+    questionInstructions: `When defining multiple background values:`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `The first value listed is the topmost layer rendered, and the last value is the bottom layer.`,
+    choice1: `The first value listed is the bottom layer rendered, and the last value is the top layer.`,
+    choice2: `The first value should be a fully opaque background image or color.`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 143,
+    questionInstructions: `What will happen if you define a fully opaque background image or color anywhere above the bottom background layer?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `The fully opaque layer will cover up all background layers behind it.`,
+    choice1: `The fully opaque layer will cover up all background layers above it.`,
+    choice2: `Nothing will happen.`,
+    choice3: `The fully opaque layer will appear as an overlay that blends with all layers beneath it.`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 144,
+    questionInstructions: `Create a media query that targets all devices when the viewport width is 1020px or less. Inside the media query, select the .main-header element. Set the background color to tomato and the text color to white.`,
+    question: ``,
+    answer: `@media (max-width: 1020px) {
+  .main-header {
+    background-color: tomato;
+    color: white;
+  }
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 145,
+    questionInstructions: `Create a new media query that targets all devices when the viewport width is 768px or narrower. Inside the media query, target the .title element and set the font-size to 1.4rem. Finally, target the h1 element and set its font-size to 5rem.`,
+    question: ``,
+    answer: `@media (max-width: 768px){ 
+  .title{ 
+    font-size: 1.4rem; 
+  } 
+  h1{ 
+    font-size: 5rem; 
+  } 
+}`,
+    timeCorrect: 0,
+    questionLanguage: 'css',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 146,
+    questionInstructions: `Which step resolves the conflict between style declarations and decides which styles are applied by the browser?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `Specificity`,
+    choice1: `Importance`,
+    choice2: `Inheritance`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 147,
+    questionInstructions: `Do we need to be active learners while learning CSS?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `Yes. Building a foundation of activities that help us practice and communicate what we're learning is important.`,
+    choice1: `No. Simply watching or taking most lessons at face value is enough to learn all we need to know about CSS.`,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 148,
+    questionInstructions: `Which of the following styles has the highest level of specificity?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `<p style='color: red;'>`,
+    choice1: `p { 
+        color: red;
+      }`,
+    choice2: `<style> 
+    p { color: red; } 
+  </style>`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 149,
+    questionInstructions: `What are the three main steps the CSS cascade follows to determine which properties get assigned to an element?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `importance, specificity, source order`,
+    choice1: `user agent styles, user styles, author styles`,
+    choice2: `inheritance, user styles, importance`,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 150,
+    questionInstructions: `What does inheritance in CSS mean?
+    `,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `An element’s style values are copied from its parent element.`,
+    choice1: `An element's value cannot be overridden.`,
+    choice2: `An element takes on the browser's default value for a property.`,
+    choice3: `An element’s style values are copied from its child element.`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 151,
+    questionInstructions: `Which style sheet gives the browser its default styles?`,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: `user agent style sheet`,
+    choice1: `author style sheet`,
+    choice2: `user style sheet`,
+    choice3: `imported style sheet`,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 152,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 153,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 154,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 155,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, {
+    questionNum: 156,
+    questionInstructions: ``,
+    question: ``,
+    answer: ``,
+    timeCorrect: 0,
+    questionLanguage: '',
+    answer1: ``,
+    answer2: ``,
+    choice1: ``,
+    choice2: ``,
+    choice3: ``,
+    choice4: ``,
+    choice5: ``,
+    explination: ``,
+}, ]
