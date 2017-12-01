@@ -1,6 +1,8 @@
+<!DOCTYPE html>
 <html>
 
 <head>
+    <title>Code Challenge Engine</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="/jquery/dist/jquery.min.js"></script>
@@ -43,106 +45,101 @@
             </ul>
         </div>
     </nav>
-    <div class="cover">
-        <div class="cover-image"></div>
-        <div class="container">
-            <div class="row">
-                <div class="row">
-                    <div class="col-md-4 text-center">
-                        <h4 class="correctNum">Num Correct</h4>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <h4 class="totalQuestions">Total Questions</h4>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <h4 class="percentCompleted"></h4>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%">
-                                    <span class="sr-only">70% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <hr>
-                            <div class="wrapper">
-                                <div>
-                                    <h4 class="instructions">Make the following elements fade in when the button is clicked</h4>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-7 editor-display">
-                                        <pre id="editor" style="height: 300px;"></pre>
-                                    </div>
-                                    <div class="col-sm-5 html-display">
-                                        <iframe srcdoc="" frameborder="0" width="100%" height="300px" style="border: 1px solid lightgray; border-radius: 4px;"></iframe>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <p>
-                                            <small class="programmingLanguage"></small>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-7">
-                                        <button class="btn btn-lg test">Test</button>
-                                        <button class="btn btn-lg next" style='background-color: green; color: white;'>Next</button>
-                                        <button class="btn btn-lg submit" style='background-color: #80dfff'>submit</button>
-                                    </div>
-                                    <div class="col-sm-5">
-                                        <!-- <button class='btn hide-web-display'></button> -->
-                                    </div>
-                                </div>
-                                <p></p>
-                                <p class="result">Incorrect..</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-md-10 col-md-offset-1">
-                            <pre id="editor2" style="height: 150px;"></pre>
-                        </div>
-
-
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="speech">
-                                <p class="alert alert-info explination">Explinaiton Goes Here when question is wrong</p>
-                                <!-- <input onclick='responsiveVoice.speak($(".explination").text());' type='button' value='🔊 Play' /> -->
-                            </div>
-                        </div>
-                        <div class="col-md-10 col-md-offset-1">
-                            <p>Choose the correct answer(s)</p>
-                            <ul class="choices list-group">
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <button class="resetbank btn btn-md">Reset Question Bank</button>
-                            <button class="randomize btn btn-md">Randomize
-                                <strong class="onOrOff">ON</strong>
-                            </button>
-                        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h4 class="correctNum">Num Correct</h4>
+            </div>
+            <div class="col-md-4 text-center">
+                <h4 class="totalQuestions">Total Questions</h4>
+            </div>
+            <div class="col-md-4 text-center">
+                <h4 class="percentCompleted"></h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                        <span class="sr-only">70% Complete</span>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <hr>
+                <div class="wrapper">
+                    <div>
+                        <h4 class="instructions">Make the following elements fade in when the button is clicked</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7 editor-display">
+                            <pre id="editor" style="height: 300px;"></pre>
+                        </div>
+                        <div class="col-sm-5 html-display">
+                            <iframe srcdoc="" frameborder="0" width="100%" height="300px" style="border: 1px solid lightgray; border-radius: 4px;"></iframe>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>
+                                <small class="programmingLanguage"></small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <button class="btn btn-lg test">Test</button>
+                            <button class="btn btn-lg next" style='background-color: green; color: white;'>Next</button>
+                            <button class="btn btn-lg submit" style='background-color: #80dfff'>submit</button>
+                        </div>
+                        <div class="col-sm-5">
+                            <!-- <button class='btn hide-web-display'></button> -->
+                        </div>
+                    </div>
+                    <p></p>
+                    <p class="result">Incorrect..</p>
+                </div>
+            </div>
+        </div>
 
-        <script src="src-min/ace.js" type="text/javascript" charset="utf-8"></script>
-        <script src="src-min/ext-beautify.js" type="text/javascript" charset="utf-8"></script>
-        <script src="beautify.js" type="text/javascript" charset="utf-8"></script>
-        <script src="scripts.js"></script>
-        <script src="questions.js"></script>
-        <script src="dynamicLearning.js"></script>
+        <div class="row">
 
+            <div class="col-md-10 col-md-offset-1">
+                <pre id="editor2" style="height: 150px;"></pre>
+            </div>
+
+
+            <div class="col-md-10 col-md-offset-1">
+                <div class="speech">
+                    <p class="alert alert-info explination">Explinaiton Goes Here when question is wrong</p>
+                    <!-- <input onclick='responsiveVoice.speak($(".explination").text());' type='button' value='🔊 Play' /> -->
+                </div>
+            </div>
+            <div class="col-md-10 col-md-offset-1">
+                <p>Choose the correct answer(s)</p>
+                <ul class="choices list-group">
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <button class="resetbank btn btn-md">Reset Question Bank</button>
+                <button class="randomize btn btn-md">Randomize
+                    <strong class="onOrOff">ON</strong>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <script src="src-min/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="src-min/ext-beautify.js" type="text/javascript" charset="utf-8"></script>
+    <script src="beautify.js" type="text/javascript" charset="utf-8"></script>
+    <script src="scripts.js"></script>
+    <script src="questions.js"></script>
+    <script src="dynamicLearning.js"></script>
 
 </body>
 

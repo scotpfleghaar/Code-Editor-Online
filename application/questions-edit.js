@@ -1,10 +1,13 @@
 $(document).ready(function () {
-    $('.questions-display');
+    // $('.questions-display');
 
     const qBank = treehouseQuestions; // Pulls in question bank
     var question = qBank;
 
+    var arrayOfQuestions = [];
     for (var index = 0; index < question.length; index++) {
+
+        let j = index;
         var currentInstruction = question[index].questionInstructions,
             currentQuestion = question[index].question,
             currentAnswer = question[index].answer,
@@ -20,22 +23,32 @@ $(document).ready(function () {
         var currentMCquestion4 = question[index].choice4;
         var currentMCquestion5 = question[index].choice5;
 
-        var insertQuestions = `<div class="row">
+        var insertQuestions = `
+        <div class="container">
+        <div class="row">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <hr>
-                    <h1 style="text-align: center;">Question ${questionNumber}</h1>
+                    <h1 style="text-align: center;">Question ${(j + 1)}</h1>
                 </div>
 
                 <div class="col-md-10 col-md-offset-1">
 
                     <div class="wrapper">
+                    <h2>Indstructions:</h2>
                         <div>
-                            <h4 contenteditable="true" class="instructions">${currentInstruction}</h4>
+                            <pre contenteditable="true" class="instructions"><xmp>${currentInstruction}</xmp></pre>
                         </div>
                         <div class="row">
                             <div class="col-sm-12 editor-display">
-                            <pre class="prettyprint">${''}</pre>
+                            <h2>Starter Code:</h2>
+
+                            <!-- Create a simple CodeMirror instance -->
+                            <div>
+                            <pre id="editor${j}" style="height: 300px;"></pre>
+                            </div>
+                            
+                           
                             </div>
                         </div>
                         <div class="row">
@@ -54,9 +67,11 @@ $(document).ready(function () {
             </div>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                <pre class="prettyprint">${''}</pre>
+                <h2>Answer Code:</h2>
+                <pre id="editorAnswer${j}" style="height: 300px;"></pre>
                 </div>
                 <div class="col-md-10 col-md-offset-1">
+                <h2>Code Challenge Language:</h2>
                     <label>Select Language
                         <select id="ace-mode">
                             <option value="ABAP">ABAP</option>
@@ -95,7 +110,7 @@ $(document).ready(function () {
                             <option value="Handlebars">Handlebars</option>
                             <option value="Haskell">Haskell</option>
                             <option value="haXe">haXe</option>
-                            <option value="HTML">HTML</option>
+                            <option value="HTML" selected>HTML</option>
                             <option value="HTML (Ruby)">HTML (Ruby)</option>
                             <option value="INI">INI</option>
                             <option value="Jack">Jack</option>
@@ -146,7 +161,7 @@ $(document).ready(function () {
                             <option value="SCAD">SCAD</option>
                             <option value="Scala">Scala</option>
                             <option value="Scheme">Scheme</option>
-                            <option value="SCSS" selected>SCSS</option>
+                            <option value="SCSS">SCSS</option>
                             <option value="SH">SH</option>
                             <option value="SJS">SJS</option>
                             <option value="Smarty">Smarty</option>
@@ -175,25 +190,38 @@ $(document).ready(function () {
                 </div>
 
                 <div class="col-md-10 col-md-offset-1">
-                    <p contenteditable="true" class="alert alert-info explination">${currentMCexplination}</p>
+                <h2>Explination:</h2>
+                    <div  class="alert alert-info explination"><pre contenteditable="true"><xmp>${currentMCexplination}</xmp></pre></div>
                     <!-- <input onclick='responsiveVoice.speak($(".explination").text());' type='button' value='🔊 Play' /> -->
                 </div>
                 <div class="col-md-10 col-md-offset-1">
-                    <p>Enter Answers and Choices:</p>
+                <h2>Multiple Choice Section:</h2>
                     <ul class="choices list-group">
-                        <li contenteditable="true" class="choice list-group-item">${currentMCanswer1}</li>
-                        <li contenteditable="true" class="choice list-group-item">${currentMCanswer2}</li>
-                        <li contenteditable="true" class="choice list-group-item">${currentMCquestion1}</li>
-                        <li contenteditable="true" class="choice list-group-item">${currentMCquestion2}</li>
-                        <li contenteditable="true" class="choice list-group-item">${currentMCquestion3}</li>
-                        <li contenteditable="true" class="choice list-group-item">${currentMCquestion4}</li>
-                        <li contenteditable="true" class="choice list-group-item">${currentMCquestion5}</li>
+                        <li class="choice list-group-item"><small>Answer 1: </small><pre contenteditable="true"><xmp>${currentMCanswer1}</xmp></pre></li>
+                        <li class="choice list-group-item"><small>Answer 2: </small><pre contenteditable="true"><xmp>${currentMCanswer2}</xmp></pre></li>
+                        <li class="choice list-group-item"><small>Choice 1: </small><pre contenteditable="true"><xmp>${currentMCquestion1}</xmp></pre></li>
+                        <li class="choice list-group-item"><small>Choice 2: </small><pre contenteditable="true"><xmp>${currentMCquestion2}</xmp></pre></li>
+                        <li class="choice list-group-item"><small>Choice 3: </small><pre contenteditable="true"><xmp>${currentMCquestion3}</xmp></pre></li>
+                        <li class="choice list-group-item"><small>Choice 4: </small><pre contenteditable="true"><xmp>${currentMCquestion4}</xmp></pre></li>
+                        <li class="choice list-group-item"><small>Choice 5: </small><pre contenteditable="true"><xmp>${currentMCquestion5}</xmp></pre></li>
                     </ul>
                     <hr>
                 </div>
             </div>
+        </div>
         </div>`;
         $('.qbank').append(insertQuestions);
+
+        arrayOfQuestions.push(insertQuestions);
+
+        var editor = ace.edit("editor" + j);
+        editor.session.setOption("useWorker", false);
+        editor.insert(currentQuestion);
+
+        var editorAnswer = ace.edit("editorAnswer" + j);
+        editorAnswer.session.setOption("useWorker", false);
+        editorAnswer.insert(currentAnswer);
     }
+
 
 });

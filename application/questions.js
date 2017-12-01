@@ -2353,7 +2353,7 @@ tr {
         explination: ``,
     }, {
         questionNum: 58,
-        questionInstructions: `Complete the description list below. Each name should have a description.`,
+        questionInstructions: `Complete the description list below. Each name should have the following description:  Coffee: black hot drink, Milk: white cold drink`,
         question: `<!DOCTYPE html>
 <html>
 <body>
@@ -2576,7 +2576,7 @@ ul#menu li {
         questionInstructions: `Create a class selector named "cities". Add the following styles:
     1. black background color
     2. white text color
-    3. 20 pixels padding and margin
+    3. 20 pixels margin and padding
     Add the class "cities" to the <div> element.`,
         question: `<!DOCTYPE html>
 <html>
