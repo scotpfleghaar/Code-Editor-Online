@@ -24,7 +24,7 @@ $(document).ready(function () {
         var currentMCquestion5 = question[index].choice5;
 
         var insertQuestions = `
-        <div class="container">
+        <div class="container total-details">
         <div class="row">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
@@ -45,7 +45,7 @@ $(document).ready(function () {
 
                             <!-- Create a simple CodeMirror instance -->
                             <div>
-                            <pre id="editor${j}" style="height: 300px;"></pre>
+                            <pre id="editor${j}" class="editor" style="height: 300px;"></pre>
                             </div>
                             
                            
@@ -68,7 +68,7 @@ $(document).ready(function () {
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                 <h2>Answer Code:</h2>
-                <pre id="editorAnswer${j}" style="height: 300px;"></pre>
+                <pre id="editorAnswer${j}" class="editor" style="height: 300px;"></pre>
                 </div>
                 <div class="col-md-10 col-md-offset-1">
                 <h2>Code Challenge Language:</h2>
@@ -223,5 +223,82 @@ $(document).ready(function () {
         editorAnswer.insert(currentAnswer);
     }
 
+    $('.qbank').append(`<div class="col-sm-10 col-sm-offset-1 total-details">
+        <div style="text-align: center;">
+            <button class='btn btn-lg'>Add Question</button>
+        </div>
+    </div>`);
 
+
+
+
+    //get total number of students
+    // const totalStudents = $(".student-details:visible").length;
+    const totalStudents = $(".total-details:visible").length;
+    console.log(totalStudents);
+
+    // Returns Number of pages
+    const numOfPageSelectors = (Math.ceil(totalStudents / 10));
+
+    //Display Nothing on the page once loaded
+    // $('.student-item').css('display', 'none');
+    $('.total-details').hide();
+
+    //Display first ten on page load:
+    //This works really well for getting the index of all the div elements and getting the range.
+    // $(".student-item").slice(((parseInt(1) - 1) * 10), (((parseInt(1) - 1) * 10) + 10)).css("display", "block");
+    $(".total-details").slice(((parseInt(1) - 1) * 10), (((parseInt(1) - 1) * 10) + 10)).show();
+
+    // Adds the div for the pages after all students
+    $('.qbank').after('<div class="col-sm-10 col-sm-offset-1 text-center"><div class="pagination pagination-sm"></div></div>');
+
+    // Adds the Page selection elements at the bottom of the document. 
+    for (let i = 0; i < numOfPageSelectors; i++) {
+        $('.pagination').append('<ul><li><a href="#" class="item">' + (i + 1) + '</a></li></ul> ');
+    }
+
+    //For the search element
+    $('.total-details').addClass('picked');
+
+    //Sets the first list item class to active when page loads:
+    $('.item:first').addClass('active');
+
+    //Waits for the page number to be selected
+    $('.item').off('click').on('click', function () {
+
+        //Gets the number from the actual element
+        const number = $(this).text();
+
+        //Removes all button classes
+        $('a').removeClass('active');
+
+        //Adds the class active the selected element
+        $(this).addClass('active');
+
+        //Makes Sure that all previus elements are now not being displayed
+        $('.picked').hide();
+
+        //Here is where the money is! This slices out the div elements based on the 
+        // button number that is clicked, this then displays that section of divs. 
+        //This works great because it really doesn't care how many divs are left 
+        // over, for example, it will display 1 remaining div or nine. 
+        //Also this is what makes it very scalable.
+        $('.picked').slice(((parseInt(number) - 1) * 10), (((parseInt(number) - 1) * 10) + 10)).show();
+
+
+        // debugger;
+        var totalCycles = $('.editor').length / 2;
+        for (var i = 0; i < totalCycles; i++) {
+            let j = i;
+            var editor = ace.edit("editor" + j);
+            editor.insert('');
+            editor.resize();
+            editor.renderer.updateFull();
+
+            var editorAnswer = ace.edit("editorAnswer" + j);
+            editorAnswer.resize();
+            editorAnswer.renderer.updateFull();
+        }
+
+    });
 });
