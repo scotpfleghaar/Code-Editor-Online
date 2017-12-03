@@ -35,7 +35,7 @@ $(document).ready(function () {
                 <div class="col-md-10 col-md-offset-1">
 
                     <div class="wrapper">
-                    <h2>Indstructions:</h2>
+                    <h2>Instructions:</h2>
                         <div>
                             <pre contenteditable="true" class="instructions"><xmp>${currentInstruction}</xmp></pre>
                         </div>
@@ -218,6 +218,8 @@ $(document).ready(function () {
         var editorAnswer = ace.edit("editorAnswer" + j);
         editorAnswer.session.setOption("useWorker", false);
         editorAnswer.insert(currentAnswer);
+
+        $('.loader').remove();
     }
 
     $('.qbank').append(`<div class="col-sm-10 col-sm-offset-1 add-button total-details">
@@ -427,6 +429,9 @@ $(document).ready(function () {
 
 
     });
+
+
+
 
 
 
