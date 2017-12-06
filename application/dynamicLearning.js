@@ -8,10 +8,11 @@
     let attemptNumber = 0;
 
     // The question bank:
-    const qBank = treehouseQuestions; // Pulls in question bank
+    const qBank = tHfullStackReview; // Pulls in question bank
     let question = qBank;
-    $('.resetBank').on('click', () => {
+    $('.resetbank').off('click').on('click', () => {
         localStorage.clear();
+        console.log('Reseting Questions');
         question = question;
         window.location.reload();
     });
