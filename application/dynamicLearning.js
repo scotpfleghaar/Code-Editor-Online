@@ -187,7 +187,12 @@
         multipleChoiceSetUp(currentMCanswer1);
         multipleChoiceSetUp(currentMCanswer2);
 
-        $(".choice").on("click", function () {
+        $(".choice").off("click").on("click", function () {
+            if (currentMCanswer1.length > 0 && currentMCanswer2.length > 0) {
+                console.log("More than one answer");
+            } else {
+                $(".selectedChoice").removeClass("selectedChoice"); //Need to run test to make sure there is only one anser when doing this
+            }
             $(this).toggleClass("selectedChoice");
         });
 
